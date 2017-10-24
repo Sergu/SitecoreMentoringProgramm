@@ -1,0 +1,16 @@
+﻿.navbar form {
+    float: right;
+    display: inline-block;
+    width: 30%;
+}
+
+.navbar form .form-group {
+    width: 70%;
+    display: inline-block;
+    margin: 4px;
+}
+
+.navbar form button {
+    vertical-align: top;
+    margin: 5px;
+}

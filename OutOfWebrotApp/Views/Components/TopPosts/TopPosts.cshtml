@@ -1,0 +1,14 @@
+﻿@model OutOfWebrotApp.Models.Pages.Posts.Posts
+
+
+<div style="overflow: hidden">
+    @foreach (var post in Model.PostsCollection)
+    {
+        <div class="col-md-4">
+            <h2>@post.Title</h2>
+            <p>@post.Subtitle</p>
+            <p><a class="btn btn-primary" href="@post.Url" role="button">Link</a>
+            </p>
+        </div>
+    }
+</div>

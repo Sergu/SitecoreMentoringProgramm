@@ -1,0 +1,11 @@
+﻿@model OutOfWebrotApp.Models.Components.Navigation.NavigationModel
+
+<footer class="footer">
+    <div class="container">
+        @foreach (var navigationItem in Model.NavigationItems)
+        {
+            <a href="@navigationItem.Url">@navigationItem.Title</a>
+        }
+        <p class="text-muted">Blog footer</p>
+    </div>
+</footer>
