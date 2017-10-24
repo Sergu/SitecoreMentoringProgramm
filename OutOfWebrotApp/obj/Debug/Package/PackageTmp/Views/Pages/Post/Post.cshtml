@@ -30,21 +30,7 @@
         <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
     </nav>
     
-    @if (Model.Comments.Count > 0)
-    {
-        <h4>Comments</h4>
-        <hr>
-
-        foreach (var comment in Model.Comments)
-        {
-            <div>
-                <span>@comment.Author</span>
-                <p>@Html.Raw(@comment.Text)</p>
-                <span>@comment.Date</span>
-                <hr/>
-            </div>
-        }
-    }
+    @Html.Sitecore().Placeholder("postContent")
 
 </div><!-- /.blog-main -->
 

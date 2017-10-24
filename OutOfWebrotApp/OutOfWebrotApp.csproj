@@ -226,6 +226,8 @@
     <Content Include="Views\Errors\ExperienceEditorError.cshtml" />
     <Content Include="Views\Components\Navigation\Search.cshtml" />
     <Content Include="Views\Pages\Search\SearchResult.cshtml" />
+    <Content Include="Views\Components\Comments\Comment.cshtml" />
+    <Content Include="Views\Components\Comments\CommentPostForm.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

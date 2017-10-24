@@ -11,6 +11,5 @@ namespace OutOfWebrotApp.Models.Pages.Post
 		public string Url { get; set; }
 		public string Author { get; set; }
 		public DateTime Date { get; set; }
-		public IList<Comment> Comments { get; set; }
 	}
 }

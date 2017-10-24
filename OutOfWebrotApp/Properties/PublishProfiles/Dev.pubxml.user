@@ -67,10 +67,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.dll">
-      <publishTime>10/24/2017 16:21:31</publishTime>
+      <publishTime>10/24/2017 18:54:50</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.pdb">
-      <publishTime>10/24/2017 16:21:31</publishTime>
+      <publishTime>10/24/2017 18:54:50</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -234,6 +234,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/About/About.cshtml">
       <publishTime>10/13/2017 16:21:34</publishTime>
     </File>
+    <File Include="Views/Components/Comments/Comment.cshtml">
+      <publishTime>10/24/2017 17:04:47</publishTime>
+    </File>
+    <File Include="Views/Components/Comments/CommentPostForm.cshtml">
+      <publishTime>10/24/2017 18:18:25</publishTime>
+    </File>
     <File Include="Views/Components/Footer/Footer.cshtml">
       <publishTime>10/20/2017 14:35:37</publishTime>
     </File>
@@ -274,7 +280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/13/2017 16:20:52</publishTime>
     </File>
     <File Include="Views/Pages/Post/Post.cshtml">
-      <publishTime>10/20/2017 15:03:19</publishTime>
+      <publishTime>10/24/2017 17:19:29</publishTime>
     </File>
     <File Include="Views/Pages/Posts/Posts.cshtml">
       <publishTime>10/16/2017 12:31:13</publishTime>
@@ -316,7 +322,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:36:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/24/2017 12:54:44</publishTime>
+      <publishTime>10/24/2017 18:42:29</publishTime>
     </File>
   </ItemGroup>
 </Project>
