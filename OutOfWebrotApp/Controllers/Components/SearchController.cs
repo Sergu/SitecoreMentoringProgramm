@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Models.Pages.Search;
 using OutOfWebrotApp.Services.Interfaces.Search;
 using Sitecore.Links;
@@ -24,19 +25,26 @@ namespace OutOfWebrotApp.Controllers.Components
 	    [HttpPost]
 	    public ActionResult SearchHeaderComponent(SearchModel searchModel)
 	    {
-		    var startItemPath = Sitecore.Context.Site.StartPath;
-		    var searchItemQuery = $"{startItemPath}//*[@@templatekey='search']";
-		    var searchItem = Sitecore.Context.Database.SelectItems(searchItemQuery);
-		    var searchItemUrl = LinkManager.GetItemUrl(searchItem.First());
+		    var searchItem = SitecoreHelper.GetSearchItem();
+		    var searchItemUrl = LinkManager.GetItemUrl(searchItem);
 
 		    return Redirect($"{searchItemUrl}?s={searchModel.Title}");
 	    }
 
 	    public ActionResult SearchResult()
 	    {
-		    var url = Request.Url;
+		    SearchModel searchResult = new SearchModel();
+			var url = Request.Url;
 		    string param = HttpUtility.ParseQueryString(url.Query).Get("s");
-		    var searchResult = _searchService.SearchPostsByTitle(param);
+		    if (param != null)
+		    {
+			    searchResult = _searchService.SearchPostsByTitle(param);
+			}
+		    else
+		    {
+			    searchResult.Title = "Incorrect querry parametre";
+			    searchResult.IsSuccessful = false;
+		    }
 
 		    return View("~/Views/Pages/Search/SearchResult.cshtml", searchResult);
 	    }

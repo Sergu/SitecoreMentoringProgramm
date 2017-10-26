@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Web.Mvc;
 using OutOfWebrotApp.Models.Pages.Post;
+using OutOfWebrotApp.Services.Interfaces.Publishing;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
+using Sitecore.Data.Items;
 using Sitecore.Data.Managers;
 using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
@@ -14,6 +18,12 @@ namespace OutOfWebrotApp.Controllers.Pages
 {
     public class PostController : Controller
     {
+	    private readonly IPublishingService _publishService;
+
+	    public PostController(IPublishingService publishService)
+	    {
+		    _publishService = publishService;
+	    }
         // GET: Post
         public ActionResult Index()
         {
@@ -26,8 +36,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 			        return View("~/Views/Errors/ExperienceEditorError.cshtml");
 		        }
 
-				return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
-			}
+		        return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
+	        }
 
 			var post = new PostItemModel()
 	        {
@@ -56,7 +66,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 			    return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
 		    }
 
-		    var commentSearchQuerry = $"{contextItem.Paths.FullPath}//*[@@templatekey='comment']";
+			var commentSearchQuerry = $"fast:{contextItem.Paths.FullPath}//*[@@templatekey='comment']";
 
 		    var commentItems = Sitecore.Context.Database.SelectItems(commentSearchQuerry);
 		    var comments = new List<Comment>();
@@ -73,7 +83,9 @@ namespace OutOfWebrotApp.Controllers.Pages
 			    comments.Add(comment);
 		    }
 
-		    return View("~/Views/Components/Comments/Comment.cshtml", comments);
+			var orderedComments = comments.OrderByDescending(c => c.Date);
+
+		    return View("~/Views/Components/Comments/Comment.cshtml", orderedComments);
 	    }
 
 		[HttpGet]
@@ -83,15 +95,18 @@ namespace OutOfWebrotApp.Controllers.Pages
 		}
 
 	    [HttpPost]
+		[ValidateInput(false)]
 	    public ActionResult GetCommentPostForm(Comment comment)
 	    {
+		    Database masterDatabase = Sitecore.Data.Database.GetDatabase("master");
 		    var contextItem = RenderingContext.Current.ContextItem;
+		    var masterContextItem = masterDatabase.GetItem(contextItem.ID);
 		    var templatePath = ConfigurationManager.AppSettings["CommentTemplatePath"];
-			var templateItem = Sitecore.Context.Database.GetTemplate(templatePath);
+			var templateItem = masterDatabase.GetTemplate(templatePath);
 
 		    using (new Sitecore.SecurityModel.SecurityDisabler())
 		    {
-				var commentItem = contextItem.Add("Comment", new TemplateID(templateItem.ID));
+				var commentItem = masterContextItem.Add("Comment", new TemplateID(templateItem.ID));
 			    if (commentItem != null)
 			    {
 				    commentItem.Editing.BeginEdit();
@@ -99,12 +114,28 @@ namespace OutOfWebrotApp.Controllers.Pages
 				    commentItem["Author"] = "John Black";
 				    commentItem["Date"] = DateUtil.ToIsoDate(DateTime.Now);
 				    commentItem.Editing.EndEdit();
+
+					_publishService.PublishItemToWebDatabase(commentItem, false);
 			    }
 			}
 
 		    return Redirect(LinkManager.GetItemUrl(contextItem));
 	    }
 
+	    public ActionResult CheckContextItemOnNull(Item item)
+	    {
+			if (item == null)
+			{
+				if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+				{
+					return View("~/Views/Errors/ExperienceEditorError.cshtml");
+				}
+
+				return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
+			}
+
+		    return null;
+	    }
 
 	}
 }

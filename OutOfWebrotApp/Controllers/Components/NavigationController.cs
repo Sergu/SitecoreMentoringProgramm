@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Services.Interfaces.Navigation;
 
 namespace OutOfWebrotApp.Controllers.Components
@@ -15,7 +16,7 @@ namespace OutOfWebrotApp.Controllers.Components
         // GET: Navigation
         public ActionResult Index()
         {
-	        var pageItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+	        var pageItem = SitecoreHelper.GetHomeItem();
 
 			var navigationModel = _navigationService.GetNavigationModel(pageItem);
 

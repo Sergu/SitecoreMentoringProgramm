@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using System.Web.UI.WebControls.Expressions;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Services.Implementations.Navigation;
 using OutOfWebrotApp.Services.Interfaces.Navigation;
 using Sitecore.Data.Items;
@@ -20,7 +21,7 @@ namespace OutOfWebrotApp.Controllers.Components.Footer
         // GET: Footer
         public ActionResult Index()
         {
-	        var pageItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+	        var pageItem = SitecoreHelper.GetHomeItem();
 
 			var navigationModel = _navigationService.GetNavigationModel(pageItem);
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Models.Pages.Post;
 using OutOfWebrotApp.Models.Pages.Posts;
 using OutOfWebrotApp.Models.Pages.Search;
@@ -17,8 +18,8 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 		{
 			var searchModel = new SearchModel();
 			searchModel.Title = title;
-			var contextItem = ConfigurationManager.AppSettings["SearchContextItem"];
-			var searchPostsQuerry = $"{contextItem}//*[@title='{title}' and @@templatekey='post']";
+			var contextItem = SitecoreHelper.GetPostsItem();
+			var searchPostsQuerry = $"{contextItem.Paths.FullPath}/*[contains(@title,'{title}') and @@templatekey='post']";
 
 			var searchResultItems = Sitecore.Context.Database.SelectItems(searchPostsQuerry);
 

@@ -6,10 +6,15 @@ using Sitecore.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using OutOfWebrotApp.Controllers.Components;
 using OutOfWebrotApp.Controllers.Components.Footer;
+using OutOfWebrotApp.Controllers.Pages;
 using OutOfWebrotApp.Services.Implementations.Navigation;
+using OutOfWebrotApp.Services.Implementations.Publishing;
 using OutOfWebrotApp.Services.Implementations.Search;
 using OutOfWebrotApp.Services.Interfaces.Navigation;
+using OutOfWebrotApp.Services.Interfaces.Publishing;
 using OutOfWebrotApp.Services.Interfaces.Search;
+using System.Reflection;
+using OutOfWebrotApp.Extensions;
 
 namespace OutOfWebrotApp.Configuration
 {
@@ -19,10 +24,12 @@ namespace OutOfWebrotApp.Configuration
 		{
 			serviceCollection.AddSingleton<INavigationService, NavigationService>();
 			serviceCollection.AddSingleton<ISearchService, SearchService>();
+			serviceCollection.AddSingleton<IPublishingService, PublishingService>();
 
-			serviceCollection.AddTransient<SearchController>();
-			serviceCollection.AddTransient<NavigationController>();
-			serviceCollection.AddTransient<FooterController>();
+
+
+			// configurator per project? Use this:
+			serviceCollection.AddMvcControllersInCurrentAssembly();
 		}
 	}
 }
