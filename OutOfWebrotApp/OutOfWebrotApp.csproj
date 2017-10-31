@@ -138,10 +138,53 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\TagsTree\imgs\blank.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\but_cut.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\folderClosed.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\folderOpen.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\iconCheckAll.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\iconCheckDis.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\iconCheckGray.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\iconUncheckAll.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\iconUncheckDis.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\leaf.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line1.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line1_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line2.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line2_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line3.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line3_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line4.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\line4_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\lock.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus1.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus2.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus2_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus3.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus3_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus4.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus4_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus5.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\minus5_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus1.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus2.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus2_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus3.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus3_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus4.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus4_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus5.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\plus5_rtl.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\radio_off.gif" />
+    <Content Include="Content\Images\TagsTree\imgs\radio_on.gif" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Styles\AboutLayout\blog.css" />
     <Content Include="Content\Styles\AboutLayout\HomeLayoutJumbotron.css" />
     <Content Include="Content\Styles\Components\Search\Search.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dhtmlxtree.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
   </ItemGroup>
@@ -162,6 +205,7 @@
     </Compile>
     <Compile Include="Helpers\SitecoreHelper.cs" />
     <Compile Include="Models\Components\Navigation\NavigationItem.cs" />
+    <Compile Include="Models\Components\TagsTree\TagsTreeModel.cs" />
     <Compile Include="Models\Pages\About\AboutPageModel.cs" />
     <Compile Include="Models\Components\Navigation\NavigationModel.cs" />
     <Compile Include="Models\Pages\Posts\Posts.cs" />
@@ -188,9 +232,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="App_Config\Include\zzz\DependencyConfig.config" />
+    <Content Include="App_Config\Include\PostSearchIndex\PostSearchIndex.config" />
+    <Content Include="App_Config\Include\PostSearchIndex\PostSearchConfiguration.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Components\TagsTree\dhtmlxtree.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -235,6 +282,7 @@
     <Content Include="Views\Pages\Search\SearchResult.cshtml" />
     <Content Include="Views\Components\Comments\Comment.cshtml" />
     <Content Include="Views\Components\Comments\CommentPostForm.cshtml" />
+    <Content Include="Views\Components\TagsTree\TagsTree.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -24,6 +24,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Caching/DisableCaching.config">
       <publishTime>10/24/2017 13:15:01</publishTime>
     </File>
+    <File Include="App_Config/Include/PostSearchIndex/PostSearchConfiguration.config">
+      <publishTime>10/31/2017 19:12:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/PostSearchIndex/PostSearchIndex.config">
+      <publishTime>10/31/2017 19:13:55</publishTime>
+    </File>
     <File Include="App_Config/Include/zzz/DependencyConfig.config">
       <publishTime>10/20/2017 15:44:23</publishTime>
     </File>
@@ -67,10 +73,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.dll">
-      <publishTime>10/26/2017 16:42:10</publishTime>
+      <publishTime>10/31/2017 19:00:33</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.pdb">
-      <publishTime>10/26/2017 16:42:10</publishTime>
+      <publishTime>10/31/2017 19:00:33</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -162,6 +168,219 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/bootstrap.min.css.map">
       <publishTime>10/02/2017 12:27:24</publishTime>
     </File>
+    <File Include="Content/Images/TagsTree/imgs/blank.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/but_cut.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_arrow_down.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_arrow_down_dis.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_arrow_up.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_arrow_up_dis.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_chrd.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_loader.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_arrow_down.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_arrow_down_dis.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_arrow_up.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_arrow_up_dis.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_chrd.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_loader.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_material/dhxmenu_subar.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxmenu_subar.png">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/blank.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/but_cut.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/folderClosed.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/folderOpen.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/iconCheckAll.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/iconCheckDis.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/iconCheckGray.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/iconUncheckAll.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/iconUncheckDis.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/leaf.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/lock.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/minus.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/plus.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/radio_off.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/dhxtree_material/radio_on.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/folderClosed.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/folderOpen.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/iconCheckAll.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/iconCheckDis.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/iconCheckGray.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/iconUncheckAll.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/iconUncheckDis.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/leaf.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line1.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line1_rtl.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line2.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line2_rtl.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line3.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line3_rtl.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line4.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/line4_rtl.gif">
+      <publishTime>04/19/2017 17:12:45</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/lock.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus1.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus2.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus2_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus3.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus3_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus4.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus4_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus5.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/minus5_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus1.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus2.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus2_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus3.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus3_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus4.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus4_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus5.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/plus5_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/radio_off.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
+    <File Include="Content/Images/TagsTree/imgs/radio_on.gif">
+      <publishTime>04/19/2017 17:12:51</publishTime>
+    </File>
     <File Include="Content/Scripts/bootstrap/bootstrap.min.js">
       <publishTime>08/11/2017 06:51:21</publishTime>
     </File>
@@ -182,6 +401,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/Styles/Components/Search/Search.css">
       <publishTime>10/24/2017 13:23:33</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dhtmlxtree.css">
+      <publishTime>04/19/2017 17:12:49</publishTime>
     </File>
     <File Include="Content/Styles/Footer/Footer.css">
       <publishTime>10/13/2017 13:42:41</publishTime>
@@ -213,6 +435,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>10/10/2017 21:09:51</publishTime>
     </File>
+    <File Include="Scripts/Components/TagsTree/dhtmlxtree.js">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
     <File Include="Scripts/jquery-1.10.2.js">
       <publishTime>10/05/2017 20:07:50</publishTime>
     </File>
@@ -241,10 +466,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/13/2017 16:21:34</publishTime>
     </File>
     <File Include="Views/Components/Comments/Comment.cshtml">
-      <publishTime>10/26/2017 16:32:47</publishTime>
+      <publishTime>10/26/2017 16:46:52</publishTime>
     </File>
     <File Include="Views/Components/Comments/CommentPostForm.cshtml">
-      <publishTime>10/26/2017 13:43:45</publishTime>
+      <publishTime>10/26/2017 16:46:52</publishTime>
     </File>
     <File Include="Views/Components/Footer/Footer.cshtml">
       <publishTime>10/20/2017 14:35:37</publishTime>
@@ -257,6 +482,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/Components/Slider/Slider.cshtml">
       <publishTime>10/16/2017 11:42:09</publishTime>
+    </File>
+    <File Include="Views/Components/TagsTree/TagsTree.cshtml">
+      <publishTime>10/27/2017 18:33:06</publishTime>
     </File>
     <File Include="Views/Components/TopPosts/TopPosts.cshtml">
       <publishTime>10/16/2017 13:19:12</publishTime>
@@ -286,10 +514,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/13/2017 16:20:52</publishTime>
     </File>
     <File Include="Views/Pages/Post/Post.cshtml">
-      <publishTime>10/24/2017 17:19:29</publishTime>
+      <publishTime>10/26/2017 16:46:52</publishTime>
     </File>
     <File Include="Views/Pages/Posts/Posts.cshtml">
-      <publishTime>10/16/2017 12:31:13</publishTime>
+      <publishTime>10/27/2017 13:23:16</publishTime>
     </File>
     <File Include="Views/Pages/Search/SearchResult.cshtml">
       <publishTime>10/23/2017 16:40:33</publishTime>
@@ -307,7 +535,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:45:36</publishTime>
     </File>
     <File Include="Views/Shared/HomeLayout.cshtml">
-      <publishTime>10/24/2017 13:02:37</publishTime>
+      <publishTime>10/27/2017 12:24:52</publishTime>
     </File>
     <File Include="Views/Shared/SampleLayout.cshtml">
       <publishTime>10/05/2017 20:53:26</publishTime>
@@ -328,7 +556,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:36:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/26/2017 16:26:32</publishTime>
+      <publishTime>10/26/2017 16:51:10</publishTime>
     </File>
   </ItemGroup>
 </Project>

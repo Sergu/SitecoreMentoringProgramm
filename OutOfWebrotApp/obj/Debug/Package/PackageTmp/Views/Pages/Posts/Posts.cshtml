@@ -1,4 +1,5 @@
-﻿@model OutOfWebrotApp.Models.Pages.Posts.Posts
+﻿@using Sitecore.Mvc
+@model OutOfWebrotApp.Models.Pages.Posts.Posts
 
 <div class="jumbotron">
     <h3>Posts </h3>
@@ -6,9 +7,11 @@
     <p>To see the difference between static and fixed top navbars, just scroll.</p>
 </div>
 
+@Html.Sitecore().Placeholder("postsContent")
+
 @foreach (var post in Model.PostsCollection)
 {
-    <div class="col-md-12">
+    <div class="col-md-4">
         <h2>@post.Title</h2>
         <p>@post.Body</p>
         <p>

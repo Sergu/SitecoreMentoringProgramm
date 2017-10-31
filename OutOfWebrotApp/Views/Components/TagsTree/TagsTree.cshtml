@@ -1,0 +1,36 @@
+﻿@model OutOfWebrotApp.Models.Components.TagsTree.TagsTreeModel
+
+<div id="treeBox" class="col-md-4"></div>
+
+<script>
+    var tree = new dhtmlXTreeObject("treeBox", "100%", "100%", 0);
+    var path = "C://inetpubSitecore/wwwroot/Website/Content/Images/TagsTree/imgs/";
+    tree.setImagesPath(path);
+    tree.enableTreeLines(true);
+
+    var jsonObj = {
+        id: 0,
+        item: [
+            {
+                id: 1, text: "first", child: "1",
+                item: [
+                    { id: "11", text: "firstSubItem1" },
+                    { id: "12", text: "firstSubItem2" },
+                    { id: "13", text: "firstSubItem3" }
+                ]
+            },
+            {
+                id: 2, text: "middle", child: "1", im0: "book.gif",
+                item: [
+                    { id: "21", text: "child1" },
+                    { id: "22", text: "child2" }
+                ]
+            },
+            { id: 3, text: "last" },
+            { id: 4, text: "lastBBBB" }
+        ]
+    }
+
+    @*tree.load(@Model.JsonTagsTree, "json");*@
+    tree.parse(jsonObj, "json");
+</script>

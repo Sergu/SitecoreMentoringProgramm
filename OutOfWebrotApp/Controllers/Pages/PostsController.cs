@@ -14,7 +14,7 @@ namespace OutOfWebrotApp.Controllers.Pages
         // GET: Posts
         public ActionResult Index()
         {
-	        var posts = new Models.Pages.Posts.Posts();
+			var posts = new Models.Pages.Posts.Posts();
 			var postCollection = new List<PostItemModel>();
 	        var siteContext = RenderingContext.Current.Rendering.Item.Children;
 
@@ -42,11 +42,21 @@ namespace OutOfWebrotApp.Controllers.Pages
 			        Author = child.Fields["Author"].HasValue ? child.Fields["Author"].Value : string.Empty,
 			        Date = dateField
 		        };
+
 				postCollection.Add(post);
 	        }
 	        posts.PostsCollection = postCollection;
 
 			return View("~/Views/Pages/Posts/Posts.cshtml", posts);
         }
-    }
+
+	    [HttpGet]
+	    public ActionResult TagsTree()
+	    {
+		    var res = Server.MapPath("~/Content/Images/TagsTree/imgs/");
+		    var urlContent = Url.Content(res);
+
+			return View("~/Views/Components/TagsTree/TagsTree.cshtml");
+	    }
+	}
 }
