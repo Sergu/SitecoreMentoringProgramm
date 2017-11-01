@@ -82,6 +82,15 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
       <HintPath>c:\inetpubSitecore\wwwroot\Website\Bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>lib\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq">
+      <HintPath>lib\Sitecore.ContentSearch.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
+      <HintPath>lib\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Sitecore.Kernel.dll</HintPath>
@@ -90,6 +99,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Sitecore.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -205,6 +215,7 @@
     </Compile>
     <Compile Include="Helpers\SitecoreHelper.cs" />
     <Compile Include="Models\Components\Navigation\NavigationItem.cs" />
+    <Compile Include="Models\Components\SearchIndex\PostSearchIndexModel.cs" />
     <Compile Include="Models\Components\TagsTree\TagsTreeModel.cs" />
     <Compile Include="Models\Pages\About\AboutPageModel.cs" />
     <Compile Include="Models\Components\Navigation\NavigationModel.cs" />

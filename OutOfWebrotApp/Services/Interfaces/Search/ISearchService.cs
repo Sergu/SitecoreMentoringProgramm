@@ -10,5 +10,8 @@ namespace OutOfWebrotApp.Services.Interfaces.Search
 	public interface ISearchService
 	{
 		SearchModel SearchPostsByTitle(string title);
+
+		int GetSearchResultNumber(string title);
+
 	}
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 using OutOfWebrotApp.Models.Pages.Post;
+using OutOfWebrotApp.Services.Interfaces.Search;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
@@ -11,9 +12,17 @@ namespace OutOfWebrotApp.Controllers.Pages
 {
     public class PostsController : Controller
     {
+	    private readonly ISearchService _searchService;
+
+	    public PostsController(ISearchService searchService)
+	    {
+		    _searchService = searchService;
+	    }
         // GET: Posts
         public ActionResult Index()
         {
+	        //var searchresultCount = _searchService.GetSearchResultNumber("to");
+
 			var posts = new Models.Pages.Posts.Posts();
 			var postCollection = new List<PostItemModel>();
 	        var siteContext = RenderingContext.Current.Rendering.Item.Children;
@@ -42,6 +51,9 @@ namespace OutOfWebrotApp.Controllers.Pages
 			        Author = child.Fields["Author"].HasValue ? child.Fields["Author"].Value : string.Empty,
 			        Date = dateField
 		        };
+
+		        var titleFieldId = child.Fields["Title"].ID;
+		        var subtitleFieldId = child.Fields["Subtitle"].ID;
 
 				postCollection.Add(post);
 	        }
