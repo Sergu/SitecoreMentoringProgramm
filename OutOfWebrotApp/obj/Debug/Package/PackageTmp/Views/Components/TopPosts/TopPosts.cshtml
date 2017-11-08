@@ -1,8 +1,8 @@
-﻿@model OutOfWebrotApp.Models.Pages.Posts.Posts
+﻿@model IEnumerable<OutOfWebrotApp.Models.Pages.Post.PostItemModel>
 
 
 <div style="overflow: hidden">
-    @foreach (var post in Model.PostsCollection)
+    @foreach (var post in Model)
     {
         <div class="col-md-4">
             <h2>@post.Title</h2>

@@ -39,6 +39,9 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
 	        }
 
+	        MultilistField postTagsField = contextItem.Fields["Tags"];
+	        LookupField category = contextItem.Fields["Category"];
+
 			var post = new PostItemModel()
 	        {
 		        Body = contextItem.Fields["Body"].Value,
@@ -46,7 +49,9 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        Title = contextItem.Fields["Title"].Value,
 		        Url = LinkManager.GetItemUrl(contextItem),
 		        Author = contextItem.Fields["Author"].Value,
-		        Date = (new DateField(contextItem.Fields["Date"])).DateTime
+		        Date = (new DateField(contextItem.Fields["Date"])).DateTime,
+				Tags = postTagsField.GetItems().Select(i => i.Fields["Value"].Value),
+				Category = category.TargetItem.Fields["Value"].Value,
 	        };
 
 	        return View("~/Views/Pages/Post/Post.cshtml", post);

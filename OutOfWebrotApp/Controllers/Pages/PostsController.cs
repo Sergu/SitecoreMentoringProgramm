@@ -1,12 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Web;
 using System.Web.Mvc;
+using OutOfWebrotApp.Helpers;
+using OutOfWebrotApp.Models.Components.TagsTree;
 using OutOfWebrotApp.Models.Pages.Post;
+using OutOfWebrotApp.Models.Pages.Search;
 using OutOfWebrotApp.Services.Interfaces.Search;
+using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
+using Sitecore.Pipelines.Rules.Taxonomy;
+using Sitecore.Shell.Feeds.FeedTypes;
+using Sitecore.StringExtensions;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
@@ -21,54 +32,83 @@ namespace OutOfWebrotApp.Controllers.Pages
         // GET: Posts
         public ActionResult Index()
         {
-	        //var searchresultCount = _searchService.GetSearchResultNumber("to");
+	        var searchResult = _searchService.GetPosts("", 1, new List<ID>(), new List<ID>());
 
-			var posts = new Models.Pages.Posts.Posts();
-			var postCollection = new List<PostItemModel>();
-	        var siteContext = RenderingContext.Current.Rendering.Item.Children;
-
-	        if (siteContext == null)
+	        if (searchResult == null)
 	        {
 		        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
 		        {
 			        return View("~/Views/Errors/ExperienceEditorError.cshtml");
 		        }
 
-				return View("~/Views/Pages/Posts/Posts.cshtml", posts);
+				return View("~/Views/Pages/Posts/Posts.cshtml", new SearchModel());
 			}
 
-			foreach (Item child in siteContext)
-	        {
-				var dateField = child.Fields["Date"].HasValue ? new DateField(child.Fields["Date"]).DateTime : DateTime.Now;
-
-
-		        var post = new PostItemModel()
-		        {
-			        Body = child.Fields["Body"].HasValue ? child.Fields["Body"].Value : string.Empty,
-			        Subtitle = child.Fields["Subtitle"].HasValue ? child.Fields["Subtitle"].Value : string.Empty,
-			        Title = child.Fields["Title"].HasValue ? child.Fields["Title"].Value : string.Empty,
-			        Url = LinkManager.GetItemUrl(child),
-			        Author = child.Fields["Author"].HasValue ? child.Fields["Author"].Value : string.Empty,
-			        Date = dateField
-		        };
-
-		        var titleFieldId = child.Fields["Title"].ID;
-		        var subtitleFieldId = child.Fields["Subtitle"].ID;
-
-				postCollection.Add(post);
-	        }
-	        posts.PostsCollection = postCollection;
-
-			return View("~/Views/Pages/Posts/Posts.cshtml", posts);
+			return View("~/Views/Pages/Posts/Posts.cshtml", searchResult);
         }
+
+		[HttpGet]
+	    public ActionResult SubstringPostSearch()
+		{
+			return View("~/Views/Components/SubstringPostSearch/SubstringPostSearch.cshtml");
+		}
 
 	    [HttpGet]
 	    public ActionResult TagsTree()
 	    {
-		    var res = Server.MapPath("~/Content/Images/TagsTree/imgs/");
-		    var urlContent = Url.Content(res);
+		    var rootItem = Sitecore.Context.Database.GetItem(new ID("{2C7815D3-9C61-4192-9C02-49131FE458A3}"));
+		    var tagsTreeJson = TagsTreeHelper.GetTagsTreeJson(rootItem);
 
-			return View("~/Views/Components/TagsTree/TagsTree.cshtml");
+		    var tagsTreeModel = new TagsTreeModel()
+		    {
+				JsonTagsTree = tagsTreeJson
+		    };
+
+
+			return View("~/Views/Components/TagsTree/TagsTree.cshtml", tagsTreeModel);
+	    }
+
+		[HttpGet]
+	    public ActionResult PostsCategories()
+	    {
+
+		    var rootItem = Sitecore.Context.Database.GetItem(new ID("{BBB1037F-A399-48AE-A3AD-5CF002021A8E}"));
+		    var categoryTreeJson = TagsTreeHelper.GetTagsTreeJson(rootItem);
+		    var categoryTreeModel = new CategoryTreeModel()
+		    {
+			    JsonCategoryTree = categoryTreeJson
+		    };
+
+			return View("~/Views/Components/CategoryTree/CategoryTree.cshtml", categoryTreeModel);
+		}
+
+	    public JsonResult GetPostsPartialView(string title, List<string> tags, List<string> categories, int page)
+	    {
+			var postTags = tags == null ? new List<ID>() : tags.Select(t => new ID(t)).ToList();
+			var postcategories = categories == null ? new List<ID>() : categories.Select(c => new ID(c)).ToList();
+			var currentPage = page;
+			var substring = title;
+
+			var searchResult = _searchService.GetPosts(substring, currentPage, postTags, postcategories);
+
+			var renderResult = RenderRazorViewToString("~/Views/Pages/Posts/PartialPostsView.cshtml", searchResult);
+
+		    return Json(renderResult, JsonRequestBehavior.AllowGet);
+	    }
+
+	    public string RenderRazorViewToString(string viewName, object model)
+	    {
+		    ViewData.Model = model;
+		    using (var sw = new StringWriter())
+		    {
+			    var viewResult = ViewEngines.Engines.FindPartialView(ControllerContext,
+				    viewName);
+			    var viewContext = new ViewContext(ControllerContext, viewResult.View,
+				    ViewData, TempData, sw);
+			    viewResult.View.Render(viewContext, sw);
+			    viewResult.ViewEngine.ReleaseView(ControllerContext, viewResult.View);
+			    return sw.GetStringBuilder().ToString();
+		    }
 	    }
 	}
 }

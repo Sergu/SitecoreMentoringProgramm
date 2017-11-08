@@ -1,36 +1,31 @@
 ﻿@model OutOfWebrotApp.Models.Components.TagsTree.TagsTreeModel
 
-<div id="treeBox" class="col-md-4"></div>
+<h3>Tags</h3>
+<hr/>
 
+<div id="tagsTreeBox" class="col-md-12"></div>
+
+<br/>
 <script>
-    var tree = new dhtmlXTreeObject("treeBox", "100%", "100%", 0);
-    var path = "C://inetpubSitecore/wwwroot/Website/Content/Images/TagsTree/imgs/";
-    tree.setImagesPath(path);
-    tree.enableTreeLines(true);
+    $(function () {
 
-    var jsonObj = {
-        id: 0,
-        item: [
-            {
-                id: 1, text: "first", child: "1",
-                item: [
-                    { id: "11", text: "firstSubItem1" },
-                    { id: "12", text: "firstSubItem2" },
-                    { id: "13", text: "firstSubItem3" }
-                ]
-            },
-            {
-                id: 2, text: "middle", child: "1", im0: "book.gif",
-                item: [
-                    { id: "21", text: "child1" },
-                    { id: "22", text: "child2" }
-                ]
-            },
-            { id: 3, text: "last" },
-            { id: 4, text: "lastBBBB" }
-        ]
-    }
+        var params = {
+            core: @Html.Raw(Model.JsonTagsTree),
+            plugins: ["checkbox"]
+        };
 
-    @*tree.load(@Model.JsonTagsTree, "json");*@
-    tree.parse(jsonObj, "json");
+        var tree = $('#tagsTreeBox').jstree(params);
+
+        //$("#tagsTreeBox").on("changed.jstree",
+        //    function(e, data) {
+        //        var selectedNodes = data.instance.get_selected(true);
+        //        var leafs = [];
+
+        //        selectedNodes.forEach(function(item, i, selectedNodes) {
+        //            if (item.children.length == 0) {
+        //                leafs.push(item.id);
+        //            }
+        //        });
+        //    });
+    })
 </script>

@@ -42,7 +42,7 @@ namespace OutOfWebrotApp.Controllers.Components
 			}
 		    else
 		    {
-			    searchResult.Title = "Incorrect querry parametre";
+			    searchResult.Title = "Incorrect querry parameter";
 			    searchResult.IsSuccessful = false;
 		    }
 

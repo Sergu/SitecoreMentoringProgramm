@@ -25,7 +25,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/24/2017 13:15:01</publishTime>
     </File>
     <File Include="App_Config/Include/PostSearchIndex/PostSearchConfiguration.config">
-      <publishTime>11/01/2017 13:52:25</publishTime>
+      <publishTime>11/03/2017 13:24:39</publishTime>
     </File>
     <File Include="App_Config/Include/PostSearchIndex/PostSearchIndex.config">
       <publishTime>11/01/2017 13:43:03</publishTime>
@@ -35,6 +35,132 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="App_Config/zzz/DependencyConfig.config">
       <publishTime>10/20/2017 15:34:15</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/blank.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/but_cut.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/folderClosed.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/folderOpen.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/iconCheckAll.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/iconCheckDis.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/iconCheckGray.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/iconUncheckAll.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/iconUncheckDis.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/leaf.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line1.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line1_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line2.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line2_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line3.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line3_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line4.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/line4_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/lock.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus1.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus2.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus2_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus3.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus3_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus4.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus4_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus5.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/minus5_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus1.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus2.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus2_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus3.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus3_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus4.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus4_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus5.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/plus5_rtl.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/radio_off.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
+    </File>
+    <File Include="App_Data/Images/TagsTree/imgs/radio_on.gif">
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>09/28/2017 16:06:17</publishTime>
@@ -72,11 +198,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/18/2017 13:57:10</publishTime>
+    </File>
     <File Include="bin/OutOfWebrotApp.dll">
-      <publishTime>11/01/2017 13:45:14</publishTime>
+      <publishTime>11/08/2017 20:09:53</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.pdb">
-      <publishTime>11/01/2017 13:45:14</publishTime>
+      <publishTime>11/08/2017 20:09:53</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -178,10 +307,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/02/2017 12:27:24</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/blank.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/but_cut.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/dhxmenu_arrow_down.png">
       <publishTime>04/19/2017 17:12:51</publishTime>
@@ -271,16 +400,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2017 17:12:51</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/folderClosed.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/folderOpen.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/iconCheckAll.gif">
       <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/iconCheckDis.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/iconCheckGray.gif">
       <publishTime>04/19/2017 17:12:44</publishTime>
@@ -289,40 +418,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/iconUncheckDis.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/leaf.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line1.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line1_rtl.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line2.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line2_rtl.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line3.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line3_rtl.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line4.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/line4_rtl.gif">
-      <publishTime>04/19/2017 17:12:45</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/lock.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/minus.gif">
       <publishTime>04/19/2017 17:12:44</publishTime>
@@ -385,10 +514,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/radio_off.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Images/TagsTree/imgs/radio_on.gif">
-      <publishTime>04/19/2017 17:12:51</publishTime>
+      <publishTime>04/19/2017 17:12:44</publishTime>
     </File>
     <File Include="Content/Scripts/bootstrap/bootstrap.min.js">
       <publishTime>08/11/2017 06:51:21</publishTime>
@@ -414,8 +543,47 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/Styles/Components/TagsTree/dhtmlxtree.css">
       <publishTime>04/19/2017 17:12:49</publishTime>
     </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/jstree.js">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/jstree.min.js">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default-dark/32px.png">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default-dark/40px.png">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default-dark/style.css">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default-dark/style.min.css">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default-dark/throbber.gif">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default/32px.png">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default/40px.png">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default/style.css">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default/style.min.css">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
+    <File Include="Content/Styles/Components/TagsTree/dist/themes/default/throbber.gif">
+      <publishTime>10/27/2017 11:51:46</publishTime>
+    </File>
     <File Include="Content/Styles/Footer/Footer.css">
       <publishTime>10/13/2017 13:42:41</publishTime>
+    </File>
+    <File Include="Controllers/Pages/PostsController.cs">
+      <publishTime>11/03/2017 14:13:53</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>10/10/2017 21:09:51</publishTime>
@@ -436,7 +604,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/28/2017 16:05:44</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/23/2017 18:01:24</publishTime>
+      <publishTime>11/08/2017 02:16:39</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/10/2017 21:09:51</publishTime>
@@ -444,8 +612,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>10/10/2017 21:09:51</publishTime>
     </File>
+    <File Include="Scripts/Components/PostSearch/PostSearchComponent.js">
+      <publishTime>11/08/2017 20:09:43</publishTime>
+    </File>
+    <File Include="Scripts/Components/TagsTree/dhtmlxcommon.js">
+      <publishTime>04/19/2017 17:12:43</publishTime>
+    </File>
     <File Include="Scripts/Components/TagsTree/dhtmlxtree.js">
-      <publishTime>04/19/2017 17:12:44</publishTime>
+      <publishTime>04/19/2017 17:12:48</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
       <publishTime>10/05/2017 20:07:50</publishTime>
@@ -471,8 +645,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/npm.js">
       <publishTime>10/10/2017 21:09:51</publishTime>
     </File>
+    <File Include="Services/Implementations/Search/SearchService.cs">
+      <publishTime>11/02/2017 17:39:01</publishTime>
+    </File>
     <File Include="Views/About/About.cshtml">
       <publishTime>10/13/2017 16:21:34</publishTime>
+    </File>
+    <File Include="Views/Components/CategoryTree/CategoryTree.cshtml">
+      <publishTime>11/08/2017 20:08:38</publishTime>
     </File>
     <File Include="Views/Components/Comments/Comment.cshtml">
       <publishTime>10/26/2017 16:46:52</publishTime>
@@ -492,11 +672,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Components/Slider/Slider.cshtml">
       <publishTime>10/16/2017 11:42:09</publishTime>
     </File>
+    <File Include="Views/Components/SubstringPostSearch/SubstringPostSearch.cshtml">
+      <publishTime>11/08/2017 20:09:27</publishTime>
+    </File>
     <File Include="Views/Components/TagsTree/TagsTree.cshtml">
-      <publishTime>10/27/2017 18:33:06</publishTime>
+      <publishTime>11/08/2017 20:08:22</publishTime>
     </File>
     <File Include="Views/Components/TopPosts/TopPosts.cshtml">
-      <publishTime>10/16/2017 13:19:12</publishTime>
+      <publishTime>11/08/2017 14:02:01</publishTime>
     </File>
     <File Include="Views/Errors/ExperienceEditorError.cshtml">
       <publishTime>10/16/2017 13:38:09</publishTime>
@@ -523,10 +706,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/13/2017 16:20:52</publishTime>
     </File>
     <File Include="Views/Pages/Post/Post.cshtml">
-      <publishTime>10/26/2017 16:46:52</publishTime>
+      <publishTime>11/03/2017 14:41:06</publishTime>
+    </File>
+    <File Include="Views/Pages/Posts/PartialPostsView.cshtml">
+      <publishTime>11/08/2017 20:20:59</publishTime>
     </File>
     <File Include="Views/Pages/Posts/Posts.cshtml">
-      <publishTime>10/27/2017 13:23:16</publishTime>
+      <publishTime>11/08/2017 17:16:52</publishTime>
     </File>
     <File Include="Views/Pages/Search/SearchResult.cshtml">
       <publishTime>10/23/2017 16:40:33</publishTime>
@@ -544,7 +730,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:45:36</publishTime>
     </File>
     <File Include="Views/Shared/HomeLayout.cshtml">
-      <publishTime>10/27/2017 12:24:52</publishTime>
+      <publishTime>11/08/2017 17:33:34</publishTime>
     </File>
     <File Include="Views/Shared/SampleLayout.cshtml">
       <publishTime>10/05/2017 20:53:26</publishTime>
@@ -565,7 +751,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:36:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/26/2017 16:51:10</publishTime>
+      <publishTime>11/08/2017 18:49:31</publishTime>
     </File>
   </ItemGroup>
 </Project>

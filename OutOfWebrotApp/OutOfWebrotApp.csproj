@@ -82,6 +82,10 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
       <HintPath>c:\inetpubSitecore\wwwroot\Website\Bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Sitecore.ContentSearch">
       <HintPath>lib\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
@@ -148,58 +152,70 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Images\TagsTree\imgs\blank.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\but_cut.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\folderClosed.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\folderOpen.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\iconCheckAll.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\iconCheckDis.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\iconCheckGray.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\iconUncheckAll.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\iconUncheckDis.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\leaf.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line1.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line1_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line2.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line2_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line3.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line3_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line4.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\line4_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\lock.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus1.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus2.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus2_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus3.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus3_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus4.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus4_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus5.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\minus5_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus1.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus2.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus2_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus3.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus3_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus4.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus4_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus5.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\plus5_rtl.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\radio_off.gif" />
-    <Content Include="Content\Images\TagsTree\imgs\radio_on.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\blank.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\but_cut.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\folderClosed.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\folderOpen.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\iconCheckAll.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\iconCheckDis.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\iconCheckGray.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\iconUncheckAll.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\iconUncheckDis.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\leaf.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line1.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line1_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line2.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line2_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line3.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line3_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line4.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\line4_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\lock.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus1.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus2.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus2_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus3.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus3_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus4.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus4_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus5.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\minus5_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus1.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus2.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus2_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus3.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus3_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus4.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus4_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus5.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\plus5_rtl.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\radio_off.gif" />
+    <Content Include="App_Data\Images\TagsTree\imgs\radio_on.gif" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Styles\AboutLayout\blog.css" />
     <Content Include="Content\Styles\AboutLayout\HomeLayoutJumbotron.css" />
     <Content Include="Content\Styles\Components\Search\Search.css" />
-    <Content Include="Content\Styles\Components\TagsTree\dhtmlxtree.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\jstree.js" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\jstree.min.js" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default-dark\32px.png" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default-dark\40px.png" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default-dark\style.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default-dark\style.min.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default-dark\throbber.gif" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\32px.png" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\40px.png" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\style.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\style.min.css" />
+    <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\throbber.gif" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\DependencyInjectionConfigurator.cs" />
+    <Compile Include="Controllers\Components\PostsTagsController.cs" />
     <Compile Include="Controllers\Components\SearchController.cs" />
     <Compile Include="Controllers\Pages\AboutController.cs" />
     <Compile Include="Controllers\Components\FooterController.cs" />
@@ -214,23 +230,31 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\SitecoreHelper.cs" />
+    <Compile Include="Helpers\TagsTreeHelper.cs" />
     <Compile Include="Models\Components\Navigation\NavigationItem.cs" />
     <Compile Include="Models\Components\SearchIndex\PostSearchIndexModel.cs" />
+    <Compile Include="Models\Components\TagsTree\CategoryTreeModel.cs" />
+    <Compile Include="Models\Components\TagsTree\Serialization\JsTreeData.cs" />
+    <Compile Include="Models\Components\TagsTree\Serialization\JsTreeWrapModel.cs" />
+    <Compile Include="Models\Components\TagsTree\Serialization\Subtree.cs" />
     <Compile Include="Models\Components\TagsTree\TagsTreeModel.cs" />
     <Compile Include="Models\Pages\About\AboutPageModel.cs" />
     <Compile Include="Models\Components\Navigation\NavigationModel.cs" />
-    <Compile Include="Models\Pages\Posts\Posts.cs" />
     <Compile Include="Models\Pages\Post\Comment.cs" />
     <Compile Include="Models\Pages\Post\PostItemModel.cs" />
     <Compile Include="Models\Components\Slider\Picture.cs" />
     <Compile Include="Models\Components\Slider\Slider.cs" />
     <Compile Include="Models\Pages\Search\SearchModel.cs" />
+    <Compile Include="Models\Services\SearchEngineService\SearchEngineSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\ComputedFields\PostTagsStringComputedField.cs" />
     <Compile Include="Services\Implementations\Navigation\NavigationService.cs" />
     <Compile Include="Services\Implementations\Publishing\PublishingService.cs" />
+    <Compile Include="Services\Implementations\Search\SearchEngineService.cs" />
     <Compile Include="Services\Implementations\Search\SearchService.cs" />
     <Compile Include="Services\Interfaces\Navigation\INavigationService.cs" />
     <Compile Include="Services\Interfaces\Publishing\IPublishingService.cs" />
+    <Compile Include="Services\Interfaces\Search\ISearchEngineService.cs" />
     <Compile Include="Services\Interfaces\Search\ISearchService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -248,6 +272,8 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Components\PostSearch\PostSearchComponent.js" />
+    <Content Include="Scripts\Components\TagsTree\dhtmlxcommon.js" />
     <Content Include="Scripts\Components\TagsTree\dhtmlxtree.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -264,10 +290,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
     <Folder Include="Content\Styles\Footer\" />
     <Folder Include="Content\Styles\Page\" />
+    <Folder Include="Models\Pages\Posts\" />
     <Folder Include="Views\Comment\" />
     <Folder Include="Views\Search\" />
   </ItemGroup>
@@ -294,6 +320,9 @@
     <Content Include="Views\Components\Comments\Comment.cshtml" />
     <Content Include="Views\Components\Comments\CommentPostForm.cshtml" />
     <Content Include="Views\Components\TagsTree\TagsTree.cshtml" />
+    <Content Include="Views\Components\CategoryTree\CategoryTree.cshtml" />
+    <Content Include="Views\Pages\Posts\PartialPostsView.cshtml" />
+    <Content Include="Views\Components\SubstringPostSearch\SubstringPostSearch.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

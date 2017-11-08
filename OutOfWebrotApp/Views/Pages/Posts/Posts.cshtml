@@ -1,5 +1,5 @@
 ﻿@using Sitecore.Mvc
-@model OutOfWebrotApp.Models.Pages.Posts.Posts
+@model OutOfWebrotApp.Models.Pages.Search.SearchModel
 
 <div class="jumbotron">
     <h3>Posts </h3>
@@ -7,15 +7,10 @@
     <p>To see the difference between static and fixed top navbars, just scroll.</p>
 </div>
 
-@Html.Sitecore().Placeholder("postsContent")
+<div class="col-md-4">
+    @Html.Sitecore().Placeholder("postsSearchCriteria")
+</div>
 
-@foreach (var post in Model.PostsCollection)
-{
-    <div class="col-md-4">
-        <h2>@post.Title</h2>
-        <p>@post.Body</p>
-        <p>
-            <a class="btn btn-default" href="@post.Url" role="button">View details »</a>
-        </p>
-    </div>
-}
+<div id="postSearchresultContainer">
+    @Html.Partial("~/Views/Pages/Posts/PartialPostsView.cshtml", Model)
+</div>

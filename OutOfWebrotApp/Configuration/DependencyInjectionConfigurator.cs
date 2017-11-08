@@ -25,6 +25,7 @@ namespace OutOfWebrotApp.Configuration
 			serviceCollection.AddSingleton<INavigationService, NavigationService>();
 			serviceCollection.AddSingleton<ISearchService, SearchService>();
 			serviceCollection.AddSingleton<IPublishingService, PublishingService>();
+			serviceCollection.AddSingleton<ISearchEngineService, SearchEngineService>();
 
 			// configurator per project? Use this:
 			serviceCollection.AddMvcControllersInCurrentAssembly();
