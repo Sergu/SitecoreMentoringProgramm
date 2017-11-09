@@ -1,6 +1,10 @@
-﻿@using Sitecore.StringExtensions
+﻿@using Sitecore.Shell
+@using Sitecore.StringExtensions
 @model OutOfWebrotApp.Models.Pages.Search.SearchModel
        
+
+<h4>Find: @Model.TotalPostAmount posts</h4>
+
 @foreach (var post in Model.SearchResult)
 {
     <div class="col-md-4">
@@ -32,7 +36,7 @@
                 @for (int i = 1; i <= Model.TotalPageAmount; i++)
                 {
                     var activeClass = i == Model.Page ? "active" : "";
-                    <li class=@activeClass><a class="searchResultPage" onclick="onPageClick">@i</a></li>
+                    <li class=@activeClass><a class="searchResultPage">@i</a></li>
                 }
                 <li>
                     <a href="#" aria-label="Next">
@@ -45,5 +49,5 @@
 }
 else
 {
-    <h2>No results</h2>
+    <h2>@Model.NoResultMessage</h2>
 }

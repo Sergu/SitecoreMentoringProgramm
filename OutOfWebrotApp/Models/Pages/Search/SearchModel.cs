@@ -21,7 +21,9 @@ namespace OutOfWebrotApp.Models.Pages.Search
 		public int Page { get; set; }
 		public int TotalPageAmount { get; set; }
 		public int PageCapacity { get; set; }
+		public int TotalPostAmount { get; set; }
 		public IList<PostItemModel> SearchResult { get; set; }
 		public bool IsSuccessful { get; set; }
+		public string NoResultMessage { get; set; }
 	}
 }

@@ -22,7 +22,7 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 
 			var postTags = tags == null ? new List<ID>() : tags;
 			var postCategories = categories == null ? new List<ID>() : categories;
-			var postTitle = title.IsEmptyOrNull() ? null : title.ToLower();
+			var postTitle = title.IsEmptyOrNull() ? null : title;
 
 			var categoriesPredicateList = new List<Expression<Func<PostSearchIndexModel, bool>>>();
 
@@ -59,7 +59,8 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 					CurrentPage = page,
 					PageCapacity = pageCapacity,
 					SearchResut = result.ToList(),
-					TotalAmount = (int)Math.Ceiling(result.TotalSearchResults / (double)pageCapacity)
+					TotalPageAmount = (int)Math.Ceiling(result.TotalSearchResults / (double)pageCapacity),
+					TotalPostAmount = result.TotalSearchResults
 				};
 			}
 		}
@@ -86,7 +87,7 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 			if (substring != null)
 			{
 				predicate = predicate.And(c =>
-					c.Title.Contains(substring) || c.Subtitle.Contains(substring) || c.PostTagsString.Contains(substring));
+					c.Title.Contains(substring) || c.Subtitle.Contains(substring) || c.PostTagsString.Contains(substring) || c.Body.Contains(substring));
 			}
 
 			return BuildPredicateForTags(predicate, tags);
@@ -104,7 +105,7 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 				if (substring != null)
 				{
 					predicateBuilder = predicateBuilder.And(c =>
-						c.Title.Contains(substring) || c.Subtitle.Contains(substring) || c.PostTagsString.Contains(substring));
+						c.Title.Contains(substring) || c.Subtitle.Contains(substring) || c.PostTagsString.Contains(substring) || c.Body.Contains(substring));
 				}
 
 				predicateBuilder = BuildPredicateForTags(predicateBuilder, tags);

@@ -20,7 +20,8 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 
 		public SearchService(ISearchEngineService searchEngineService)
 		{
-			var capacityConfigValue = ConfigurationManager.AppSettings["PostsPageCapacity"].ValueOrEmpty();
+			var item = SitecoreHelper.GetSiteSettingItem();
+			var capacityConfigValue = item.Fields["PostsPageCapacity"].Value;
 			int postsCapacity;
 			if (capacityConfigValue.IsEmptyOrNull() || !int.TryParse(capacityConfigValue, out postsCapacity))
 			{
@@ -31,15 +32,17 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 			_postsCapacity = postsCapacity;
 		}
 
-		public SearchModel GetPosts(string title, int page, IList<ID> tags, IList<ID> categories)
+		public SearchModel SearchPosts(string title, int page, IList<ID> tags, IList<ID> categories)
 		{
 			var searchResult = _searchEngineService.SearchPosts(title, page, _postsCapacity, tags, categories);
+			var siteSettingItem = SitecoreHelper.GetSiteSettingItem();
 
 			if (searchResult.SearchResut.Count() == 0)
 			{
 				return new SearchModel()
 				{
-					IsSuccessful = false
+					IsSuccessful = false,
+					NoResultMessage = siteSettingItem.Fields["NoResultMessage"].Value
 				};
 			}
 
@@ -68,11 +71,12 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 
 			return new SearchModel()
 			{
-				SearchResult = postCollection,
+				SearchResult = postCollection.OrderByDescending(m => m.Date).ToList(),
 				IsSuccessful = true,
 				Page = searchResult.CurrentPage,
-				TotalPageAmount = searchResult.TotalAmount,
-				PageCapacity = searchResult.PageCapacity
+				TotalPageAmount = searchResult.TotalPageAmount,
+				PageCapacity = searchResult.PageCapacity,
+				TotalPostAmount = searchResult.TotalPostAmount
 			};
 
 		}

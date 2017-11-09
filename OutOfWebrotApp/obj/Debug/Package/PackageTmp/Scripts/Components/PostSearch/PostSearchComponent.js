@@ -81,6 +81,7 @@ $(function () {
         var el = $("#substringInput");
         var substring = el.val();
         window.searchComponent.substring = substring;
+        window.searchComponent.page = 1;
         window.searchComponent.beginSearch();
     })
 

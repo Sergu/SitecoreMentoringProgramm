@@ -11,7 +11,8 @@ namespace OutOfWebrotApp.Models.Services.SearchEngineService
 	{
 		public int PageCapacity { get; set; }
 		public int CurrentPage { get; set; }
-		public int TotalAmount { get; set; }
+		public int TotalPageAmount { get; set; }
+		public int TotalPostAmount { get; set; }
 		public List<SearchHit<PostSearchIndexModel>> SearchResut { get; set; }
 	}
 }

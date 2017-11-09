@@ -25,28 +25,10 @@ namespace OutOfWebrotApp.Controllers.Components
 	    [HttpPost]
 	    public ActionResult SearchHeaderComponent(SearchModel searchModel)
 	    {
-		    var searchItem = SitecoreHelper.GetSearchItem();
+		    var searchItem = SitecoreHelper.GetPostsItem();
 		    var searchItemUrl = LinkManager.GetItemUrl(searchItem);
 
 		    return Redirect($"{searchItemUrl}?s={searchModel.Title}");
-	    }
-
-	    public ActionResult SearchResult()
-	    {
-		    SearchModel searchResult = new SearchModel();
-			var url = Request.Url;
-		    string param = HttpUtility.ParseQueryString(url.Query).Get("s");
-		    if (param != null)
-		    {
-			    searchResult = _searchService.SearchPostsByTitle(param);
-			}
-		    else
-		    {
-			    searchResult.Title = "Incorrect querry parameter";
-			    searchResult.IsSuccessful = false;
-		    }
-
-		    return View("~/Views/Pages/Search/SearchResult.cshtml", searchResult);
 	    }
     }
 }

@@ -23,6 +23,9 @@ namespace OutOfWebrotApp.Models.Components.SearchIndex
 		[IndexField("Subtitle")]
 		public virtual string Subtitle { get; set; }
 		[DataMember]
+		[IndexField("Body")]
+		public virtual string Body { get; set; }
+		[DataMember]
 		[IndexField("Category")]
 		[TypeConverter(typeof(IndexFieldIDValueConverter))]
 		public virtual ID Category { get; set; }

@@ -32,7 +32,15 @@ namespace OutOfWebrotApp.Controllers.Pages
         // GET: Posts
         public ActionResult Index()
         {
-	        var searchResult = _searchService.GetPosts("", 1, new List<ID>(), new List<ID>());
+	        string subString = null;
+	        var url = Request.Url;
+	        string param = HttpUtility.ParseQueryString(url.Query).Get("s");
+	        if (param != null)
+	        {
+		        subString = param;
+	        }
+
+	        var searchResult = _searchService.SearchPosts(subString, 1, new List<ID>(), new List<ID>());
 
 	        if (searchResult == null)
 	        {
@@ -56,8 +64,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 	    [HttpGet]
 	    public ActionResult TagsTree()
 	    {
-		    var rootItem = Sitecore.Context.Database.GetItem(new ID("{2C7815D3-9C61-4192-9C02-49131FE458A3}"));
-		    var tagsTreeJson = TagsTreeHelper.GetTagsTreeJson(rootItem);
+		    var postTagTreeRootItem = SitecoreHelper.GetPostTagtreeRootItem();
+		    var tagsTreeJson = TagsTreeHelper.GetTagsTreeJson(postTagTreeRootItem);
 
 		    var tagsTreeModel = new TagsTreeModel()
 		    {
@@ -70,10 +78,10 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 		[HttpGet]
 	    public ActionResult PostsCategories()
-	    {
+		{
 
-		    var rootItem = Sitecore.Context.Database.GetItem(new ID("{BBB1037F-A399-48AE-A3AD-5CF002021A8E}"));
-		    var categoryTreeJson = TagsTreeHelper.GetTagsTreeJson(rootItem);
+			var postCategoryRootItem = SitecoreHelper.GetPostCategoryrootItemId();
+		    var categoryTreeJson = TagsTreeHelper.GetTagsTreeJson(postCategoryRootItem);
 		    var categoryTreeModel = new CategoryTreeModel()
 		    {
 			    JsonCategoryTree = categoryTreeJson
@@ -89,7 +97,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 			var currentPage = page;
 			var substring = title;
 
-			var searchResult = _searchService.GetPosts(substring, currentPage, postTags, postcategories);
+			var searchResult = _searchService.SearchPosts(substring, currentPage, postTags, postcategories);
 
 			var renderResult = RenderRazorViewToString("~/Views/Pages/Posts/PartialPostsView.cshtml", searchResult);
 
