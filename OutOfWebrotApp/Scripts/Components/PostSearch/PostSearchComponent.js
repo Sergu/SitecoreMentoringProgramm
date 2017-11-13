@@ -1,7 +1,5 @@
 ﻿function PostSearchComponent() {
 
-
-
     var self = this;
 
     self.tags = [];
