@@ -61,13 +61,14 @@ namespace OutOfWebrotApp.Helpers
 
 		public static Item GetSiteSettingItem()
 		{
+			var homeItemPath = Sitecore.Context.Site.ContentStartPath;
 			var siteSettingTemplateName = ConfigurationManager.AppSettings["SiteSettingTemplateName"];
 			if (siteSettingTemplateName.IsNullOrEmpty())
 			{
 				throw new NullReferenceException();
 			}
 
-			return Sitecore.Context.Database.SelectSingleItem($"fast:/sitecore/content/*[@@templatekey='{siteSettingTemplateName}']");
+			return Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{siteSettingTemplateName}']");
 		}
 	}
 }
