@@ -19,7 +19,6 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 		public SearchEngineSearchResult SearchPosts(string title, int page, int pageCapacity,IList<ID> tags, IList<ID> categories)
 		{
 			var index = ContentSearchManager.GetIndex("post_web_index");
-
 			var postTags = tags == null ? new List<ID>() : tags;
 			var postCategories = categories == null ? new List<ID>() : categories;
 			var postTitle = title.IsEmptyOrNull() ? null : title;
@@ -50,6 +49,7 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 
 				var result = context.GetQueryable<PostSearchIndexModel>()
 					.Where(currentPredicate)
+					.Filter(c => c.Language == Sitecore.Context.Language.Name)
 					.FacetOn(c => c.Category)
 					.FacetOn(c => c.PostTagsString)
 					.Page(page - 1, pageCapacity).GetResults();

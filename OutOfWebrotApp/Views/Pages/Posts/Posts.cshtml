@@ -2,9 +2,8 @@
 @model OutOfWebrotApp.Models.Pages.Search.SearchModel
 
 <div class="jumbotron">
-    <h3>Posts </h3>
-    <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-    <p>To see the difference between static and fixed top navbars, just scroll.</p>
+    <h3>@Html.Sitecore().CurrentItem.Fields["Title"].Value</h3>
+    <p>@Html.Sitecore().CurrentItem.Fields["Description"].Value</p>
 </div>
 
 <div class="col-md-4">

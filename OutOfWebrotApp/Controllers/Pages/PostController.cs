@@ -54,6 +54,15 @@ namespace OutOfWebrotApp.Controllers.Pages
 				Category = category.TargetItem.Fields["Value"].Value,
 	        };
 
+	        var layoutGuid = RenderingContext.CurrentOrNull.Rendering.LayoutId;
+	        var layoutItem = Sitecore.Context.Database.GetItem(new ID(layoutGuid));
+	        var layoutName = layoutItem.Name;
+
+	        if (layoutName == "PrintLayout")
+	        {
+		        return View("~/Views/Pages/Post/PostPrintView.cshtml", post);
+			}
+
 	        return View("~/Views/Pages/Post/Post.cshtml", post);
         }
 

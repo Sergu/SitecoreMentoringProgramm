@@ -15,6 +15,8 @@ using OutOfWebrotApp.Services.Interfaces.Publishing;
 using OutOfWebrotApp.Services.Interfaces.Search;
 using System.Reflection;
 using OutOfWebrotApp.Extensions;
+using OutOfWebrotApp.Services.Implementations.Language;
+using OutOfWebrotApp.Services.Interfaces.Language;
 
 namespace OutOfWebrotApp.Configuration
 {
@@ -26,6 +28,7 @@ namespace OutOfWebrotApp.Configuration
 			serviceCollection.AddSingleton<ISearchService, SearchService>();
 			serviceCollection.AddSingleton<IPublishingService, PublishingService>();
 			serviceCollection.AddSingleton<ISearchEngineService, SearchEngineService>();
+			serviceCollection.AddSingleton<ILanguageService, LanguageService>();
 
 			// configurator per project? Use this:
 			serviceCollection.AddMvcControllersInCurrentAssembly();

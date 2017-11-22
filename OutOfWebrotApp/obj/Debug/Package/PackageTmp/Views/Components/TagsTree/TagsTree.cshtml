@@ -1,6 +1,8 @@
 ﻿@model OutOfWebrotApp.Models.Components.TagsTree.TagsTreeModel
 
-<h3>Tags</h3>
+@*<h3>Tags</h3>*@
+<h3>@Sitecore.Globalization.Translate.Text("T.Tags")</h3>
+
 <hr/>
 
 <div id="tagsTreeBox" class="col-md-12"></div>
@@ -15,17 +17,5 @@
         };
 
         var tree = $('#tagsTreeBox').jstree(params);
-
-        //$("#tagsTreeBox").on("changed.jstree",
-        //    function(e, data) {
-        //        var selectedNodes = data.instance.get_selected(true);
-        //        var leafs = [];
-
-        //        selectedNodes.forEach(function(item, i, selectedNodes) {
-        //            if (item.children.length == 0) {
-        //                leafs.push(item.id);
-        //            }
-        //        });
-        //    });
     })
 </script>

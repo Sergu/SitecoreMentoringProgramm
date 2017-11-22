@@ -55,6 +55,6 @@ D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\System.Net.Http.Formatting.xml
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Sitecore.ContentSearch.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Sitecore.ContentSearch.Linq.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Sitecore.ContentSearch.Linq.Lucene.dll
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\obj\Debug\OutOfWebrotApp.csprojResolveAssemblyReference.cache
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Newtonsoft.Json.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Newtonsoft.Json.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\obj\Debug\OutOfWebrotApp.csprojResolveAssemblyReference.cache

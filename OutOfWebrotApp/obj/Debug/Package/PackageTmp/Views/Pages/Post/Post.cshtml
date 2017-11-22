@@ -3,11 +3,11 @@
 
 
         
-<div class="jumbotron">
+@*<div class="jumbotron">
     <h3>@Model.Title Post</h3>
     <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
     <p>To see the difference between static and fixed top navbars, just scroll.</p>
-</div>
+</div>*@
 
 <div class="col-sm-8 blog-main">
 
@@ -18,7 +18,7 @@
 
         <p>@Model.Subtitle</p>
         <hr>
-        @*<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>*@
+
         <blockquote>
             <p>@Model.Body</p>
         </blockquote>
@@ -26,8 +26,8 @@
     </div><!-- /.blog-post -->
 
     <nav class="blog-pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+        <a class="btn btn-outline-primary" href="#">@Sitecore.Globalization.Translate.Text("O.Old")</a>
+        <a class="btn btn-outline-secondary disabled" href="#">@Sitecore.Globalization.Translate.Text("N.New")</a>
     </nav>
     
     @Html.Sitecore().Placeholder("postContent")
@@ -36,18 +36,17 @@
 
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
     <div class="sidebar-module sidebar-module-inset">
-        <h4>About</h4>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-        </p>
+        <h4>@Sitecore.Globalization.Translate.Text("A.About")</h4>
+        <p>@Sitecore.Globalization.Translate.Text("A.AboutContent")</p>
     </div>
     <div class="sidebar-module">
-        <h4>Category</h4>
+        <h4>@Sitecore.Globalization.Translate.Text("C.Category")</h4>
         <ol class="list-unstyled">
             <li><a href="#">@Model.Category</a></li>
         </ol>
     </div>
     <div class="sidebar-module">
-        <h4>Tags</h4>
+        <h4>@Sitecore.Globalization.Translate.Text("T.Tags")</h4>
         <ol class="list-unstyled">
             @foreach (var tag in Model.Tags)
             {

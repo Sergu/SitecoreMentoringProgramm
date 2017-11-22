@@ -3,7 +3,7 @@
 @model OutOfWebrotApp.Models.Pages.Search.SearchModel
        
 
-<h4>Find: @Model.TotalPostAmount posts</h4>
+<h4>@Sitecore.Globalization.Translate.Text("F.Find"): @Model.TotalPostAmount</h4>
 
 @foreach (var post in Model.SearchResult)
 {
@@ -11,10 +11,10 @@
         <h2>@post.Title</h2>
         <p>@post.Body</p>
         <p>
-            <a class="btn btn-default" href="@post.Url" role="button">View details »</a>
+            <a class="btn btn-default" href="@post.Url" role="button">@Sitecore.Globalization.Translate.Text("L.Link")</a>
         </p>
-        <p>Category: @( post.Category.IsNullOrEmpty() ? "none" : post.Category)</p>
-        <p>Tags:
+        <p>@Sitecore.Globalization.Translate.Text("C.Category"): @( post.Category.IsNullOrEmpty() ? "none" : post.Category)</p>
+        <p>@Sitecore.Globalization.Translate.Text("T.Tags"):
             @foreach (var tag in post.Tags)
             {
                 @Html.Raw(string.Concat(tag,", "))
