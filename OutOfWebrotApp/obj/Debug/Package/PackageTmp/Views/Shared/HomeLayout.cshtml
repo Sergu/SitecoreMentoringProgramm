@@ -13,8 +13,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/Content/bootstrap.min.css" rel="stylesheet">
-    @*<link href="/Content/Styles/AboutLayout/HomeLayoutJumbotron.css" rel="stylesheet">*@
     <link href="/Content/Styles/AboutLayout/blog.css" rel="stylesheet">
+    <link href="/Content/Styles/Blog/HomeLayout.css"/>
     <link href="/Content/Styles/Components/Search/Search.css" rel="stylesheet"/>
     <link href="/Content/Styles/Components/TagsTree/dist/themes/default/style.min.css" rel="stylesheet" />
     <script src="/Scripts/jquery-1.10.2.min.js"></script>
@@ -37,9 +37,10 @@
                 </button>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
-                
-                @Html.Sitecore().Placeholder("navigation")
-                
+                <ul class="nav navbar-nav">
+                    @Html.Sitecore().Placeholder("navigation")
+                </ul>
+
             </div><!--/.nav-collapse -->
         </div>
     </nav>
@@ -52,7 +53,9 @@
 
         <hr>
     
-        @Html.Sitecore().Placeholder("footer")
+        <footer class="footer">
+            @Html.Sitecore().Placeholder("footer")
+        </footer>
     </div> <!-- /container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->  

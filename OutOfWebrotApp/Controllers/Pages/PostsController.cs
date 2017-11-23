@@ -18,6 +18,7 @@ using Sitecore.Mvc.Presentation;
 using Sitecore.Pipelines.Rules.Taxonomy;
 using Sitecore.Shell.Feeds.FeedTypes;
 using Sitecore.StringExtensions;
+using Sitecore.Web.UI.XslControls;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
@@ -39,6 +40,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 	        {
 		        subString = param;
 	        }
+
+	        var it = Sitecore.Context.Item;
 
 	        var searchResult = _searchService.SearchPosts(subString, 1, new List<ID>(), new List<ID>());
 

@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Web.Mvc;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Models.Pages.Post;
 using OutOfWebrotApp.Services.Interfaces.Publishing;
 using Sitecore;
@@ -50,8 +51,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        Url = LinkManager.GetItemUrl(contextItem),
 		        Author = contextItem.Fields["Author"].Value,
 		        Date = (new DateField(contextItem.Fields["Date"])).DateTime,
-				Tags = postTagsField.GetItems().Select(i => i.Fields["Value"].Value),
-				Category = category.TargetItem.Fields["Value"].Value,
+				Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
+				Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null,
 	        };
 
 	        var layoutGuid = RenderingContext.CurrentOrNull.Rendering.LayoutId;
@@ -115,7 +116,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 		    Database masterDatabase = Sitecore.Data.Database.GetDatabase("master");
 		    var contextItem = RenderingContext.Current.ContextItem;
 		    var masterContextItem = masterDatabase.GetItem(contextItem.ID);
-		    var templatePath = ConfigurationManager.AppSettings["CommentTemplatePath"];
+		    var templatePath = SitecoreHelper.GetSiteSettingItem().Fields["CommentTemplateId"].Value;
 			var templateItem = masterDatabase.GetTemplate(templatePath);
 
 		    using (new Sitecore.SecurityModel.SecurityDisabler())

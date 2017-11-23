@@ -2,6 +2,7 @@
 using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Models.Components.Slider;
 using Sitecore.Data.Fields;
 using Sitecore.Mvc.Presentation;
@@ -36,7 +37,7 @@ namespace OutOfWebrotApp.Controllers.Components
 		        ? RenderingContext.Current.Rendering.Parameters["Speed"]
 		        : null;
 
-	        var defaultSliderSpeedTemplatePath = ConfigurationManager.AppSettings["SliderDefaultSpeedTemplatePath"];
+	        var defaultSliderSpeedTemplatePath = SitecoreHelper.GetSiteSettingItem().Fields["SliderDefaultSpeedTemplatePath"].Value;
 	        var defaultSpeedItem = Sitecore.Context.Database.GetItem(defaultSliderSpeedTemplatePath);
 
 			var defaultSliderSpeed = int.Parse(defaultSpeedItem.Fields["Speed"].Value);

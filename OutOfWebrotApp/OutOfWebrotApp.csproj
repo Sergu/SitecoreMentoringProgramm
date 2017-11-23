@@ -196,7 +196,7 @@
     <Content Include="App_Data\Images\TagsTree\imgs\radio_on.gif" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Styles\AboutLayout\blog.css" />
-    <Content Include="Content\Styles\AboutLayout\HomeLayoutJumbotron.css" />
+    <Content Include="Content\Styles\Blog\HomeLayout.css" />
     <Content Include="Content\Styles\Components\Search\Search.css" />
     <Content Include="Content\Styles\Components\TagsTree\dist\jstree.js" />
     <Content Include="Content\Styles\Components\TagsTree\dist\jstree.min.js" />
@@ -210,6 +210,7 @@
     <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\style.css" />
     <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\style.min.css" />
     <Content Include="Content\Styles\Components\TagsTree\dist\themes\default\throbber.gif" />
+    <Content Include="Content\Styles\SitecoreBlog\SitecoreBlogLayout.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
   </ItemGroup>
@@ -229,8 +230,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\SitecoreHardcode.cs" />
     <Compile Include="Helpers\SitecoreHelper.cs" />
     <Compile Include="Helpers\TagsTreeHelper.cs" />
+    <Compile Include="Models\Components\Footer\SocialNetwork.cs" />
+    <Compile Include="Models\Components\Footer\SocialNetworks.cs" />
     <Compile Include="Models\Components\Navigation\Language.cs" />
     <Compile Include="Models\Components\Navigation\Languages.cs" />
     <Compile Include="Models\Components\Navigation\NavigationItem.cs" />
@@ -271,9 +275,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="App_Config\Include\zzz\DependencyConfig.config" />
-    <Content Include="App_Config\Include\PostSearchIndex\PostSearchIndex.config" />
-    <Content Include="App_Config\Include\PostSearchIndex\PostSearchConfiguration.config" />
+    <Content Include="App_Config\Include\Index\Blog\BlogPostSearchIndex.config" />
+    <Content Include="App_Config\Include\Index\Blog\BlogPostSearchConfiguration.config" />
     <Content Include="App_Config\Include\SiteDefinition\SiteDefinition.config" />
+    <Content Include="App_Config\Include\Index\SitecoreBlog\SitecoreBlogPostSearchConfiguration.config" />
+    <Content Include="App_Config\Include\Index\SitecoreBlog\SitecoreBlogPostSearchIndex.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -297,6 +303,7 @@
   <ItemGroup>
     <Folder Include="App_Start\" />
     <Folder Include="Content\Styles\Footer\" />
+    <Folder Include="Content\Styles\NewFolder1\" />
     <Folder Include="Content\Styles\Page\" />
     <Folder Include="Models\Pages\Posts\" />
   </ItemGroup>
@@ -328,6 +335,8 @@
     <Content Include="Views\Shared\PrintLayout.cshtml" />
     <Content Include="Views\Pages\Post\PostPrintView.cshtml" />
     <Content Include="Views\Components\Navigation\Language.cshtml" />
+    <Content Include="Views\Shared\SitecoreBlogLayout.cshtml" />
+    <Content Include="Views\Components\Footer\SocialNetworks.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

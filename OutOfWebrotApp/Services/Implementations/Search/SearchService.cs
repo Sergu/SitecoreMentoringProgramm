@@ -62,8 +62,8 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 					Url = LinkManager.GetItemUrl(resultItem),
 					Author = resultItem.Fields["Author"].Value,
 					Date = (new DateField(resultItem.Fields["Date"])).DateTime,
-					Tags = postTagsField.GetItems().Select(i => i.Fields["Value"].Value),
-					Category = category.TargetItem.Fields["Value"].Value,
+					Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
+					Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null ,
 				};
 
 				postCollection.Add(post);

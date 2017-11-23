@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
+using OutOfWebrotApp.Helpers;
 using OutOfWebrotApp.Models.Components.SearchIndex;
 using OutOfWebrotApp.Models.Services.SearchEngineService;
 using OutOfWebrotApp.Services.Interfaces.Search;
@@ -16,9 +17,20 @@ namespace OutOfWebrotApp.Services.Implementations.Search
 {
 	public class SearchEngineService : ISearchEngineService
 	{
+		//private readonly string _indexId;
+
+		//public SearchEngineService()
+		//{
+		//	var item = SitecoreHelper.GetSiteSettingItem();
+		//	_indexId = item.Fields["PostIndex"].Value;
+		//}
+
 		public SearchEngineSearchResult SearchPosts(string title, int page, int pageCapacity,IList<ID> tags, IList<ID> categories)
 		{
-			var index = ContentSearchManager.GetIndex("post_web_index");
+			var item = SitecoreHelper.GetSiteSettingItem();
+			var indexId = item.Fields["PostIndex"].Value;
+
+			var index = ContentSearchManager.GetIndex(indexId);
 			var postTags = tags == null ? new List<ID>() : tags;
 			var postCategories = categories == null ? new List<ID>() : categories;
 			var postTitle = title.IsEmptyOrNull() ? null : title;

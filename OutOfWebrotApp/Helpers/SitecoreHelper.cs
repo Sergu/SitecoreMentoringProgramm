@@ -20,7 +20,7 @@ namespace OutOfWebrotApp.Helpers
 		public static Item GetSearchItem()
 		{
 			var homeItemPath = Sitecore.Context.Site.StartPath;
-			var searchItem = Sitecore.Context.Database.SelectItems($"fast:{homeItemPath}/*[@@templatekey='search']").First();
+			var searchItem = Sitecore.Context.Database.SelectItems($"fast:{homeItemPath}/*[@@templatekey='{SitecoreHardcode.SearchItemTemplateName}']").First();
 
 			return searchItem;
 		}
@@ -28,14 +28,14 @@ namespace OutOfWebrotApp.Helpers
 		public static Item GetPostsItem()
 		{
 			var homeItemPath = Sitecore.Context.Site.StartPath;
-			var postsItem = Sitecore.Context.Database.SelectItems($"fast:{homeItemPath}/*[@@templatekey='posts']").First();
+			var postsItem = Sitecore.Context.Database.SelectItems($"fast:{homeItemPath}/*[@@templatekey='{SitecoreHardcode.PostsItemTemplateName}']").First();
 
 			return postsItem;
 		}
 
 		public static Item GetPostTagtreeRootItem()
 		{
-			var postTagTreeRootItemId = ConfigurationManager.AppSettings["PostTagTreeRootItemId"];
+			var postTagTreeRootItemId = SitecoreHelper.GetSiteSettingItem().Fields["PostTagTreeRootItemId"].Value;
 
 			if (postTagTreeRootItemId.IsNullOrEmpty())
 			{
@@ -48,7 +48,7 @@ namespace OutOfWebrotApp.Helpers
 
 		public static Item GetPostCategoryrootItemId()
 		{
-			var postCategoryrootItemId = ConfigurationManager.AppSettings["PostCategoryrootItemId"];
+			var postCategoryrootItemId = SitecoreHelper.GetSiteSettingItem().Fields["PostCategoryRootItemId"].Value;
 
 			if (postCategoryrootItemId.IsNullOrEmpty())
 			{
@@ -62,7 +62,7 @@ namespace OutOfWebrotApp.Helpers
 		public static Item GetSiteSettingItem()
 		{
 			var homeItemPath = Sitecore.Context.Site.ContentStartPath;
-			var siteSettingTemplateName = ConfigurationManager.AppSettings["SiteSettingTemplateName"];
+			var siteSettingTemplateName = SitecoreHardcode.SiteSettingTemplateName;
 			if (siteSettingTemplateName.IsNullOrEmpty())
 			{
 				throw new NullReferenceException();

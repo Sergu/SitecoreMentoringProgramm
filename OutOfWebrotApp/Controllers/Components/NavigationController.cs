@@ -27,7 +27,6 @@ namespace OutOfWebrotApp.Controllers.Components
 			return View("~/Views/Components/Navigation/Navigation.cshtml", navigationModel);
         }
 
-	    [HttpGet]
 	    public ActionResult Language()
 	    {
 		    var languages = _languageService.GetAllLanguages();

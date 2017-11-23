@@ -4,11 +4,7 @@
 
 
 
-<ul class="nav navbar-nav">
-    @foreach (var navigationItem in Model.NavigationItems)
-    {
-        <li class=""><a href="@navigationItem.Url">@navigationItem.Title</a></li>
-    }
-    
-    @Html.Action("Language","Navigation")
-</ul>
+@foreach (var navigationItem in Model.NavigationItems)
+{
+    <li class=""><a href="@navigationItem.Url">@navigationItem.Title</a></li>
+}
