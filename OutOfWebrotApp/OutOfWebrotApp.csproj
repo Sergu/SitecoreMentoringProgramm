@@ -196,7 +196,6 @@
     <Content Include="App_Data\Images\TagsTree\imgs\radio_on.gif" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\Styles\AboutLayout\blog.css" />
-    <Content Include="Content\Styles\Blog\HomeLayout.css" />
     <Content Include="Content\Styles\Components\Search\Search.css" />
     <Content Include="Content\Styles\Components\TagsTree\dist\jstree.js" />
     <Content Include="Content\Styles\Components\TagsTree\dist\jstree.min.js" />
@@ -215,7 +214,7 @@
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\DependencyInjectionConfigurator.cs" />
+    <Compile Include="Configurator\DependencyInjectionConfigurator.cs" />
     <Compile Include="Controllers\Components\PostsTagsController.cs" />
     <Compile Include="Controllers\Components\SearchController.cs" />
     <Compile Include="Controllers\Pages\AboutController.cs" />
@@ -230,40 +229,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\SitecoreHardcode.cs" />
-    <Compile Include="Helpers\SitecoreHelper.cs" />
-    <Compile Include="Helpers\TagsTreeHelper.cs" />
-    <Compile Include="Models\Components\Footer\SocialNetwork.cs" />
-    <Compile Include="Models\Components\Footer\SocialNetworks.cs" />
-    <Compile Include="Models\Components\Navigation\Language.cs" />
-    <Compile Include="Models\Components\Navigation\Languages.cs" />
-    <Compile Include="Models\Components\Navigation\NavigationItem.cs" />
-    <Compile Include="Models\Components\SearchIndex\PostSearchIndexModel.cs" />
-    <Compile Include="Models\Components\TagsTree\CategoryTreeModel.cs" />
-    <Compile Include="Models\Components\TagsTree\Serialization\JsTreeData.cs" />
-    <Compile Include="Models\Components\TagsTree\Serialization\JsTreeWrapModel.cs" />
-    <Compile Include="Models\Components\TagsTree\Serialization\Subtree.cs" />
-    <Compile Include="Models\Components\TagsTree\TagsTreeModel.cs" />
-    <Compile Include="Models\Pages\About\AboutPageModel.cs" />
-    <Compile Include="Models\Components\Navigation\NavigationModel.cs" />
-    <Compile Include="Models\Pages\Post\Comment.cs" />
-    <Compile Include="Models\Pages\Post\PostItemModel.cs" />
-    <Compile Include="Models\Components\Slider\Picture.cs" />
-    <Compile Include="Models\Components\Slider\Slider.cs" />
-    <Compile Include="Models\Pages\Search\SearchModel.cs" />
-    <Compile Include="Models\Services\SearchEngineService\SearchEngineSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search\ComputedFields\PostTagsStringComputedField.cs" />
-    <Compile Include="Services\Implementations\Language\LanguageService.cs" />
-    <Compile Include="Services\Implementations\Navigation\NavigationService.cs" />
-    <Compile Include="Services\Implementations\Publishing\PublishingService.cs" />
-    <Compile Include="Services\Implementations\Search\SearchEngineService.cs" />
-    <Compile Include="Services\Implementations\Search\SearchService.cs" />
-    <Compile Include="Services\Interfaces\Language\ILanguageService.cs" />
-    <Compile Include="Services\Interfaces\Navigation\INavigationService.cs" />
-    <Compile Include="Services\Interfaces\Publishing\IPublishingService.cs" />
-    <Compile Include="Services\Interfaces\Search\ISearchEngineService.cs" />
-    <Compile Include="Services\Interfaces\Search\ISearchService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -274,12 +240,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="App_Config\Include\zzz\DependencyConfig.config" />
-    <Content Include="App_Config\Include\Index\Blog\BlogPostSearchIndex.config" />
-    <Content Include="App_Config\Include\Index\Blog\BlogPostSearchConfiguration.config" />
-    <Content Include="App_Config\Include\SiteDefinition\SiteDefinition.config" />
-    <Content Include="App_Config\Include\Index\SitecoreBlog\SitecoreBlogPostSearchConfiguration.config" />
-    <Content Include="App_Config\Include\Index\SitecoreBlog\SitecoreBlogPostSearchIndex.config" />
+    <Content Include="App_Config\Include\SiteDefinition\SitesDefinition.config" />
+    <Content Include="App_Config\Include\Dependency\DependencyConfig.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -305,7 +267,10 @@
     <Folder Include="Content\Styles\Footer\" />
     <Folder Include="Content\Styles\NewFolder1\" />
     <Folder Include="Content\Styles\Page\" />
-    <Folder Include="Models\Pages\Posts\" />
+    <Folder Include="Models\Components\" />
+    <Folder Include="Models\Pages\" />
+    <Folder Include="Models\Services\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config">
@@ -313,7 +278,6 @@
     </Content>
     <Content Include="App_Config\ConnectionStrings.config" />
     <None Include="Properties\PublishProfiles\Dev.pubxml" />
-    <Content Include="Views\Shared\HomeLayout.cshtml" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Components\Navigation\Navigation.cshtml" />
@@ -332,10 +296,8 @@
     <Content Include="Views\Components\CategoryTree\CategoryTree.cshtml" />
     <Content Include="Views\Pages\Posts\PartialPostsView.cshtml" />
     <Content Include="Views\Components\SubstringPostSearch\SubstringPostSearch.cshtml" />
-    <Content Include="Views\Shared\PrintLayout.cshtml" />
     <Content Include="Views\Pages\Post\PostPrintView.cshtml" />
     <Content Include="Views\Components\Navigation\Language.cshtml" />
-    <Content Include="Views\Shared\SitecoreBlogLayout.cshtml" />
     <Content Include="Views\Components\Footer\SocialNetworks.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -346,6 +308,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InfrastructureModule\InfrastructureModule.csproj">
+      <Project>{98ac77d0-57f2-411e-903b-899a3d4c64e8}</Project>
+      <Name>InfrastructureModule</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

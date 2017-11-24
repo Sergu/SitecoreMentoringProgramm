@@ -2,8 +2,8 @@
 using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
-using OutOfWebrotApp.Helpers;
-using OutOfWebrotApp.Models.Components.Slider;
+using InfrastructureModule.Helpers;
+using InfrastructureModule.Models.Components.Slider;
 using Sitecore.Data.Fields;
 using Sitecore.Mvc.Presentation;
 using Sitecore.Resources.Media;
@@ -25,7 +25,7 @@ namespace OutOfWebrotApp.Controllers.Components
 			        return View("~/Views/Errors/ExperienceEditorError.cshtml");
 		        }
 
-		        var emptySliderModel = new Models.Components.Slider.Slider()
+		        var emptySliderModel = new Slider()
 		        {
 			        Pictures = new List<Picture>()
 		        };
@@ -53,7 +53,7 @@ namespace OutOfWebrotApp.Controllers.Components
 		        contentUrl = MediaManager.GetMediaUrl(x),
 				alt = x.Fields["Alt"].HasValue ? x.Fields["Alt"].Value : string.Empty
 	        }).ToList();
-	        var sliderModel = new Models.Components.Slider.Slider()
+	        var sliderModel = new Slider()
 	        {
 		        Pictures = pictures,
 				Speed	= sliderSpeed

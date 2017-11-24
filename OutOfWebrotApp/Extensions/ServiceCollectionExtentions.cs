@@ -5,10 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 using Microsoft.Extensions.DependencyInjection;
-using System.Web.Http;
 
 namespace OutOfWebrotApp.Extensions
 {
@@ -18,12 +17,15 @@ namespace OutOfWebrotApp.Extensions
 		public static void AddMvcControllersInCurrentAssembly(this IServiceCollection serviceCollection)
 		{
 			AddMvcControllers(serviceCollection, Assembly.GetCallingAssembly());
-		}
+			AddMvcControllers(serviceCollection, new string[] {"*App"});
+		}                                                             
 
 		public static void AddMvcControllers(this IServiceCollection serviceCollection, params string[] assemblyFilters)
 		{
 			var assemblyNames = new HashSet<string>(assemblyFilters.Where(filter => !filter.Contains('*')));
 			var wildcardNames = assemblyFilters.Where(filter => filter.Contains('*')).ToArray();
+
+			var domainAssemblies = AppDomain.CurrentDomain.GetAssemblies();
 
 			var assemblies = AppDomain.CurrentDomain.GetAssemblies().Where(assembly =>
 			{

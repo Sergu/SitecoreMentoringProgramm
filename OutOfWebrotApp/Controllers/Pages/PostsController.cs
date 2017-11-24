@@ -5,20 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using OutOfWebrotApp.Helpers;
-using OutOfWebrotApp.Models.Components.TagsTree;
-using OutOfWebrotApp.Models.Pages.Post;
-using OutOfWebrotApp.Models.Pages.Search;
-using OutOfWebrotApp.Services.Interfaces.Search;
+using InfrastructureModule.Helpers;
+using InfrastructureModule.Models.Components.TagsTree;
+using InfrastructureModule.Models.Pages.Search;
+using InfrastructureModule.Services.Interfaces.Search;
 using Sitecore.Data;
-using Sitecore.Data.Fields;
-using Sitecore.Data.Items;
-using Sitecore.Links;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Pipelines.Rules.Taxonomy;
-using Sitecore.Shell.Feeds.FeedTypes;
-using Sitecore.StringExtensions;
-using Sitecore.Web.UI.XslControls;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
@@ -40,8 +31,6 @@ namespace OutOfWebrotApp.Controllers.Pages
 	        {
 		        subString = param;
 	        }
-
-	        var it = Sitecore.Context.Item;
 
 	        var searchResult = _searchService.SearchPosts(subString, 1, new List<ID>(), new List<ID>());
 
@@ -68,7 +57,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 	    public ActionResult TagsTree()
 	    {
 		    var postTagTreeRootItem = SitecoreHelper.GetPostTagtreeRootItem();
-		    var tagsTreeJson = TagsTreeHelper.GetTagsTreeJson(postTagTreeRootItem);
+		    var tagsTreeJson = System.Web.Helpers.Json.Encode(TagsTreeHelper.GetTagsTree(postTagTreeRootItem));
 
 		    var tagsTreeModel = new TagsTreeModel()
 		    {
@@ -84,7 +73,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 		{
 
 			var postCategoryRootItem = SitecoreHelper.GetPostCategoryrootItemId();
-		    var categoryTreeJson = TagsTreeHelper.GetTagsTreeJson(postCategoryRootItem);
+		    var categoryTreeJson = System.Web.Helpers.Json.Encode(TagsTreeHelper.GetTagsTree(postCategoryRootItem));
 		    var categoryTreeModel = new CategoryTreeModel()
 		    {
 			    JsonCategoryTree = categoryTreeJson

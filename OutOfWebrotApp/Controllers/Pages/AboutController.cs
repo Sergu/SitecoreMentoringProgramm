@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using OutOfWebrotApp.Models.Pages.About;
+using InfrastructureModule.Models.Pages.About;
 using Sitecore.Mvc.Presentation;
 
 namespace OutOfWebrotApp.Controllers.Pages

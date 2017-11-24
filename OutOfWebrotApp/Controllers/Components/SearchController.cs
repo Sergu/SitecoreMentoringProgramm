@@ -1,9 +1,7 @@
-﻿using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using OutOfWebrotApp.Helpers;
-using OutOfWebrotApp.Models.Pages.Search;
-using OutOfWebrotApp.Services.Interfaces.Search;
+﻿using System.Web.Mvc;
+using InfrastructureModule.Helpers;
+using InfrastructureModule.Models.Pages.Search;
+using InfrastructureModule.Services.Interfaces.Search;
 using Sitecore.Links;
 
 namespace OutOfWebrotApp.Controllers.Components

@@ -1,5 +1,6 @@
-﻿@using Sitecore.Mvc
-@model OutOfWebrotApp.Models.Pages.Post.PostItemModel
+﻿@using Infrastructure.Helpers
+@using Sitecore.Mvc
+@model InfrastructureModule.Models.Pages.Post.PostItemModel
 
 
         
@@ -34,10 +35,17 @@
 
 </div><!-- /.blog-main -->
 
+@{
+    var postsItem = SitecoreHelper.GetPostsItem();
+    var postAboutTitle = postsItem.Fields["PostAboutTitle"].Value;
+    var postAboutDescription = postsItem.Fields["PostAboutdescription"].Value;
+}
+
+
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
     <div class="sidebar-module sidebar-module-inset">
-        <h4>@Sitecore.Globalization.Translate.Text("A.About")</h4>
-        <p>@Sitecore.Globalization.Translate.Text("A.AboutContent")</p>
+        <h4>@postAboutTitle</h4>
+        <p>@postAboutDescription</p>
     </div>
     <div class="sidebar-module">
         <h4>@Sitecore.Globalization.Translate.Text("C.Category")</h4>

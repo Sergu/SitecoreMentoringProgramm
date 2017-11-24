@@ -90,9 +90,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OutOfWebrotApp\OutOfWebrotApp.csproj">
-      <Project>{8a099624-6293-4fee-bd27-4240c88cacc7}</Project>
-      <Name>OutOfWebrotApp</Name>
+    <ProjectReference Include="..\InfrastructureModule\InfrastructureModule.csproj">
+      <Project>{98ac77d0-57f2-411e-903b-899a3d4c64e8}</Project>
+      <Name>InfrastructureModule</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

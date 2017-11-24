@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using NUnit.Framework.Constraints;
-using OutOfWebrotApp.Models.Components.Navigation;
-using OutOfWebrotApp.Services.Implementations.Navigation;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.FakeDb;
 using Sitecore.Links;
+using InfrastructureModule.Services.Implementations.Navigation;
+using InfrastructureModule.Models.Components.Navigation;
 
 namespace OutOfWebRootAppTests.Services
 {

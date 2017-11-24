@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
-using OutOfWebrotApp.Helpers;
-using OutOfWebrotApp.Services.Interfaces.Language;
-using OutOfWebrotApp.Services.Interfaces.Navigation;
+using InfrastructureModule.Helpers;
+using InfrastructureModule.Services.Interfaces.Language;
+using InfrastructureModule.Services.Interfaces.Navigation;
 
 namespace OutOfWebrotApp.Controllers.Components
 {
@@ -30,9 +30,9 @@ namespace OutOfWebrotApp.Controllers.Components
 	    public ActionResult Language()
 	    {
 		    var languages = _languageService.GetAllLanguages();
-
-		    var url = Request.Url.AbsoluteUri;
-		    var itemUrl = url.Contains("?") ? url.Split(new char[] {'?'}, StringSplitOptions.RemoveEmptyEntries).First() : url;
+		    var url = this.Request.Url.AbsoluteUri;
+			var uri = new Uri(url);
+		    var itemUrl = uri.GetLeftPart(UriPartial.Path);
 		    languages.ItemUrl = itemUrl;
 
 		    return View("~/Views/Components/Navigation/Language.cshtml", languages);
