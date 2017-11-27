@@ -1,0 +1,26 @@
+﻿@model InfrastructureModule.Models.Pages.Post.PostItemModel
+
+
+
+<div class="jumbotron">
+    <h3>@Model.Title</h3>
+</div>
+
+<div class="col-sm-8 blog-main">
+
+    <div class="blog-post">
+        <h2 class="blog-post-title">@Model.Title</h2>
+        <p class="blog-post-meta">
+            @Model.Date by <a href="#">@Model.Author</a>
+        </p>
+
+        <p>@Model.Subtitle</p>
+        <hr>
+
+        <blockquote>
+            <p>@Model.Body</p>
+        </blockquote>
+
+    </div>
+
+</div>

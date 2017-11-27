@@ -1,0 +1,9 @@
+﻿@model InfrastructureModule.Models.Components.Navigation.NavigationModel
+
+<div class="footer_info">
+    @foreach (var navigationItem in Model.NavigationItems)
+    {
+        <a href="@navigationItem.Url">@navigationItem.Title</a>
+    }
+    <p class="text-muted">@Sitecore.Globalization.Translate.Text("F.Footer")</p>
+</div>

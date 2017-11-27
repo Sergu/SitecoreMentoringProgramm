@@ -1,0 +1,20 @@
+﻿@model InfrastructureModule.Models.Components.TagsTree.CategoryTreeModel
+
+<h3>@Sitecore.Globalization.Translate.Text("C.Category")</h3>
+<hr />
+
+<div id="categoryTreeBox" class="col-md-12"></div>
+
+<br/>
+
+<script>
+    $(function () {
+
+        var params = {
+            core: @Html.Raw(Model.JsonCategoryTree),
+            plugins: ["checkbox"]
+        };
+
+        var tree = $('#categoryTreeBox').jstree(params);
+    })
+</script>

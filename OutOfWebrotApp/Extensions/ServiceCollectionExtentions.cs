@@ -16,7 +16,6 @@ namespace OutOfWebrotApp.Extensions
 		[MethodImpl(MethodImplOptions.NoInlining)]
 		public static void AddMvcControllersInCurrentAssembly(this IServiceCollection serviceCollection)
 		{
-			AddMvcControllers(serviceCollection, Assembly.GetCallingAssembly());
 			AddMvcControllers(serviceCollection, new string[] {"*App"});
 		}                                                             
 

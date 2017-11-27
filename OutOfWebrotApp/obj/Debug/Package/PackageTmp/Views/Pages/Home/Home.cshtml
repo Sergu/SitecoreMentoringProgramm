@@ -1,0 +1,7 @@
+﻿@using Sitecore.Mvc
+
+    
+<div class="jumbotron">
+    <h3>@Html.Sitecore().CurrentItem.Fields["Title"].Value</h3>
+    <p>@Html.Sitecore().CurrentItem.Fields["Description"].Value</p>
+</div>
