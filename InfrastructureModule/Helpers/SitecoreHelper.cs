@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -66,6 +67,37 @@ namespace InfrastructureModule.Helpers
 			}
 
 			return Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{siteSettingTemplateName}']");
+		}
+
+		public static Item GetNotFoundPageItem()
+		{
+			var cont = Sitecore.Context.Database;
+			var homeItemPath = Sitecore.Context.Site.StartPath;
+			var notFoundPageTemplateName = SitecoreHardcode.NotFoundPageTemplateName;
+			if (notFoundPageTemplateName.IsNullOrEmpty())
+			{
+				throw new NullReferenceException();
+			}
+
+			return Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{notFoundPageTemplateName}']");
+		}
+
+		public static Item GetEmailSettingsItem()
+		{
+			var homeItemPath = Sitecore.Context.Site.ContentStartPath;
+			var emailSettingsTemplateName = SitecoreHardcode.EmailSettingsTemplateName;
+			var emailSettingsItem =
+				Sitecore.Context.Database.SelectSingleItem(
+					$"fast:{homeItemPath}/local storage//*[@@templatekey='{emailSettingsTemplateName}']");
+
+			return emailSettingsItem;
+		}
+
+		public static Item[] GetAllSitesRootItems()
+		{
+			var siteTemplateName = SitecoreHardcode.SiteTemplateName;
+			var result = Sitecore.Context.Database.SelectItems($"fast:/sitecore/content/*[@@templatekey='{siteTemplateName}']/home/posts");
+			return result;
 		}
 	}
 }

@@ -16,9 +16,13 @@ namespace OutOfWebrotApp.Controllers.Components
         public ActionResult Index()
         {
 	        int sliderSpeed;
-	        var renderingContext = RenderingContext.Current.Rendering.Item;
+	        //var renderingContext = RenderingContext.Current.Rendering.Item;
 
-	        if (renderingContext == null)
+	        var siteSettingsItem = SitecoreHelper.GetSiteSettingItem();
+	        var sliderDataSourceItemId = siteSettingsItem.Fields["SliderDataSource"].Value;
+	        var sliderDataSourceItem = Sitecore.Context.Database.GetItem(sliderDataSourceItemId);
+
+	        if (sliderDataSourceItem == null)
 	        {
 		        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
 		        {
@@ -45,7 +49,7 @@ namespace OutOfWebrotApp.Controllers.Components
 	        {
 		        sliderSpeed = defaultSliderSpeed;
 	        }
-			var images = renderingContext.Fields["Images"];
+			var images = sliderDataSourceItem.Fields["Images"];
 	        var guidFields = new MultilistField(images);
 	        var guids = guidFields.GetItems();
 	        var pictures = guids.Select(x => new Picture()
@@ -56,7 +60,8 @@ namespace OutOfWebrotApp.Controllers.Components
 	        var sliderModel = new Slider()
 	        {
 		        Pictures = pictures,
-				Speed	= sliderSpeed
+				Speed	= sliderSpeed,
+				ContextItem = sliderDataSourceItem
 	        };
 
 	        return View("~/Views/Components/Slider/Slider.cshtml", sliderModel);

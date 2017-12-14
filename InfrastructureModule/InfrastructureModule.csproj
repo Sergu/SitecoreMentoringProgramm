@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -74,18 +76,22 @@
     <Compile Include="Models\Components\TagsTree\Serialization\JsTreeWrapModel.cs" />
     <Compile Include="Models\Components\TagsTree\Serialization\Subtree.cs" />
     <Compile Include="Models\Components\TagsTree\TagsTreeModel.cs" />
+    <Compile Include="Models\Emailing\FreshPostsResult.cs" />
     <Compile Include="Models\Pages\About\AboutPageModel.cs" />
+    <Compile Include="Models\Pages\Errors\PageNotFound.cs" />
     <Compile Include="Models\Pages\Post\Comment.cs" />
     <Compile Include="Models\Pages\Post\PostItemModel.cs" />
     <Compile Include="Models\Pages\Search\SearchModel.cs" />
     <Compile Include="Models\Services\SearchEngineService\SearchEngineSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search\ComputedFileds\PostTagsStringComputedField.cs" />
+    <Compile Include="Services\Implementations\Email\EmailService.cs" />
     <Compile Include="Services\Implementations\Language\LanguageService.cs" />
     <Compile Include="Services\Implementations\Navigation\NavigationService.cs" />
     <Compile Include="Services\Implementations\Publishing\PublishingService.cs" />
     <Compile Include="Services\Implementations\Search\SearchEngineService.cs" />
     <Compile Include="Services\Implementations\Search\SearchService.cs" />
+    <Compile Include="Services\Interfaces\Email\IEmailService.cs" />
     <Compile Include="Services\Interfaces\Language\ILanguageService.cs" />
     <Compile Include="Services\Interfaces\Navigation\INavigationService.cs" />
     <Compile Include="Services\Interfaces\Publishing\IPublishingService.cs" />

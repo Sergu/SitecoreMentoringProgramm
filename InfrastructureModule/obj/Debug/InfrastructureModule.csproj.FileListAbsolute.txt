@@ -11,4 +11,3 @@ D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Microsoft.Extension
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Newtonsoft.Json.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.dll
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.pdb
-D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.csprojResolveAssemblyReference.cache

@@ -9,6 +9,7 @@ using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Components.TagsTree;
 using InfrastructureModule.Models.Pages.Search;
 using InfrastructureModule.Services.Interfaces.Search;
+using OutOfWebrotApp.Scheduling;
 using Sitecore.Data;
 
 namespace OutOfWebrotApp.Controllers.Pages
@@ -32,7 +33,10 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        subString = param;
 	        }
 
-	        var searchResult = _searchService.SearchPosts(subString, 1, new List<ID>(), new List<ID>());
+			var item = SitecoreHelper.GetSiteSettingItem();
+			var indexName = item.Fields["PostIndex"].Value;
+
+			var searchResult = _searchService.SearchPosts(indexName, subString, 1, new List<ID>(), new List<ID>());
 
 	        if (searchResult == null)
 	        {
@@ -43,6 +47,11 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 				return View("~/Views/Pages/Posts/Posts.cshtml", new SearchModel());
 			}
+
+	        var postsStateTracker = new PostsStateTracker(_searchService);
+
+	        postsStateTracker.FreshPostsDispatchingByEmail();
+
 
 			return View("~/Views/Pages/Posts/Posts.cshtml", searchResult);
         }
@@ -88,8 +97,10 @@ namespace OutOfWebrotApp.Controllers.Pages
 			var postcategories = categories == null ? new List<ID>() : categories.Select(c => new ID(c)).ToList();
 			var currentPage = page;
 			var substring = title;
+			var item = SitecoreHelper.GetSiteSettingItem();
+			var indexName = item.Fields["PostIndex"].Value;
 
-			var searchResult = _searchService.SearchPosts(substring, currentPage, postTags, postcategories);
+			var searchResult = _searchService.SearchPosts(indexName, substring, currentPage, postTags, postcategories);
 
 			var renderResult = RenderRazorViewToString("~/Views/Pages/Posts/PartialPostsView.cshtml", searchResult);
 

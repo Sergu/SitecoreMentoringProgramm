@@ -11,6 +11,7 @@ using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.Data;
 using Sitecore.Mvc.Extensions;
+using Sitecore.Reflection.Emit;
 
 namespace InfrastructureModule.Services.Implementations.Search
 {
@@ -24,12 +25,9 @@ namespace InfrastructureModule.Services.Implementations.Search
 		//	_indexId = item.Fields["PostIndex"].Value;
 		//}
 
-		public SearchEngineSearchResult SearchPosts(string title, int page, int pageCapacity,IList<ID> tags, IList<ID> categories)
-		{
-			var item = SitecoreHelper.GetSiteSettingItem();
-			var indexId = item.Fields["PostIndex"].Value;
-
-			var index = ContentSearchManager.GetIndex(indexId);
+		public SearchEngineSearchResult SearchPosts(string indexName,string title, int page, int pageCapacity,IList<ID> tags, IList<ID> categories)
+		{			
+			var index = ContentSearchManager.GetIndex(indexName);
 			var postTags = tags == null ? new List<ID>() : tags;
 			var postCategories = categories == null ? new List<ID>() : categories;
 			var postTitle = title.IsEmptyOrNull() ? null : title;
@@ -73,6 +71,24 @@ namespace InfrastructureModule.Services.Implementations.Search
 					TotalPageAmount = (int)Math.Ceiling(result.TotalSearchResults / (double)pageCapacity),
 					TotalPostAmount = result.TotalSearchResults
 				};
+			}
+		}
+
+		public List<SearchHit<PostSearchIndexModel>> SearchPosts(string indexName, DateTime date)
+		{
+			var index = ContentSearchManager.GetIndex(indexName);
+
+			var predicate = PredicateBuilder.True<PostSearchIndexModel>();
+			predicate = predicate.And(d => d.Date >= date);
+
+			using (var context = index.CreateSearchContext())
+			{
+				var result = context.GetQueryable<PostSearchIndexModel>()
+					.Where(predicate)
+					.Filter(c => c.Language == Sitecore.Context.Language.Name)
+					.GetResults().ToList();
+
+				return result;
 			}
 		}
 

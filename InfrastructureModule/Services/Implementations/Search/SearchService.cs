@@ -9,6 +9,9 @@ using Sitecore.Data;
 using Sitecore.Data.Fields;
 using Sitecore.Links;
 using Sitecore.StringExtensions;
+using InfrastructureModule.Models.Components.SearchIndex;
+using InfrastructureModule.Models.Emailing;
+using Sitecore.ContentSearch.Linq;
 
 namespace InfrastructureModule.Services.Implementations.Search
 {
@@ -31,9 +34,36 @@ namespace InfrastructureModule.Services.Implementations.Search
 			_postsCapacity = postsCapacity;
 		}
 
-		public SearchModel SearchPosts(string title, int page, IList<ID> tags, IList<ID> categories)
+		public FreshPostsResult GetFreshPostsSinceDate(string indexName, DateTime date)
 		{
-			var searchResult = _searchEngineService.SearchPosts(title, page, _postsCapacity, tags, categories);
+			var searchResult = _searchEngineService.SearchPosts(indexName, date);
+			var postItemCollection = new List<PostItemModel>();
+
+			if (searchResult.Count() == 0)
+			{
+				return new FreshPostsResult()
+				{
+					IsSuccesful = false
+				};
+			}
+
+			foreach (var result in searchResult)
+			{
+				var postItem = ConvertSearchResultModelToPostItemModel(result);
+				postItemCollection.Add(postItem);
+			}
+
+			return new FreshPostsResult()
+			{
+				IsSuccesful = true,
+				SearchResult = postItemCollection
+			};
+
+		}
+
+		public SearchModel SearchPosts(string indexName, string title, int page, IList<ID> tags, IList<ID> categories)
+		{
+			var searchResult = _searchEngineService.SearchPosts(indexName, title, page, _postsCapacity, tags, categories);
 			var siteSettingItem = SitecoreHelper.GetSiteSettingItem();
 
 			if (searchResult.SearchResut.Count() == 0)
@@ -49,23 +79,8 @@ namespace InfrastructureModule.Services.Implementations.Search
 
 			foreach (var result in searchResult.SearchResut)
 			{
-				var resultItem = result.Document.GetItem();
-				MultilistField postTagsField = resultItem.Fields["Tags"];
-				LookupField category = resultItem.Fields["Category"];
-
-				var post = new PostItemModel()
-				{
-					Body = resultItem.Fields["Body"].Value,
-					Subtitle = resultItem.Fields["Subtitle"].Value,
-					Title = resultItem.Fields["Title"].Value,
-					Url = LinkManager.GetItemUrl(resultItem),
-					Author = resultItem.Fields["Author"].Value,
-					Date = (new DateField(resultItem.Fields["Date"])).DateTime,
-					Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
-					Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null ,
-				};
-
-				postCollection.Add(post);
+				var postModel = ConvertSearchResultModelToPostItemModel(result);
+				postCollection.Add(postModel);
 			}
 
 			return new SearchModel()
@@ -77,7 +92,6 @@ namespace InfrastructureModule.Services.Implementations.Search
 				PageCapacity = searchResult.PageCapacity,
 				TotalPostAmount = searchResult.TotalPostAmount
 			};
-
 		}
 
 		public SearchModel SearchPostsByTitle(string title)
@@ -117,6 +131,27 @@ namespace InfrastructureModule.Services.Implementations.Search
 			}
 
 			return searchModel;
+		}
+
+		private PostItemModel ConvertSearchResultModelToPostItemModel(SearchHit<PostSearchIndexModel> searchResultItem)
+		{
+			var resultItem = searchResultItem.Document.GetItem();
+			MultilistField postTagsField = resultItem.Fields["Tags"];
+			LookupField category = resultItem.Fields["Category"];
+
+			var post = new PostItemModel()
+			{
+				Body = resultItem.Fields["Body"].Value,
+				Subtitle = resultItem.Fields["Subtitle"].Value,
+				Title = resultItem.Fields["Title"].Value,
+				Url = LinkManager.GetItemUrl(resultItem),
+				Author = resultItem.Fields["Author"].Value,
+				Date = (new DateField(resultItem.Fields["Date"])).DateTime,
+				Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
+				Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null,
+			};
+
+			return post;
 		}
 	}
 }

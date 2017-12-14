@@ -5,6 +5,7 @@ using Sitecore.ContentSearch.Converters;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data;
 using System.Runtime.Serialization;
+using System;
 
 namespace InfrastructureModule.Models.Components.SearchIndex
 {
@@ -30,5 +31,9 @@ namespace InfrastructureModule.Models.Components.SearchIndex
 		[IndexField("Tags")]
 		[TypeConverter(typeof(IndexFieldEnumerableConverter))]
 		public virtual IEnumerable<ID> Tags { get; set; }
+		[DataMember]
+		[IndexField("Date")]
+		[TypeConverter(typeof(IndexFieldUtcDateTimeValueConverter))]
+		public virtual DateTime Date { get; set; }
 	}
 }
