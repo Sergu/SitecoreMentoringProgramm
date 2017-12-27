@@ -64,6 +64,7 @@
     <Compile Include="Helpers\TagsTreeHelper.cs" />
     <Compile Include="Models\Components\Footer\SocialNetwork.cs" />
     <Compile Include="Models\Components\Footer\SocialNetworks.cs" />
+    <Compile Include="Models\Components\HeroBanner\HeroBanner.cs" />
     <Compile Include="Models\Components\Navigation\Language.cs" />
     <Compile Include="Models\Components\Navigation\Languages.cs" />
     <Compile Include="Models\Components\Navigation\NavigationItem.cs" />

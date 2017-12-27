@@ -217,6 +217,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurator\DependencyInjectionConfigurator.cs" />
+    <Compile Include="Controllers\Components\HeroBannerController.cs" />
     <Compile Include="Controllers\Components\PostsTagsController.cs" />
     <Compile Include="Controllers\Components\SearchController.cs" />
     <Compile Include="Controllers\Pages\AboutController.cs" />
@@ -227,6 +228,7 @@
     <Compile Include="Controllers\Pages\PostController.cs" />
     <Compile Include="Controllers\Components\SliderController.cs" />
     <Compile Include="Controllers\Components\TopPostsController.cs" />
+    <Compile Include="Events\PostEvents.cs" />
     <Compile Include="Extensions\ServiceCollectionExtentions.cs" />
     <Compile Include="Extensions\SitecoreContextSwitcherExtension.cs" />
     <Compile Include="Global.asax.cs">
@@ -247,6 +249,7 @@
     <Content Include="App_Config\Include\SiteDefinition\SitesDefinition.config" />
     <Content Include="App_Config\Include\Dependency\DependencyConfig.config" />
     <Content Include="App_Config\Include\Emails\EmailServerConfiguration.config" />
+    <Content Include="App_Config\Include\Events\OnPostAdded.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -276,6 +279,7 @@
     <Folder Include="Models\Pages\" />
     <Folder Include="Models\Services\" />
     <Folder Include="Views\Error\" />
+    <Folder Include="Views\HeroBanner\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
@@ -305,6 +309,8 @@
     <Content Include="Views\Pages\Post\PostPrintView.cshtml" />
     <Content Include="Views\Components\Navigation\Language.cshtml" />
     <Content Include="Views\Components\Footer\SocialNetworks.cshtml" />
+    <Content Include="Views\Components\RunLocally\RunLocally.cshtml" />
+    <Content Include="Views\Components\HeroBanner\HeroBanner.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

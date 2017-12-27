@@ -38,6 +38,10 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 			var searchResult = _searchService.SearchPosts(indexName, subString, 1, new List<ID>(), new List<ID>());
 
+			var postStateTracker = new PostsStateTracker();
+
+			postStateTracker.FreshPostsDispatchingByEmail(null, null, null);
+
 	        if (searchResult == null)
 	        {
 		        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
@@ -47,11 +51,6 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 				return View("~/Views/Pages/Posts/Posts.cshtml", new SearchModel());
 			}
-
-	        var postsStateTracker = new PostsStateTracker(_searchService);
-
-	        postsStateTracker.FreshPostsDispatchingByEmail();
-
 
 			return View("~/Views/Pages/Posts/Posts.cshtml", searchResult);
         }

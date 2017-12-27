@@ -28,16 +28,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2017 16:20:33</publishTime>
     </File>
     <File Include="bin/BranchBlogApp.dll">
-      <publishTime>12/14/2017 18:06:38</publishTime>
+      <publishTime>12/21/2017 14:48:57</publishTime>
     </File>
     <File Include="bin/BranchBlogApp.pdb">
-      <publishTime>12/14/2017 18:06:38</publishTime>
+      <publishTime>12/21/2017 14:48:57</publishTime>
     </File>
     <File Include="bin/InfrastructureModule.dll">
-      <publishTime>12/14/2017 18:06:16</publishTime>
+      <publishTime>12/21/2017 14:48:43</publishTime>
     </File>
     <File Include="bin/InfrastructureModule.pdb">
-      <publishTime>12/14/2017 18:06:16</publishTime>
+      <publishTime>12/21/2017 14:48:43</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -154,7 +154,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2017 16:20:26</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/28/2017 16:30:41</publishTime>
+      <publishTime>12/21/2017 14:49:20</publishTime>
     </File>
   </ItemGroup>
 </Project>

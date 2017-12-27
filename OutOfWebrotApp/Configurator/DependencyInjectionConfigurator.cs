@@ -1,8 +1,10 @@
 ﻿
+using InfrastructureModule.Services.Implementations.Email;
 using InfrastructureModule.Services.Implementations.Language;
 using InfrastructureModule.Services.Implementations.Navigation;
 using InfrastructureModule.Services.Implementations.Publishing;
 using InfrastructureModule.Services.Implementations.Search;
+using InfrastructureModule.Services.Interfaces.Email;
 using InfrastructureModule.Services.Interfaces.Language;
 using InfrastructureModule.Services.Interfaces.Navigation;
 using InfrastructureModule.Services.Interfaces.Publishing;
@@ -22,6 +24,7 @@ namespace OutOfWebrotApp.Configurator
 			serviceCollection.AddSingleton<IPublishingService, PublishingService>();
 			serviceCollection.AddSingleton<ISearchEngineService, SearchEngineService>();
 			serviceCollection.AddSingleton<ILanguageService, LanguageService>();
+			serviceCollection.AddSingleton<IEmailService, EmailService>();
 
 			serviceCollection.AddMvcControllersInCurrentAssembly();
 		}

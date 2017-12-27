@@ -44,8 +44,9 @@ namespace OutOfWebrotApp.Controllers.Components
 	        var defaultSliderSpeedTemplatePath = SitecoreHelper.GetSiteSettingItem().Fields["SliderDefaultSpeedTemplatePath"].Value;
 	        var defaultSpeedItem = Sitecore.Context.Database.GetItem(defaultSliderSpeedTemplatePath);
 
-			var defaultSliderSpeed = int.Parse(defaultSpeedItem.Fields["Speed"].Value);
-	        if (!int.TryParse(sliderSpeedRenderingParameter, out sliderSpeed))
+			//var defaultSliderSpeed = int.Parse(defaultSpeedItem.Fields["Speed"].Value);
+	        var defaultSliderSpeed = 3000;
+			if (!int.TryParse(sliderSpeedRenderingParameter, out sliderSpeed))
 	        {
 		        sliderSpeed = defaultSliderSpeed;
 	        }

@@ -33,6 +33,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Emails/EmailServerConfiguration.config">
       <publishTime>12/14/2017 13:02:13</publishTime>
     </File>
+    <File Include="App_Config/Include/Events/OnPostAdded.config">
+      <publishTime>12/15/2017 10:03:32</publishTime>
+    </File>
     <File Include="App_Config/Include/Index/Blog/BlogPostSearchConfiguration.config">
       <publishTime>11/22/2017 12:34:12</publishTime>
     </File>
@@ -196,10 +199,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/28/2017 16:06:17</publishTime>
     </File>
     <File Include="bin/InfrastructureModule.dll">
-      <publishTime>12/14/2017 18:06:16</publishTime>
+      <publishTime>12/27/2017 01:56:13</publishTime>
     </File>
     <File Include="bin/InfrastructureModule.pdb">
-      <publishTime>12/14/2017 18:06:16</publishTime>
+      <publishTime>12/27/2017 01:56:13</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -238,10 +241,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/27/2017 15:34:56</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.dll">
-      <publishTime>12/14/2017 18:06:24</publishTime>
+      <publishTime>12/27/2017 01:56:27</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.pdb">
-      <publishTime>12/14/2017 18:06:24</publishTime>
+      <publishTime>12/27/2017 01:56:27</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -633,6 +636,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Controllers/Pages/PostsController.cs">
       <publishTime>11/03/2017 14:13:53</publishTime>
     </File>
+    <File Include="Events/PostEvents.cs">
+      <publishTime>12/15/2017 01:05:49</publishTime>
+    </File>
     <File Include="Extensions/ServiceCollectionExtentions.cs">
       <publishTime>11/24/2017 17:17:32</publishTime>
     </File>
@@ -659,6 +665,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Pipelines/PageNotFoundPipeline.cs">
       <publishTime>12/07/2017 15:04:29</publishTime>
+    </File>
+    <File Include="Scheduling/PostsStateTracker.cs">
+      <publishTime>12/18/2017 17:40:46</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/10/2017 21:09:51</publishTime>
@@ -715,10 +724,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/24/2017 17:29:54</publishTime>
     </File>
     <File Include="Views/Components/Footer/Footer.cshtml">
-      <publishTime>11/27/2017 15:34:54</publishTime>
+      <publishTime>12/15/2017 13:40:58</publishTime>
     </File>
     <File Include="Views/Components/Footer/SocialNetworks.cshtml">
       <publishTime>11/27/2017 15:34:54</publishTime>
+    </File>
+    <File Include="Views/Components/HeroBanner/HeroBanner.cshtml">
+      <publishTime>12/22/2017 15:17:02</publishTime>
     </File>
     <File Include="Views/Components/Navigation/Language.cshtml">
       <publishTime>11/27/2017 15:34:54</publishTime>
@@ -729,8 +741,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Components/Navigation/Search.cshtml">
       <publishTime>11/27/2017 15:34:54</publishTime>
     </File>
+    <File Include="Views/Components/RunLocally/RunLocally.cshtml">
+      <publishTime>12/15/2017 13:43:21</publishTime>
+    </File>
     <File Include="Views/Components/Slider/Slider.cshtml">
-      <publishTime>12/07/2017 11:42:32</publishTime>
+      <publishTime>12/22/2017 15:27:41</publishTime>
     </File>
     <File Include="Views/Components/SubstringPostSearch/SubstringPostSearch.cshtml">
       <publishTime>11/27/2017 15:34:54</publishTime>
@@ -823,7 +838,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:36:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/14/2017 15:34:06</publishTime>
+      <publishTime>12/26/2017 19:58:41</publishTime>
     </File>
   </ItemGroup>
 </Project>

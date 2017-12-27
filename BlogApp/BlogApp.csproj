@@ -157,7 +157,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\Pipelines\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
     <Folder Include="Controllers\Components\" />
@@ -172,6 +171,8 @@
     <Content Include="App_Config\Include\Index\BlogPostSearchConfiguration.config" />
     <Content Include="App_Config\Include\Index\BlogPostSearchIndex.config" />
     <Content Include="App_Config\Include\SiteDefinition\BlogDefinition.config" />
+    <Content Include="App_Config\Include\Pipelines\PageNotFoundConfig.config" />
+    <Content Include="App_Config\Include\Pipelines\SetNotFoundStatusProcessorConfig.config" />
     <None Include="Properties\PublishProfiles\BlogAppDev.pubxml" />
     <Content Include="Views\Shared\HomeLayout.cshtml" />
     <Content Include="Views\Shared\PrintLayout.cshtml" />

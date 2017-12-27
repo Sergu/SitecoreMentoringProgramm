@@ -1,6 +1,6 @@
 ﻿@model InfrastructureModule.Models.Components.Navigation.NavigationModel
 
-<div class="footer_info">
+<div class="footer_info" style="display: inline-block; width: 40%;">
     @foreach (var navigationItem in Model.NavigationItems)
     {
         <a href="@navigationItem.Url">@navigationItem.Title</a>

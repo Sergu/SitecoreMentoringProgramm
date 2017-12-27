@@ -93,10 +93,20 @@ namespace InfrastructureModule.Helpers
 			return emailSettingsItem;
 		}
 
+		public static Item GetGlobalEmailSettingsItem()
+		{
+			var masterDb = Sitecore.Configuration.Factory.GetDatabase("master");
+			var emailSettingsTemplateName = SitecoreHardcode.EmailSettingsTemplateName;
+			var localStorageTemplateName = SitecoreHardcode.LocalStorageTemplateName;
+			var query = $"/sitecore/content/*[@@templatekey='{localStorageTemplateName}']//*[@@templatekey='{emailSettingsTemplateName}']";
+			var result = masterDb.SelectSingleItem(query);
+			return result;
+		}
+
 		public static Item[] GetAllSitesRootItems()
 		{
 			var siteTemplateName = SitecoreHardcode.SiteTemplateName;
-			var result = Sitecore.Context.Database.SelectItems($"fast:/sitecore/content/*[@@templatekey='{siteTemplateName}']/home/posts");
+			var result = Sitecore.Context.Database.SelectItems($"fast:/sitecore/content/*[@@templatekey='{siteTemplateName}']");
 			return result;
 		}
 	}

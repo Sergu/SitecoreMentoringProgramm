@@ -26,5 +26,10 @@ namespace OutOfWebrotApp.Controllers.Components
 
 		    return View("~/Views/Components/Footer/Footer.cshtml", navigationModel);
         }
+
+	    public ActionResult RunLocally()
+	    {
+			return View("~/Views/Components/RunLocally/RunLocally.cshtml");
+		}
     }
 }

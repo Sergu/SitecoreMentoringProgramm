@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 using InfrastructureModule.Models.Emailing;
 using InfrastructureModule.Models.Pages.Post;
 using InfrastructureModule.Services.Interfaces.Email;
+using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
-using Sitecore.Web.UI.XslControls;
+using Sitecore.Data.Fields;
+using Sitecore.Links;
+using Sitecore.Web;
 
 namespace InfrastructureModule.Services.Implementations.Email
 {
@@ -48,6 +49,24 @@ namespace InfrastructureModule.Services.Implementations.Email
 
 			SendEmail(emailFrom, emailToSendReports, fromPassword, emailReportSubjectTemplate,  emailReportBodyTemplate);
 		}
+
+		public void SendCreatedPostByEmail(Item emailSettings, SiteInfo siteInfo,Item postItem)
+		{
+			var postModel = ConvertPostItemIntoPostModel(postItem, siteInfo);
+			var masterDb = Sitecore.Configuration.Factory.GetDatabase("master");
+
+			var emailPostTemlateItemId = new ID(emailSettings.Fields["NewPostEmailTemplate"].Value);
+			var emailPostTemplateItem = masterDb.GetItem(emailPostTemlateItemId);
+			var emailToSendReports = emailSettings.Fields["EmailToSendReports"].Value;
+			var emailFrom = emailSettings.Fields["EmailFrom"].Value;
+			var fromPassword = emailSettings.Fields["FromPassword"].Value;
+
+			var emailSubject = "New item have been created";
+			var emailbody = CreateEmailPostTemplateString(emailPostTemplateItem, postModel);
+
+			SendEmail(emailFrom, emailToSendReports, fromPassword, emailSubject, emailbody);
+		}
+
 		public void SendEmail(string emailFrom, string emailTo, string fromPassword, string subject, string body)
 		{
 			var fromAddress = new MailAddress(emailFrom, "From Name");
@@ -88,6 +107,33 @@ namespace InfrastructureModule.Services.Implementations.Email
 			dateTemplate = dateTemplate.Replace("[content]", post.Date.ToString());
 
 			return String.Concat(authorTemplate, nameTemplate, postTitleTemplate, linkTemplate, dateTemplate);
+		}
+
+		private PostItemModel ConvertPostItemIntoPostModel(Item postItem, SiteInfo siteInfo)
+		{
+			var savedContextSite = Context.Site;
+			var newContextSite = new Sitecore.Sites.SiteContext(siteInfo);
+			Context.Site = newContextSite;
+			var resultItem = postItem;
+			MultilistField postTagsField = resultItem.Fields["Tags"];
+			LookupField category = resultItem.Fields["Category"];
+
+			//var newContextSite = new Sitecore.Sites.SiteContext();
+			var post = new PostItemModel()
+			{
+				Body = resultItem.Fields["Body"].Value,
+				Subtitle = resultItem.Fields["Subtitle"].Value,
+				Title = resultItem.Fields["Title"].Value,
+				Url = LinkManager.GetItemUrl(resultItem),
+				Author = resultItem.Fields["Author"].Value,
+				Date = (new DateField(resultItem.Fields["Date"])).DateTime,
+				Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
+				Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null,
+			};
+
+			Context.Site = savedContextSite;
+
+			return post;
 		}
 	}
 }

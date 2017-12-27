@@ -20,44 +20,48 @@ namespace OutOfWebrotApp.Scheduling
 {
 	public class PostsStateTracker
 	{
-		private readonly ISearchService _searchService;
+		//private readonly ISearchService _searchService;
+		//private readonly IEmailService _emailService;
 
-		public PostsStateTracker(ISearchService searchService)
-		{
-			_searchService = searchService;
-		}
+		//public PostsStateTracker(ISearchService searchService, IEmailService emailService)
+		//{
+		//	_searchService = searchService;
+		//	_emailService = emailService;
+		//}
 
 		public void FreshPostsDispatchingByEmail(Item[] items, CommandItem command, ScheduleItem schedule)
 		{
-			Log.Info($"PostStateTracker SendNewPosts command:{command.Name}, {DateTime.Now}", this);
-
-			var c = Sitecore.Context.Item;
-		}
-
-		public void FreshPostsDispatchingByEmail()
-		{
-			Log.Info($"Static PostStateTracker SendNewPosts, {DateTime.Now}", this);
-
-			var fromDate = DateTime.Now.AddMonths(-6);
-			var savedContextSite = Context.Site;
-			var sitesRootItems = SitecoreHelper.GetAllSitesRootItems();
-			IEmailService emailService = new EmailService();
-
-			foreach (var rootSiteItem in sitesRootItems)
+			using (new DatabaseSwitcher(Sitecore.Configuration.Factory.GetDatabase("master")))
 			{
-				var temp = rootSiteItem.GetSiteInfo();
-				var newContextSite = new Sitecore.Sites.SiteContext(temp);
-				Context.Site = newContextSite;
-				var currentSiteSettingItem = SitecoreHelper.GetSiteSettingItem();
-				var currentSiteEmailSetting = SitecoreHelper.GetEmailSettingsItem();
-				var indexName = currentSiteSettingItem.Fields["PostIndex"].Value;
+				var db = Sitecore.Context.Database;
+				var _emailService = new EmailService();
+				var _searchService = new SearchService(new SearchEngineService());
 
-				var result = _searchService.GetFreshPostsSinceDate(indexName, fromDate);
+				//Log.Info($"PostStateTracker SendNewPosts command:{command.Name}, {DateTime.Now}", this);
 
-				emailService.SendFreshPostsByEmail(currentSiteEmailSetting, result);
+				var savedContextSite = Context.Site;
+				var sitesRootItems = SitecoreHelper.GetAllSitesRootItems();
+
+				foreach (var rootSiteItem in sitesRootItems)
+				{
+					var temp = rootSiteItem.GetSiteInfo();
+					var newContextSite = new Sitecore.Sites.SiteContext(temp);
+					if (newContextSite.HostName != savedContextSite.HostName)
+					{
+						Context.Site = newContextSite;
+					}
+					var currentSiteSettingItem = SitecoreHelper.GetSiteSettingItem();
+					var currentSiteEmailSetting = SitecoreHelper.GetEmailSettingsItem();
+					var hourTimeInterval = int.Parse(currentSiteEmailSetting.Fields["HourTimeInterval"].Value);
+					var fromDate = DateTime.Now.AddHours(-hourTimeInterval);
+					var indexName = currentSiteSettingItem.Fields["PostIndex"].Value;
+
+					var result = _searchService.GetFreshPostsSinceDate(indexName, fromDate);
+
+					_emailService.SendFreshPostsByEmail(currentSiteEmailSetting, result);
+					Context.Site = savedContextSite;
+				}
 			}
-
-			Context.Site = savedContextSite;
 		}
 	}
 }

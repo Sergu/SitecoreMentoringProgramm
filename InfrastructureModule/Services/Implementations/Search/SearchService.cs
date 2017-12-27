@@ -22,12 +22,22 @@ namespace InfrastructureModule.Services.Implementations.Search
 
 		public SearchService(ISearchEngineService searchEngineService)
 		{
-			var item = SitecoreHelper.GetSiteSettingItem();
-			var capacityConfigValue = item.Fields["PostsPageCapacity"].Value;
 			int postsCapacity;
-			if (capacityConfigValue.IsNullOrEmpty()|| !int.TryParse(capacityConfigValue, out postsCapacity))
+			var defaultPostsPerPageCapacity = SitecoreHardcode.defaultPostsPerPageCapacity;
+			var contextItem = Sitecore.Context.Item;
+			if (contextItem == null)
 			{
-				throw new ArgumentException("Incorrect PostsPageCapacity parameter");
+				postsCapacity = defaultPostsPerPageCapacity;
+			}
+			else
+			{
+				var item = SitecoreHelper.GetSiteSettingItem();
+				var capacityConfigValue = item.Fields["PostsPageCapacity"].Value;
+				if (capacityConfigValue.IsNullOrEmpty() || !int.TryParse(capacityConfigValue, out postsCapacity))
+				{
+					postsCapacity = defaultPostsPerPageCapacity;
+					//throw new ArgumentException("Incorrect PostsPageCapacity parameter");
+				}
 			}
 
 			_searchEngineService = searchEngineService;
@@ -138,13 +148,16 @@ namespace InfrastructureModule.Services.Implementations.Search
 			var resultItem = searchResultItem.Document.GetItem();
 			MultilistField postTagsField = resultItem.Fields["Tags"];
 			LookupField category = resultItem.Fields["Category"];
+			var options = LinkManager.GetDefaultUrlOptions();
+			options.AlwaysIncludeServerUrl = true;
+			options.SiteResolving = true;
 
 			var post = new PostItemModel()
 			{
 				Body = resultItem.Fields["Body"].Value,
 				Subtitle = resultItem.Fields["Subtitle"].Value,
 				Title = resultItem.Fields["Title"].Value,
-				Url = LinkManager.GetItemUrl(resultItem),
+				Url = LinkManager.GetItemUrl(resultItem, options),
 				Author = resultItem.Fields["Author"].Value,
 				Date = (new DateField(resultItem.Fields["Date"])).DateTime,
 				Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
