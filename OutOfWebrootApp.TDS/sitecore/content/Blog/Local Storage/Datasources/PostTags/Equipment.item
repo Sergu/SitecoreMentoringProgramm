@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {1535C8C0-13FB-4C95-9C4F-17F1E09508CF}
+database: master
+path: /sitecore/content/Blog/Local Storage/Datasources/PostTags/Equipment
+parent: {83FE833A-7D9F-4549-8205-BA635DBDB27E}
+name: Equipment
+master: {00000000-0000-0000-0000-000000000000}
+template: {39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}
+templatekey: SubTree
+created: 20171102T144649:636452308099000000
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+250
+----version----
+language: en
+version: 1
+revision: d1497365-c9fb-4d71-8d89-137248a611aa
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 9
+
+Equipment
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171102T144649Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1497365-c9fb-4d71-8d89-137248a611aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171123T145320Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 52202694-4798-4592-a5f7-cc4fe31ded33
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 10
+
+Экипировка
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T125350Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52202694-4798-4592-a5f7-cc4fe31ded33
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T082855Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

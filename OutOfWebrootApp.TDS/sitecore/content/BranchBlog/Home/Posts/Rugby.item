@@ -1,0 +1,102 @@
+----item----
+version: 1
+id: {AE4E0CE3-90EE-448B-B9E6-F593172378BF}
+database: master
+path: /sitecore/content/BranchBlog/Home/Posts/Rugby
+parent: {111B8AF6-73B3-428F-B51C-A822FB65BEDB}
+name: Rugby
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171226T170710:636499048302930000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 16
+
+Gareth Griffiths
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171227T090500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{667BD2B3-613E-45B8-B687-3629E610B2AF}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{6AA88436-0C89-47CF-A2B6-D696BC764D1A}|{E63C1625-AD55-4E84-834D-587D1DBDF808}
+----version----
+language: en
+version: 1
+revision: ca2023b7-2b4d-4499-98f5-fa73aa7e00bf
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 27
+
+Dragons 17-22 Cardiff Blues
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 95
+
+Cardiff Blues completed a nervy Pro14 league double over the Dragons in the Rodney Parade rain.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 583
+
+Tries from Aled Summerhill, Rey Lee-Lo and Tom James had appeared to set up an easy Blues win.
+
+Dragons replied with a try by replacement prop Lloyd Fairbrother and a penalty try before 14-man Blues held on in a frantic finish.
+
+The hosts' three-year league losing streak in Welsh derbies extended to 18 games.
+
+It left Blues to celebrate after beating Dragons in October while Dragons worried about Wales wing Hallam Amos, who limped off late on.
+
+Blues have won their last six encounters against the Dragons and it was a fifth league win this season for Danny Wilson's men.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171226T170710Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ca2023b7-2b4d-4499-98f5-fa73aa7e00bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T090549Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,164 @@
+----item----
+version: 1
+id: {6BC9BC94-7C26-4937-B2F5-0A8D2D75A0A0}
+database: master
+path: /sitecore/content/SitecoreBlog/Home/Posts/Animal
+parent: {DAAD45EA-1B6B-4B93-BC0F-F3DB58C608C4}
+name: Animal
+master: {00000000-0000-0000-0000-000000000000}
+template: {0F64BE07-030B-4091-AE14-E866E9260814}
+templatekey: SitecoreBlogPost
+created: 20171122T161609:636469641698800000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 14
+
+Alina Bradford
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171122T161700Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{53C765B4-3FA0-4153-95A9-17CC6305B2A6}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{8F13D7C1-5C56-4BE9-828D-1A8EEAF05C75}|{7A7E3A5A-506A-4E8C-81DB-C8E36764A89A}
+----version----
+language: en
+version: 1
+revision: e65fa36f-088e-4140-b3b4-70f38c287f65
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 19
+
+Facts About Alpacas
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 82
+
+Adorable, docile and soft, alpacas are prized as pets and cattle around the world.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 322
+
+There are no wild alpacas. Alpacas are domesticated versions of vicuñas, South American ruminants that live high in the Andes. Alpacas are related to llamas, which are domesticated versions of another wild Andean ruminant, the guanaco. While llamas are used as pack animals, alpacas are raised mainly for their soft wool. 
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T161609Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e65fa36f-088e-4140-b3b4-70f38c287f65
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T161733Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: b8f4e169-5866-4d5f-b3fe-1195c1963477
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 105
+
+Обвиняемую в нападении собаку оправдали из-за ожирения: судья не поверил, что она смогла кого-то покусать
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 205
+
+Английский суд освободил от всех обвинений в нападении собаку и ее хозяина Фрэнсиса Торла. Окружной судья решил, что воспитанник по кличке Мишка не мог наброситься на велосипедистку из-за избыточного веса.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 675
+
+Мишку обвинили в нападении на Андреу Остольт, пишет Daily Mail. Девушка заявила, что в апреле 2017 года собака напала на нее и ее терьера во время поездки по парку на трехколесном велосипеде.
+Остольт заявила, что Мишка прыгнула на нее, обнажив клыки, поэтому, защищая своего любимца, девушке пришлось подставить свою ногу, которую Мишка вроде бы и покусала.
+После этого девушка подала в суд на 84-летнего владельца собаки за обладание опасным животным, которое не поддается контролю. На слушаниях Торл заявил, что у Мишки тяжелая форма ожирения (собака весит около 50 килограммов) и поэтому она при всем желании не может даже бегать, не то, что бы еще и прыгать на кого-то.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T161737Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b8f4e169-5866-4d5f-b3fe-1195c1963477
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T161805Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

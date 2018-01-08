@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {8BF94549-D340-4FD8-B3CB-A1E3AC563282}
+database: master
+path: /sitecore/content/SitecoreBlog/Local Storage/Datasources/PostTags/Hockey/Events/Stanley cup
+parent: {8D498B1E-900A-4ADE-9048-D50EC3943D73}
+name: Stanley cup
+master: {00000000-0000-0000-0000-000000000000}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171122T090904:636469385444330000
+
+----version----
+language: en
+version: 1
+revision: 684f26bf-3cb1-4230-93a0-79d2c1d8737d
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 11
+
+Stanley cup
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T095013Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+684f26bf-3cb1-4230-93a0-79d2c1d8737d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171109T095013Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: cf2aa7d8-2eb2-4b04-9cbc-255d561840b8
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 12
+
+Кубок стэнли
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T125706Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cf2aa7d8-2eb2-4b04-9cbc-255d561840b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T125712Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

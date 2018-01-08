@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {95E507FB-3B03-46FE-B682-1642D4784E5E}
+database: master
+path: /sitecore/content/Blog/Home
+parent: {797A67F1-70B9-48F1-BF21-7F87F19110BA}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {AD6A108D-F3D0-4046-9ADC-7E0852D2CD47}
+templatekey: Home
+created: 20171009T090254:636431365746570000
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{E9F6AB0A-A6A2-4487-837A-BD83F6336765}|{FE894CB2-4BAC-4E94-A54D-2D3F4273D979}
+----version----
+language: en
+version: 1
+revision: 14a58981-40d9-42e9-815f-cd4dffa2ab74
+
+----field----
+field: {02E04F85-5EA8-4FC7-9E54-10AFA0AB241B}
+name: Banner
+key: banner
+content-length: 20
+
+Home Banner Sectionn
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 4
+
+Home
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 316
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6CAD2D39-DD4A-46BA-BA88-C6BE566B5D37}"><p:d /></r><r uid="{45652550-DDF2-4F64-B767-313362FC60FE}" p:after="r[@uid='{78F9537E-B201-4D7D-95D0-62C27CC6BFED}']" s:id="{B54FBA0D-B881-4374-BD23-FF7552E1D8FA}" s:ph="body" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171009T090254Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14a58981-40d9-42e9-815f-cd4dffa2ab74
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T101350Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ru-RU
+version: 1
+revision: 8bc7b37d-5b19-42d2-8456-95119f983654
+
+----field----
+field: {E2801BEB-86CD-4451-A120-C5ABE71470DE}
+name: Keywords
+key: keywords
+content-length: 8
+
+домашняя
+----field----
+field: {3269A277-DF9D-42F9-B267-8F8FA82961D4}
+name: Description
+key: description
+content-length: 25
+
+Описание главной страницы
+----field----
+field: {02E5432D-40BB-4D19-A7A3-3211EEDB85C4}
+name: Header
+key: header
+content-length: 12
+
+Добрый вечер
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 17
+
+Домашняя страница
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T112527Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8bc7b37d-5b19-42d2-8456-95119f983654
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T112636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

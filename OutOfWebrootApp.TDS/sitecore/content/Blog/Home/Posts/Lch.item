@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {46D6E82B-555A-4A1F-B066-AF6DBB632E4C}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Lch
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: Lch
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171101T064428:636451154685030000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 4
+
+UEFA
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171101T064500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{94DA96C4-6F8A-484B-AF9F-E0D429E95434}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 116
+
+{E51C6762-9EA0-409B-9A26-B67983E68221}|{12EA80BD-2816-4039-AD23-C3549F98BE87}|{94422FCF-6FAC-4DC9-B1DC-234D93C2E8DF}
+----version----
+language: en
+version: 1
+revision: 67037b15-6da9-4064-9e9c-e9314f6742f5
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 57
+
+Paris and Bayern through, Manchester United still perfect
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 180
+
+Paris Saint-Germain and Bayern München became the first teams into the round of 16 on a night when Manchester United secured a fourth win, Roma beat Chelsea but Barcelona drew 0-0.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 321
+
+Bayern also secured the victory they needed to ensure a round of 16 spot. Kingsley Coman's 22nd-minute goal put the visitors ahead and although Callum McGregor got a deserved equalised with 16 minutes left, Javi Martínez soon headed what proved the winner. Celtic must now concentrate on holding off Anderlecht for third.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171101T064428Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+67037b15-6da9-4064-9e9c-e9314f6742f5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171102T080600Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 8eef72e7-236c-4127-b8bc-6219c5cb7b00
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 65
+
+Кипрский болельщик прорвался к Роналду, притворившись журналистом
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 32
+
+Парня быстро скрутили охранники.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 242
+
+Роналду вместе с «Реалом» прилетел в Никосию на матч группового этапа Лиги чемпионов против АПОЭЛ. Как сообщает AS, возле отеля к португальцу подбежал мужчина и попытался сделать с ним селфи, но был скручен сопровождавшими игрока охранниками.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T154013Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8eef72e7-236c-4127-b8bc-6219c5cb7b00
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T154115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

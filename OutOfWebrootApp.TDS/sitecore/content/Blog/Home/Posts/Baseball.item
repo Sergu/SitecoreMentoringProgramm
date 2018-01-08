@@ -1,0 +1,176 @@
+----item----
+version: 1
+id: {9A848CAE-9E35-4382-8344-91926114938E}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Baseball
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: Baseball
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171102T144632:636452307924700000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 14
+
+Addison Rassel
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171121T153400Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{94DA96C4-6F8A-484B-AF9F-E0D429E95434}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{CD4F5036-8FFF-4662-AF66-538364C8A587}|{94422FCF-6FAC-4DC9-B1DC-234D93C2E8DF}
+----version----
+language: en
+version: 1
+revision: 0ab956c7-999a-4e82-b0d1-61d1b0eee94c
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 40
+
+Elite defenders honored with Gold Gloves
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 143
+
+In today's game of baseball, statistics point increasingly toward the need for airtight defense to supplement good arms and thump at the plate.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 398
+
+Dominance at certain positions continued, with Nolan Arenado of the Rockies claiming his fifth straight Gold Glove and Alex Gordon of the Royals and Jason Heyward of the Cubs also winning for the fifth time. The biggest surprises came at catcher, with two first-time winners unseating big names. Tucker Barnhart of the Reds and Martin Maldonado of the Angels pulled monster upsets for the hardware.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171102T144632Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0ab956c7-999a-4e82-b0d1-61d1b0eee94c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T102651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 4f7ac042-47ea-47c5-8ed2-dfc3ec663924
+
+----field----
+field: {E2801BEB-86CD-4451-A120-C5ABE71470DE}
+name: Keywords
+key: keywords
+content-length: 7
+
+Бейсбол
+----field----
+field: {02E5432D-40BB-4D19-A7A3-3211EEDB85C4}
+name: Header
+key: header
+content-length: 7
+
+Бейсбол
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 64
+
+Игрок рассыпал начос фаната, а в перерыве купил ему новую порцию
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 42
+
+Благородный поступок бейсболиста «Чикаго».
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 259
+
+Бейсболист «Чикаго» Аддисон Расселл, пытаясь достать уходящий мяч, влетел в фан-сектор «Сент-Луиса». Там он наткнулся на болельщика, рассыпал его тарелку с начос (мексиканская закуска – чипсы из кукурузной тортильи с различными добавками) и измазался в соусе.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T153204Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f7ac042-47ea-47c5-8ed2-dfc3ec663924
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T153425Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

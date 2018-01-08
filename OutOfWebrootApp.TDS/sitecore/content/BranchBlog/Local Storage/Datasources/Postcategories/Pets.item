@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {66C29CB1-FF9F-4BA3-996B-C5A2A7ABFE6F}
+database: master
+path: /sitecore/content/BranchBlog/Local Storage/Datasources/Postcategories/Pets
+parent: {2B32C7FC-F45D-41DD-94BB-C6664B57BBB1}
+name: Pets
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {2954AD44-0F70-47D1-99BA-4DDC709E3C5C}
+templatekey: Category
+created: 20171128T150050:636474780505330000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{C630D869-8117-4AFF-8F67-8197AE323EC8}
+----version----
+language: en
+version: 1
+revision: d05ee130-fece-4114-b891-0f2333f91e14
+
+----field----
+field: {9869E861-A70C-4CEE-B28F-8E5C39B8F200}
+name: Value
+key: value
+content-length: 4
+
+Pets
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150050Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d05ee130-fece-4114-b891-0f2333f91e14
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150050Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

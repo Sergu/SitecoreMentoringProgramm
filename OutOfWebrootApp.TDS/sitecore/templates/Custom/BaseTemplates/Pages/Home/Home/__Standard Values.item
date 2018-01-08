@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {6EB9F397-94FA-4E54-B9C9-B4B5024439B4}
+database: master
+path: /sitecore/templates/Custom/BaseTemplates/Pages/Home/Home/__Standard Values
+parent: {AD6A108D-F3D0-4046-9ADC-7E0852D2CD47}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AD6A108D-F3D0-4046-9ADC-7E0852D2CD47}
+templatekey: Home
+created: 20171009T085658:636431362181900000
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{E9F6AB0A-A6A2-4487-837A-BD83F6336765}|{FE894CB2-4BAC-4E94-A54D-2D3F4273D979}|{59B7BF44-DB77-4E7A-94E3-AF70DC1B8DA2}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2527
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{3D260720-DBDF-49BF-9C82-77BA0E0514E0}"><p uid="{41D4C35E-9E15-40AF-ABA8-44A2A200EEA9}" key="body" md="/sitecore/layout/Placeholder Settings/Custom/body" /><p uid="{884C7525-5E39-47B5-8CE6-FFA3929677F0}" key="footer" md="/sitecore/layout/Placeholder Settings/Custom/footer" /><p uid="{5A4E24B4-D1BC-42EF-A2CF-67E4173654F2}" key="navigation" md="/sitecore/layout/Placeholder Settings/Custom/navigation" /><r ds="" id="{9334E7A0-B233-4938-986E-40C17A976D9A}" par="" ph="navigation" uid="{9C3E3C11-C78F-4D40-896E-B6E2493F42B0}" /><r id="{4D86CC7B-EB73-4B4F-ACBF-20DCA14B3DBA}" ph="navigation" uid="{6D0317D9-396D-4FE4-B25F-CDC7CFC19319}" /><r id="{8A0F81A8-3861-4306-B9D4-B0E57E62949D}" ph="navigation" uid="{F6D6A325-72BC-4112-8388-B213A99576AC}" /><r id="{FF5CCADE-B63A-427D-A846-129167FC4611}" ph="body" uid="{CD7EF966-EB6F-4F4D-9C9A-385488EE393F}" /><r ds="{E6540AB9-74CB-47EC-A9D3-70B366CF40A3}" id="{C28B0E48-A8A9-4A81-924E-7A349E4173CF}" par="" ph="body" uid="{78F9537E-B201-4D7D-95D0-62C27CC6BFED}" /><r id="{86509619-CD7F-4CDA-AAB1-F4262A40F7B8}" ph="body" uid="{6CAD2D39-DD4A-46BA-BA88-C6BE566B5D37}" /><r ds="{E6540AB9-74CB-47EC-A9D3-70B366CF40A3}" id="{C28B0E48-A8A9-4A81-924E-7A349E4173CF}" par="" ph="body" uid="{14826D46-5E81-4E9E-9148-90C4C88B4A75}" /><r ds="" id="{9D09BCB3-BF9A-4305-8361-44D899D8022A}" par="" ph="footer" uid="{CD6FA236-EDA7-4120-8E21-04966618A0D0}" /><r id="{55AF7DF1-C717-4C44-B1D3-62C7906BD07A}" ph="footer" uid="{1B42A8A6-E21C-4479-8228-47CB550D508B}"><rls><ruleset><rule name="Show on local machine" uid="{32FB38DF-8548-4A8B-A377-0A7EED7159F4}"><conditions><condition id="{D941FE54-0798-49D6-A403-D36537FC4661}" uid="96D6FC15445E47FDB40E08012A645AA6" operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}" value="127.0.0.1" /></conditions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" name="Default"><conditions><condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="AA264A2DAA8648A29E0FE52B6A95AF30" /></conditions><actions><action id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" uid="BB3CC910102E497DAAA6ED70F8786580" /></actions></rule></ruleset></rls></r></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" l="{1A193994-ED60-47CE-9325-E56424ADE0DC}"><p uid="{312B185A-958D-49DE-AF2C-81EC79E9B128}" key="body" md="/sitecore/layout/Placeholder Settings/Custom/body" /><r id="{C28B0E48-A8A9-4A81-924E-7A349E4173CF}" ph="body" uid="{35A9879F-2B48-47F7-82E0-18AA4FEAECD3}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 86d8d5cc-52ab-4061-9d2a-573589d1528c
+
+----field----
+field: {218B7723-7EEF-454B-B364-5FF0A4350F08}
+name: Body
+key: body
+content-length: 17
+
+Home Section Body
+----field----
+field: {02E04F85-5EA8-4FC7-9E54-10AFA0AB241B}
+name: Banner
+key: banner
+content-length: 19
+
+Home Section Banner
+----field----
+field: {55FDAF4A-ECF0-4A58-AA1C-06638C6F9FC8}
+name: Text
+key: text
+content-length: 369
+
+NHL.com is the official web site of the National Hockey League. NHL, the NHL Shield, the word mark and image of the Stanley Cup, the Stanley Cup Playoffs logo, the Stanley Cup Final logo, Center Ice name and logo, NHL Conference logos, NHL Winter Classic name, and The Biggest Assist Happens Off The Ice are registered trademarks and Vintage Hockey word mark and logo, 
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171009T085658Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86d8d5cc-52ab-4061-9d2a-573589d1528c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171222T112516Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

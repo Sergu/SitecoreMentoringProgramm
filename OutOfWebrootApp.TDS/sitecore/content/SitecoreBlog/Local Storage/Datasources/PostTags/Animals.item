@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {7838C086-8B3D-46C9-9F93-AC7E54A1B730}
+database: master
+path: /sitecore/content/SitecoreBlog/Local Storage/Datasources/PostTags/Animals
+parent: {E7371D2D-B043-4842-A3A9-8AF577256FA3}
+name: Animals
+master: {00000000-0000-0000-0000-000000000000}
+template: {39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}
+templatekey: SubTree
+created: 20171122T090904:636469385441030000
+
+----version----
+language: en
+version: 1
+revision: cd05299b-012c-44f3-83ff-9c4470c2784c
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 7
+
+Animals
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T094710Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd05299b-012c-44f3-83ff-9c4470c2784c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171123T154554Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

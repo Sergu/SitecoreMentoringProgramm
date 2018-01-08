@@ -1,0 +1,155 @@
+----item----
+version: 1
+id: {6ADE90E1-DE40-43B8-B508-CD900CCF1C71}
+database: master
+path: /sitecore/content/Blog/Home/Posts/TampaBay season game
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: TampaBay season game
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171109T095301:636458179816730000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 13
+
+David Marcoux
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{94DA96C4-6F8A-484B-AF9F-E0D429E95434}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{424B357C-7450-4425-B05A-F5733AA215FD}|{F598ECAF-3173-4C0A-A0EC-8AED183C149E}
+----version----
+language: en
+version: 1
+revision: 24b911d2-d7c4-4818-9009-414d62239bb3
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 48
+
+Vasilevskiy, Quick among biggest early surprises
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 71
+
+Former coach Marcoux looks at goaltending landscape a month into season
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 436
+
+To get a puck past Vasilevskiy this season, you will need to hang around the crease and hope for a rebound to quickly roof under the crossbar. Most of the time, Vasilevskiy plays a very quiet, low-coverage-first style in which economy of movement, squareness and positioning are key assets. He is also blessed with above-average flexibility in his hips and shoulders, allowing him to reach or stretch during desperation-save situations.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T095301Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24b911d2-d7c4-4818-9009-414d62239bb3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171109T095403Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 6671c9d0-8c61-4da9-adaa-adc205308067
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 89
+
+Тампа-Бэй" на своем льду проиграла "Айлендерс" (3:5) в матче регулярного чемпионата НХЛ. 
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 106
+
+Отметим, что по ходу встречи гости вели в счете 4:0. Прервалась победная серия "Молний" из пяти игр кряду.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 310
+
+Нападающие Никита Кучеров и Владислав Наместников очков в этой встрече не набрали. Кучеров отыграл 23 минуты и нанес 5 бросков по воротам, у Наместникова 20 минут и 4 броска. Защитник Михаил Сергачев впервые в сезоны отыграл 18 минут и отметился тремя бросками. У всех перечисленных показатель полезности "-1".
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T154234Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6671c9d0-8c61-4da9-adaa-adc205308067
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T154331Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {4BD964B5-2D11-4BEC-AC35-3CC8805DDCFF}
+database: master
+path: /sitecore/content/Blog/Home/Global Dictionary
+parent: {95E507FB-3B03-46FE-B682-1642D4784E5E}
+name: Global Dictionary
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A2847E6-9885-450B-B61E-F9E6528480EF}
+templatekey: Dictionary Domain
+created: 20171121T162327:636468782073100000
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 29
+
+Business/32x32/briefcase2.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: a6104c91-4cdf-4d4f-aec9-c100d0137caa
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T162327Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6104c91-4cdf-4d4f-aec9-c100d0137caa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T091058Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {D19B4FD1-F770-45D6-ABAC-58AD3EC7B4A4}
+database: master
+path: /sitecore/templates/Branches/User Defined/BaseSiteBranchTemplate/$name/Local Storage/Datasources/PostTags/Football/League of Europe
+parent: {74A1326D-797B-47EE-A854-2B17EB0C05F1}
+name: League of Europe
+master: {00000000-0000-0000-0000-000000000000}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171128T131002:636474714027500000
+
+----version----
+language: en
+version: 1
+revision: 14c27ac8-c37c-4b71-b9a6-634ee5d79315
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 16
+
+League of Europe
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T143519Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14c27ac8-c37c-4b71-b9a6-634ee5d79315
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171102T103401Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: d93ef1df-23c8-4071-be9d-250d936c5abb
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 12
+
+Лига Европпы
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T125503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d93ef1df-23c8-4071-be9d-250d936c5abb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T125507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

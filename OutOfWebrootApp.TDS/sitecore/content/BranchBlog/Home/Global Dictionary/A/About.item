@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5EC2AD4E-7DED-4480-B0FC-1A182A85DC2E}
+database: master
+path: /sitecore/content/BranchBlog/Home/Global Dictionary/A/About
+parent: {FF18CFBB-C71A-4C26-9A46-C26A8F6C73EB}
+name: About
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20171128T150049:636474780494000000
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 7
+
+A.About
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{637B796C-0BCC-4FA0-940B-1A5AA29100FD}
+----version----
+language: en
+version: 1
+revision: bca104ef-b5b3-42f1-b9bb-6f3324b2a715
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 5
+
+About
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bca104ef-b5b3-42f1-b9bb-6f3324b2a715
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

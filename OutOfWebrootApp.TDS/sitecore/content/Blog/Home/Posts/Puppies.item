@@ -1,0 +1,102 @@
+----item----
+version: 1
+id: {3D8F33DA-9EAF-4691-871F-F7E80959B8DA}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Puppies
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: Puppies
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171226T170206:636499045264670000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 15
+
+Animal welfare 
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171227T090400Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{0F105366-D435-4A8E-A6CC-4E1E718E4A0B}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 38
+
+{94A06063-7640-4CA8-AD66-80C66C71362B}
+----version----
+language: en
+version: 1
+revision: a47b7f5b-d378-4271-b133-0f69ab07d52d
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 56
+
+Puppy farming to be targeted in UK government crackdown 
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 104
+
+Legislation to stop breeders keeping ‘battery dogs’ in appalling conditions will be unveiled in new year
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 886
+
+Unethical puppy farming is to be targeted in a new government crackdown against unscrupulous breeders, including tight new restrictions for selling pups online.
+
+Announcing the proposal, the prime minister said she understood the joy of bringing home a new puppy, but that pet owners needed to know that many had not had an ethical and healthy start in life.
+
+The government plans legislation in the new year to tackle so-called battery dogs, born in large-scale commercial breeding establishments. Campaigners have uncovered farms where mothers are given just enough food and water to keep them breeding continuously, in filthy conditions and with no exercise.
+Guardian Today: the headlines, the analysis, the debate - sent direct to you
+Read more
+
+Plans include tough new rules for licensed dog breeders, including showing puppies alongside their mother before a sale is made.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171226T170206Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a47b7f5b-d378-4271-b133-0f69ab07d52d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T090454Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

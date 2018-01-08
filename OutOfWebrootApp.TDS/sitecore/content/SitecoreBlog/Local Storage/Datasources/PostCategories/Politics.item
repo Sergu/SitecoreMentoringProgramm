@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {EFD0F229-8682-4CA0-AFA6-272F38D20E2B}
+database: master
+path: /sitecore/content/SitecoreBlog/Local Storage/Datasources/PostCategories/Politics
+parent: {65BB8D46-DA46-40DE-A871-D7EC17D53ACE}
+name: Politics
+master: {00000000-0000-0000-0000-000000000000}
+template: {2954AD44-0F70-47D1-99BA-4DDC709E3C5C}
+templatekey: Category
+created: 20171122T090904:636469385440800000
+
+----version----
+language: en
+version: 1
+revision: c4b205d1-2426-4d62-b858-d7f17abb9640
+
+----field----
+field: {9869E861-A70C-4CEE-B28F-8E5C39B8F200}
+name: Value
+key: value
+content-length: 8
+
+Politics
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171101T115136Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4b205d1-2426-4d62-b858-d7f17abb9640
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171123T154513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 4dcc8146-e9b2-4c0f-9e44-588f0b2d06b4
+
+----field----
+field: {9869E861-A70C-4CEE-B28F-8E5C39B8F200}
+name: Value
+key: value
+content-length: 8
+
+Политика
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T125943Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4dcc8146-e9b2-4c0f-9e44-588f0b2d06b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T125946Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

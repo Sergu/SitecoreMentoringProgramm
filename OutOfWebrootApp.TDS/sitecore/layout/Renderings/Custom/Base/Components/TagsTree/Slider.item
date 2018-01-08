@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {85C1A6C4-9008-40BD-B554-700D92D05036}
+database: master
+path: /sitecore/layout/Renderings/Custom/Base/Components/TagsTree/Slider
+parent: {926D0365-65F3-4DD6-A4E8-FC742F26B7BA}
+name: Slider
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20171009T124919:636431501599530000
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 6
+
+Slider
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 5
+
+Index
+----field----
+field: {5A14936F-2100-4541-B700-2F122E88F3F8}
+name: Data source
+key: data source
+content-length: 67
+
+/sitecore/content/Local Storage/Datasources/Slider/SliderDataSource
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{0B0444F0-8513-4D0A-9395-F681172BF752}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 72
+
+/sitecore/content/Blog/Local Storage/Datasources/Slider/SliderDatasource
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 49
+
+/sitecore/templates/Custom/Slider/Base/SliderBase
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 0
+
+
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 761c80b4-6ed9-46c1-a51a-1bb914d03e04
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171009T124919Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+761c80b4-6ed9-46c1-a51a-1bb914d03e04
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171222T105843Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

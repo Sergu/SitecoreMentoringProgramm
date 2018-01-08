@@ -1,0 +1,183 @@
+----item----
+version: 1
+id: {7EC6970D-8146-487F-B2D8-C4E1E67AF53C}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Hockey
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: Hockey
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171016T102011:636437460112330000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 10
+
+Paul Brown
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171010T013000Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{94DA96C4-6F8A-484B-AF9F-E0D429E95434}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{424B357C-7450-4425-B05A-F5733AA215FD}|{4E2947BC-4624-440E-8EFF-C7F0804CB21D}
+----field----
+field: {A0CB3965-8884-4C7A-8815-B6B2E5CED162}
+name: __Editors
+key: __editors
+content-length: 38
+
+{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}
+----field----
+field: {D312103C-B36C-4CA5-864A-C85F9ABDA503}
+name: __Is Bucket
+key: __is bucket
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: f6aca655-a05a-49d1-b1a2-f4eb7d398e0c
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 42
+
+Debut to remember for three Golden Knights
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 78
+
+Subban gets NHL win No. 1 vs. Bruins; Tuch, Shipachyov each scores first goal 
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 297
+
+China Games name and logo, and Don't Miss A Moment are trademarks of the National Hockey League. All NHL logos and marks and NHL team logos and marks depicted herein are the property of the NHL and the respective teams and may not be reproduced without the prior written consent of NHL Enterprises
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171016T102011Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f6aca655-a05a-49d1-b1a2-f4eb7d398e0c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171102T144958Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: c1e2f5b9-22dc-4944-8739-468aea20b8d6
+
+----field----
+field: {E2801BEB-86CD-4451-A120-C5ABE71470DE}
+name: Keywords
+key: keywords
+content-length: 6
+
+Хоккей
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 73
+
+Тройка Кучерова — это Лемье, Ягр и Фрэнсис». Каспарайтис – о неделе в НХЛ
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 50
+
+Про Радулова, трудности «Далласа» и спад фаворитов
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 242
+
+Олимпийский чемпион известный защитник Дарюс Каспарайтис подвёл итоги недели регулярного чемпионата НХЛ, поделившись мнением о спаде команд — фаворитов сезона, голевой засухе Овечкина с Малкиным и шансах Худобина выиграть конкуренцию у Раска.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T153908Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1e2f5b9-22dc-4944-8739-468aea20b8d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T154007Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

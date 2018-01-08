@@ -1,0 +1,97 @@
+----item----
+version: 1
+id: {7252C1C0-2468-4D09-875B-6B58D04A3562}
+database: master
+path: /sitecore/content/SitecoreBlog/Home/Posts/Celtic
+parent: {DAAD45EA-1B6B-4B93-BC0F-F3DB58C608C4}
+name: Celtic
+master: {00000000-0000-0000-0000-000000000000}
+template: {0F64BE07-030B-4091-AE14-E866E9260814}
+templatekey: SitecoreBlogPost
+created: 20171226T170512:636499047129900000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 13
+
+Martin Dowden
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171226T170500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{6B321ADC-21A6-4C7B-B9B7-3E06551284E0}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 38
+
+{26294A80-09A5-4A38-99FC-10F64BE3F83D}
+----version----
+language: en
+version: 1
+revision: 9c33c523-2c1e-4294-9127-187b5f0385ce
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 106
+
+Celtic moved 11 points clear at the top of the Scottish Premiership with victory over Dundee at Dens Park.
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 96
+
+James Forrest converted Kieran Tierney's low cross to give the reigning champions an early lead.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 536
+
+Both teams then lost a player to injury after Dundee's Josh Meekings and Celtic's Jonny Hayes came together in a tackle.
+Leigh Griffiths fired Celtic's second before the break and Dundee could not recover in the second period.
+They remain in 10th place, three points above Ross County - who host St Johnstone on Wednesday - and two ahead of Partick Thistle, who travel to Aberdeen.
+Celtic's performance in the opening stages had everything. From the off they looked sharp, hungry and likely to damage Dundee with every foray forward.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171226T170513Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c33c523-2c1e-4294-9127-187b5f0385ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171226T170608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

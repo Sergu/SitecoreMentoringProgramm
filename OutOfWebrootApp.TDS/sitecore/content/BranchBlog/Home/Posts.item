@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {111B8AF6-73B3-428F-B51C-A822FB65BEDB}
+database: master
+path: /sitecore/content/BranchBlog/Home/Posts
+parent: {9ABB0DE0-724B-4CBA-9CE8-BA253B3675B1}
+name: Posts
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {E9F6AB0A-A6A2-4487-837A-BD83F6336765}
+templatekey: Posts
+created: 20171128T150049:636474780491300000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{90FCBF41-0032-41C5-AC36-DFBAFCDAA22C}
+----version----
+language: en
+version: 1
+revision: 99eea7fe-73d0-43b4-ba13-5ab174cce76b
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 5
+
+Posts
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+99eea7fe-73d0-43b4-ba13-5ab174cce76b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171218T134336Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 7c6e74c4-fc33-44e5-9050-cf466a5d892c
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 5
+
+Посты
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171218T134315Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c6e74c4-fc33-44e5-9050-cf466a5d892c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171218T134322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

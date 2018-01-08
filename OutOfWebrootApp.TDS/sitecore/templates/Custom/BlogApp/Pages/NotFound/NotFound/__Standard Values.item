@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D0BDE4CC-9BEA-4430-9F56-190DBAABC087}
+database: master
+path: /sitecore/templates/Custom/BlogApp/Pages/NotFound/NotFound/__Standard Values
+parent: {69D2D2E2-8FB8-4C44-8783-BF43414AEF52}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {69D2D2E2-8FB8-4C44-8783-BF43414AEF52}
+templatekey: NotFound
+created: 20171207T122840:636482465204870000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 615
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{3D260720-DBDF-49BF-9C82-77BA0E0514E0}"><p uid="{BE582E74-FFC9-435F-8268-D0B62EA35972}" key="navigation" md="/sitecore/layout/Placeholder Settings/Custom/navigation" /><p uid="{E243ABE5-F6C5-48A6-9DA2-411D9F0CE818}" key="footer" md="/sitecore/layout/Placeholder Settings/Custom/footer" /><p uid="{57A53D4F-A315-4BB7-93E1-929C4FBF54D6}" key="body" md="/sitecore/layout/Placeholder Settings/Custom/body" /><r id="{F39EBC6A-579B-4D1C-AF0D-751BCD6A47C5}" ph="body" uid="{683ABA04-2B8B-4E00-9447-FD93DF16C823}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1d7c84af-aea6-45d8-8a8c-4b1d0bd3c363
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 3
+
+404
+----field----
+field: {254E1EB6-1B77-4D53-978C-BEF47E9C189E}
+name: ContentField
+key: contentfield
+content-length: 23
+
+<h3>Page not found</h3>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171207T122840Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d7c84af-aea6-45d8-8a8c-4b1d0bd3c363
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171207T130632Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

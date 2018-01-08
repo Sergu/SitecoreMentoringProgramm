@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {A9841A9C-4C0D-445C-A73F-8A9F3B7B0764}
+database: master
+path: /sitecore/content/SitecoreBlog/SiteSetting
+parent: {DBAE6B06-FCD0-48CE-B84B-C6366207DF63}
+name: SiteSetting
+master: {00000000-0000-0000-0000-000000000000}
+template: {944A87F1-772F-4783-AD9C-612C061ED957}
+templatekey: SiteSetting
+created: 20171122T090904:636469385445730000
+
+----field----
+field: {4F205A90-9191-4C05-A0DE-4DFCED728833}
+name: PostsPageCapacity
+key: postspagecapacity
+content-length: 1
+
+4
+----field----
+field: {31D6775C-4EBF-46D1-9E03-B03A1C791347}
+name: SliderDefaultSpeedTemplatePath
+key: sliderdefaultspeedtemplatepath
+content-length: 76
+
+/sitecore/content/SitecoreBlog/Local Storage/Settings/Slider/Default/Default
+----field----
+field: {6E975D33-7984-479B-BFE4-47C44FEB2630}
+name: PostIndex
+key: postindex
+content-length: 27
+
+sitecoreBlog_post_web_index
+----field----
+field: {1C4A4EA8-3AB7-4F74-8333-5806C9A6A997}
+name: CommentTemplateId
+key: commenttemplateid
+content-length: 38
+
+{F482979A-7905-49B3-84EC-224C31591E4C}
+----field----
+field: {F6405848-1477-485F-878F-7CFCF39F74CC}
+name: PostTagTreeRootItemId
+key: posttagtreerootitemid
+content-length: 38
+
+{E7371D2D-B043-4842-A3A9-8AF577256FA3}
+----field----
+field: {DD124791-5B19-492B-AC5B-863DFDF67FC2}
+name: PostCategoryRootItemId
+key: postcategoryrootitemid
+content-length: 38
+
+{65BB8D46-DA46-40DE-A871-D7EC17D53ACE}
+----field----
+field: {3510DA2A-F92F-464B-8709-A78E82C4FED0}
+name: SiteSettingTemplateName
+key: sitesettingtemplatename
+content-length: 11
+
+sitesetting
+----field----
+field: {CF6771F7-A536-4475-8C04-07211FD8D8F8}
+name: SliderDataSource
+key: sliderdatasource
+content-length: 38
+
+{9E75A9F2-C4C2-4819-ACFF-B8C044CA9615}
+----version----
+language: en
+version: 1
+revision: e0f91157-9558-4a67-9a7f-c387898c8625
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T105002Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e0f91157-9558-4a67-9a7f-c387898c8625
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T151806Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: f94289a5-4dcf-460c-9105-7ff1fcef6a53
+
+----field----
+field: {5D017885-24A0-414F-8E25-F5B93D0EED4D}
+name: NoResultMessage
+key: noresultmessage
+content-length: 16
+
+Посты не найдены
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T124740Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f94289a5-4dcf-460c-9105-7ff1fcef6a53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T115022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

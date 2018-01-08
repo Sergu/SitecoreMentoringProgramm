@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {67E0F62F-F008-446A-B17D-FEDD6AA48FCD}
+database: master
+path: /sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Equipment/Boots
+parent: {7D1F066E-FAE3-463B-A821-DE18AF644034}
+name: Boots
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171128T150052:636474780521870000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1C18E11E-C65F-4200-AD0E-6F7ED4914212}
+----version----
+language: en
+version: 1
+revision: 217e56ac-2794-4405-b5a8-6bd29ed5f506
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 5
+
+Boots
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150052Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+217e56ac-2794-4405-b5a8-6bd29ed5f506
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

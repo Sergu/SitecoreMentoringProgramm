@@ -1,0 +1,176 @@
+----item----
+version: 1
+id: {948ADEF0-646D-4127-8D0B-792EE0F644AE}
+database: master
+path: /sitecore/content/Blog/Home/Posts/AnimalPost
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: AnimalPost
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171109T085314:636458143949870000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 5
+
+Вести
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171121T153000Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{0F105366-D435-4A8E-A6CC-4E1E718E4A0B}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 77
+
+{21FFC921-85F4-416F-A531-8947BD72539E}|{9F4C5007-93E1-4F6A-8EDB-DFF3CABB8A19}
+----version----
+language: en
+version: 1
+revision: dfc7939e-56cd-435e-91a9-47b434e403ae
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 88
+
+These Rodent-Like Creatures Are the Earliest Known Ancestor of Humans, Whales and Shrews
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 170
+
+The earliest ancestors of eutherian mammals were small rat-like creatures (depicted in this illustration) that lived 145 million years ago in the shadow of the dinosaurs.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 292
+
+The identity of these ancestors comes from their teeth, which were discovered at cliffs on the coast of England. The discovery of the little creatures, which lived about 145 million years ago, may push the evolution of this mammal group back dozens of millions of years, the researchers said.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T085315Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfc7939e-56cd-435e-91a9-47b434e403ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171109T095210Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 79602f28-775b-483b-a57b-585b039cda0a
+
+----field----
+field: {E2801BEB-86CD-4451-A120-C5ABE71470DE}
+name: Keywords
+key: keywords
+content-length: 8
+
+Животные
+----field----
+field: {02E5432D-40BB-4D19-A7A3-3211EEDB85C4}
+name: Header
+key: header
+content-length: 8
+
+Животные
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 56
+
+Пьяные еноты разгромили магазин и сорвали гастроли цирка
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 101
+
+Отмечается, что еноты в течение нескольких дней страдали от интоксикации, с ними работали ветеринары.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 256
+
+Два дрессированных цирковых енота устроили пьяный дебош в районном центре Старожинец Черновицкой области. Животные разгромили продуктовый магазин, выпили найденное там спиртное и сорвали представление со своим участием, сообщает украинское издание «Вести».
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T152852Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79602f28-775b-483b-a57b-585b039cda0a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T153155Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

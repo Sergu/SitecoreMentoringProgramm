@@ -1,0 +1,99 @@
+----item----
+version: 1
+id: {72A04A6F-7D45-4207-AF53-1AD921B8F438}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Star Destiny
+parent: {E6540AB9-74CB-47EC-A9D3-70B366CF40A3}
+name: Star Destiny
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171109T100050:636458184508430000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 10
+
+ Eric Mack
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171227T090500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{25B8B823-4BA6-4555-B6F2-3A3E2CF01F1E}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 116
+
+{3571458B-A5F0-476D-B010-8CFABE428598}|{28739DE9-1242-47D3-A3C6-B264120822EE}|{FE587410-EF5C-42D3-96A7-CBDC9BD7BC66}
+----version----
+language: en
+version: 1
+revision: 9c00edd3-6de3-4cdb-88c2-b1ce2e5a09eb
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 53
+
+Mysterious explosive zombie star refuses to stay dead
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 151
+
+Stars usually go out in a bright flash that fades fast, but astronomers have spotted a massive star that just keeps exploding after more than 50 years.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 526
+
+
+ESO/M. Kornmesser
+
+Stars usually die in a flash (literally), but astronomers have found a mysterious specimen that keeps exploding and exploding.
+
+"This supernova breaks everything we thought we knew about how they work," Iair Arcavi said in a statement. Arcavi is a NASA Einstein postdoctoral fellow at California's Las Cumbres Observatory. "It's the biggest puzzle I've encountered in almost a decade of studying stellar explosions." n Arcavi-led study on the zombie supernova appeared Wednesday in the journal Nature.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T100050Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c00edd3-6de3-4cdb-88c2-b1ce2e5a09eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T090511Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

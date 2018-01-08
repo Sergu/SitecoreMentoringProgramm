@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {EC515D71-FA55-4B2C-B5A7-596D93E62098}
+database: master
+path: /sitecore/templates/Branches/User Defined/BaseSiteBranchTemplate/$name/Local Storage/Datasources/Slider/SliderDatasource
+parent: {44CD1CEC-91C7-4288-8EBD-CB17964C10B4}
+name: SliderDatasource
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AA8F80-A293-48AB-8EC5-58C661D92E2B}
+templatekey: SliderBase
+created: 20171128T131002:636474714028700000
+
+----field----
+field: {5CF000A6-2C21-423F-B039-B6159D71CF08}
+name: Images
+key: images
+content-length: 77
+
+{304E6B0D-5123-4406-AA5A-E344BF41FBFA}|{B03711F9-80D8-4F38-96BB-49C8050C9AB5}
+----version----
+language: en
+version: 1
+revision: 485eea60-f752-46c0-b2ab-62264b0a4847
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171016T081836Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+485eea60-f752-46c0-b2ab-62264b0a4847
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T123812Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

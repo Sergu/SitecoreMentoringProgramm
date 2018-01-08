@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {555BB716-9579-43EA-8EF2-26D42810C78E}
+database: master
+path: /sitecore/templates/Custom/BaseTemplates/Components/Comment/Base/Comment/__Standard Values
+parent: {F482979A-7905-49B3-84EC-224C31591E4C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F482979A-7905-49B3-84EC-224C31591E4C}
+templatekey: Comment
+created: 20171018T115521:636439245214800000
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {61CF7151-0CBD-4DB4-9738-D753A55A6E65}
+name: __Enforce version presence
+key: __enforce version presence
+content-length: 0
+
+
+----field----
+field: {C9283D9E-7C29-4419-9C28-5A5C8FF53E84}
+name: __Bucketable
+key: __bucketable
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: cb68ea78-93bc-45a1-b646-c0e84e66f7eb
+
+----field----
+field: {69299901-9C40-4224-83DF-101DA609D596}
+name: Author
+key: author
+content-length: 10
+
+John Brown
+----field----
+field: {F31BED0B-BB51-4729-B170-A8E3B2FF3A94}
+name: Text
+key: text
+content-length: 19
+
+<p>Blog comment</p>
+----field----
+field: {1D5C559B-E3B6-4F6C-8591-ADCF179C14F2}
+name: Date
+key: date
+content-length: 16
+
+20171018T115600Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171018T115521Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb68ea78-93bc-45a1-b646-c0e84e66f7eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T171917Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

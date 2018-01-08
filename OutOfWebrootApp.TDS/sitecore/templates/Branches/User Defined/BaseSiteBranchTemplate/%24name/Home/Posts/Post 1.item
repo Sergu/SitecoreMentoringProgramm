@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {166FE534-E3FB-4690-82DC-C1DF29A8E954}
+database: master
+path: /sitecore/templates/Branches/User Defined/BaseSiteBranchTemplate/$name/Home/Posts/Post 1
+parent: {90FCBF41-0032-41C5-AC36-DFBAFCDAA22C}
+name: Post 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171128T125924:636474707646830000
+
+----version----
+language: en
+version: 1
+revision: 8bd99bcc-1c4f-4fa7-b81d-ab7c8320d13b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T125924Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8bd99bcc-1c4f-4fa7-b81d-ab7c8320d13b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T125924Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

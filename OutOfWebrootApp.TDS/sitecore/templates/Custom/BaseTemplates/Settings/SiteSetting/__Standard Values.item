@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {76C3C33B-A35A-41C4-8D5F-BB2C61E158CF}
+database: master
+path: /sitecore/templates/Custom/BaseTemplates/Settings/SiteSetting/__Standard Values
+parent: {944A87F1-772F-4783-AD9C-612C061ED957}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {944A87F1-772F-4783-AD9C-612C061ED957}
+templatekey: SiteSetting
+created: 20171109T105106:636458214668670000
+
+----field----
+field: {4F205A90-9191-4C05-A0DE-4DFCED728833}
+name: PostsPageCapacity
+key: postspagecapacity
+content-length: 2
+
+10
+----version----
+language: en
+version: 1
+revision: 04b28741-5e2e-41e4-9bf2-3c67cabbf31a
+
+----field----
+field: {5D017885-24A0-414F-8E25-F5B93D0EED4D}
+name: NoResultMessage
+key: noresultmessage
+content-length: 10
+
+No Results
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T105106Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04b28741-5e2e-41e4-9bf2-3c67cabbf31a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171109T140654Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

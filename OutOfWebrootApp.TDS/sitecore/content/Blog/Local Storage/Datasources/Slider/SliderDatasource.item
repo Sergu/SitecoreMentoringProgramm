@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {3F7FE1F6-2A7C-4FF2-9F08-80CA693EE296}
+database: master
+path: /sitecore/content/Blog/Local Storage/Datasources/Slider/SliderDatasource
+parent: {4565CA36-BE67-4C79-818C-153DA5312666}
+name: SliderDatasource
+master: {00000000-0000-0000-0000-000000000000}
+template: {96AA8F80-A293-48AB-8EC5-58C661D92E2B}
+templatekey: SliderBase
+created: 20171016T081836:636437387161670000
+
+----field----
+field: {5CF000A6-2C21-423F-B039-B6159D71CF08}
+name: Images
+key: images
+content-length: 77
+
+{B03711F9-80D8-4F38-96BB-49C8050C9AB5}|{79A7D74B-7197-40D5-B9CF-5C70E2FA0910}
+----version----
+language: en
+version: 1
+revision: fc0357c3-af99-455b-a16a-8e3116f832fe
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171016T081836Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc0357c3-af99-455b-a16a-8e3116f832fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171222T122716Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

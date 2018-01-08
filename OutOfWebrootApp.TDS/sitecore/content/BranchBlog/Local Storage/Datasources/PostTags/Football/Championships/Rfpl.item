@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {2AE98ABB-1B66-4EE2-953B-2A7AAF558BA5}
+database: master
+path: /sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Football/Championships/Rfpl
+parent: {73EA0713-762C-4B52-97F3-F089274A9475}
+name: Rfpl
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171128T150051:636474780511700000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{CD3D046E-AF00-403E-8505-3A8FDADD58D2}
+----version----
+language: en
+version: 1
+revision: 195a49bf-a2dc-4de0-b74f-792b08130968
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 4
+
+Rfpl
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+195a49bf-a2dc-4de0-b74f-792b08130968
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150051Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

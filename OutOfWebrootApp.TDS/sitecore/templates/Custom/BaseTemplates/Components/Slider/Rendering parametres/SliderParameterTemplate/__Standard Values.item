@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {18A3700E-A9AC-4EF0-833B-E2AB634208C3}
+database: master
+path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Rendering parametres/SliderParameterTemplate/__Standard Values
+parent: {0B0444F0-8513-4D0A-9395-F681172BF752}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0B0444F0-8513-4D0A-9395-F681172BF752}
+templatekey: SliderParameterTemplate
+created: 20171011T081713:636433066338470000
+
+----field----
+field: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+name: Placeholder
+key: placeholder
+content-length: 4
+
+body
+----field----
+field: {0793DCFF-0EE7-48AD-B9D4-EF1DD24EB59B}
+name: Data Source
+key: data source
+content-length: 38
+
+{9E75A9F2-C4C2-4819-ACFF-B8C044CA9615}
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 52fbd598-84d0-4959-b2cb-3712ceb9d7e4
+
+----field----
+field: {B48BAB78-B6AA-4F02-9BAF-80319410D4AA}
+name: Speed
+key: speed
+content-length: 4
+
+5000
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171011T081713Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52fbd598-84d0-4959-b2cb-3712ceb9d7e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T132301Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

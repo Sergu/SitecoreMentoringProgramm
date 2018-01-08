@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {338DF519-52A2-404D-A894-B418A2945406}
+database: master
+path: /sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Equipment/Helmet
+parent: {7D1F066E-FAE3-463B-A821-DE18AF644034}
+name: Helmet
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171128T150052:636474780522600000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{55ABDFBC-A483-4221-B00B-8E08220F9EC4}
+----version----
+language: en
+version: 1
+revision: 5a794da0-2418-4b0c-99b0-d036013d64b7
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 6
+
+Helmet
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150052Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5a794da0-2418-4b0c-99b0-d036013d64b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {27DE8C75-63F2-4B6F-8C55-9EB23C3D524B}
+database: master
+path: /sitecore/templates/Custom/BlogApp/Compnents
+parent: {477B4982-B3D2-4E9A-AB4F-7ABB09CEF4B3}
+name: Compnents
+master: {00000000-0000-0000-0000-000000000000}
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20171207T130434:636482486748030000
+
+----version----
+language: en
+version: 1
+revision: a0fa1a7d-8b53-41f5-b78f-4144149615f1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171207T130434Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0fa1a7d-8b53-41f5-b78f-4144149615f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171207T130434Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

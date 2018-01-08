@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {C205052D-39F3-43A4-B428-D8C81DE3B0E7}
+database: master
+path: /sitecore/content/BranchBlog
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: BranchBlog
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {94D7667F-FDF5-4EDE-9AA4-43D69F9D6EE2}
+templatekey: SiteTemplate
+created: 20171128T150048:636474780489970000
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{72AFE5E7-C450-4C60-863D-988FBC2DE8D1}
+----version----
+language: en
+version: 1
+revision: 7773dab0-1af6-4928-a5ae-051c5622f2e5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7773dab0-1af6-4928-a5ae-051c5622f2e5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

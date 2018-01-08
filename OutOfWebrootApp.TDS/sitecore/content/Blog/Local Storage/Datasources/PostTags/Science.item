@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {764C93D3-F215-477B-BC6D-8D60118D15A5}
+database: master
+path: /sitecore/content/Blog/Local Storage/Datasources/PostTags/Science
+parent: {83FE833A-7D9F-4549-8205-BA635DBDB27E}
+name: Science
+master: {00000000-0000-0000-0000-000000000000}
+template: {39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}
+templatekey: SubTree
+created: 20171109T100217:636458185376500000
+
+----version----
+language: en
+version: 1
+revision: 732d92d2-319c-463b-bf9e-82486e29f96c
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 7
+
+Science
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171109T100217Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+732d92d2-319c-463b-bf9e-82486e29f96c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171123T145334Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: e1b1745c-deae-46f3-b24c-f2477889f312
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 5
+
+Наука
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T125744Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1b1745c-deae-46f3-b24c-f2477889f312
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T125746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,154 @@
+----item----
+version: 1
+id: {0D255B0A-D540-4F8A-9776-5E08AE7DB5FA}
+database: master
+path: /sitecore/content/SitecoreBlog/Home/About
+parent: {9C35F065-16A2-47C2-95E0-EBA4A0DAD7A3}
+name: About
+master: {00000000-0000-0000-0000-000000000000}
+template: {E423C8B1-F074-4E6A-90CD-897A4356BB04}
+templatekey: About
+created: 20171122T124445:636469514852800000
+
+----version----
+language: en
+version: 1
+revision: a8ae1a6a-d8ab-4c7f-bf92-22f871ffe5c5
+
+----field----
+field: {71EEB4F2-E503-434E-A01F-4DC387375683}
+name: Body
+key: body
+content-length: 1142
+
+<div class="blog-post">
+            <h2 class="blog-post-title">What is this blog about</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </div>
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 5
+
+About
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T124445Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a8ae1a6a-d8ab-4c7f-bf92-22f871ffe5c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T163529Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: d4cb6ae2-380e-4089-bd5d-0e0faaa98174
+
+----field----
+field: {71EEB4F2-E503-434E-A01F-4DC387375683}
+name: Body
+key: body
+content-length: 1088
+
+<div class="blog-post">
+            <h2 class="blog-post-title">Что такое блог и для чего он нужен</h2>
+            <p class="blog-post-meta">Декабрь 23, 2013<a href="#"></a></p>
+
+            <p>Ваш блог — ваше личное пространство<a href="#">ссылка</a>,Вы сами решаете, о чем писать и кого допускать к собственным публикациям. Вы определяете, чьи комментарии увидят ваши читатели. И, конечно, вы вправе выбирать себе друзей или, наоборот, закрывать двери перед теми, кто вам не интересен. Выбор всегда за вами.</p>
+            <blockquote>
+              <p>Вы не просто общаетесь, вы пишете историю своей жизни. Поверьте, спустя месяцы и годы вам будет <strong>безумно интересно</strong> оглянуться назад и перечитать собственные заметки.</p>
+            </blockquote>
+            <p>Блог помогает выразить себя <em>сохранить </em> воспоминания, впечатления и ощущения, а позже — заново пережить яркие эпизоды.</p>
+            <p>Истории жизни всегда увлекательны. Начните писать свою! Уверены, многие люди будут с большим интересом знакомиться с вашими публикациями.</p>
+          </div>
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 8
+
+Описание
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T155710Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d4cb6ae2-380e-4089-bd5d-0e0faaa98174
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T165001Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

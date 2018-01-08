@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {4FD0C047-8A8E-4601-8D16-0634CA4B0D6F}
+database: master
+path: /sitecore/content/Blog/Home/About
+parent: {95E507FB-3B03-46FE-B682-1642D4784E5E}
+name: About
+master: {00000000-0000-0000-0000-000000000000}
+template: {FE894CB2-4BAC-4E94-A54D-2D3F4273D979}
+templatekey: About
+created: 20171013T122406:636434942462670000
+
+----version----
+language: en
+version: 1
+revision: 5785b712-0aa6-443f-a167-506095d1638d
+
+----field----
+field: {71EEB4F2-E503-434E-A01F-4DC387375683}
+name: Body
+key: body
+content-length: 1219
+
+<h2 class="blog-post-title">What is this Blog about</h2>
+ <h3 class="blog-post-title">Design and Development Blogs</h3>
+ <h4>Inspiring Examples of Beautiful Blog Homepage Design</h4>
+ <p>The emergence and growth of blogs in the late 1990s coincided with the advent of web publishing tools that facilitated the posting of content by non-technical users who did not have much experience with HTML or computer programming. Previously, a knowledge of such technologies as HTML and File Transfer Protocol had been required to publish content on the Web, and as such, early Web users tended to be hackers and computer enthusiasts. In the 2010s, the majority are interactive Web 2.0 websites, allowing visitors to leave online comments, and it is this interactivity that distinguishes them from other static websites.[2] In that sense, blogging can be seen as a form of social networking service. Indeed, bloggers do not only produce content to post on their blogs, but also often build social relations with their readers and other bloggers.[3] However, there are high-readership blogs which do not allow comments.</p>
+ <p>BlogIncrporation</p>
+ <p>best.blog.ever@bloger.com</p>
+ <p>St. Diamjianova 43</p>
+ <p>Nick Foligno</p>
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 5
+
+About
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171013T122406Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5785b712-0aa6-443f-a167-506095d1638d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T103011Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 1faa6bd5-bff4-4ee0-8ac8-811d304d7ebe
+
+----field----
+field: {71EEB4F2-E503-434E-A01F-4DC387375683}
+name: Body
+key: body
+content-length: 738
+
+<h2 class="blog-post-title">Описание блога</h2>
+ <h3 class="blog-post-title">Разработка и дизаин блогов</h3>
+ <h4>Обычно персональные блоги носят личный характер.</h4>
+ <p>В настоящее время особенность блогов заключается не только в структуре записей, но и в простоте добавления новых записей. Пользователь просто обращается к веб-серверу, прохо­дит процесс идентификации пользователя, после чего он добавляет новую запись к своей коллекции. Сервер представляет информацию как последовательность сообщений, помещая в самом верху самые свежие сообщения. Структура коллекции напоминает привычную последовательную структуру дневника или журнала.</p>
+ <p>Блог</p>
+ <p>best.blog.ever@bloger.com</p>
+ <p>Ул Демьянова 43</p>
+ <p>Nick Foligno</p>
+----field----
+field: {E2801BEB-86CD-4451-A120-C5ABE71470DE}
+name: Keywords
+key: keywords
+content-length: 8
+
+описание
+----field----
+field: {3269A277-DF9D-42F9-B267-8F8FA82961D4}
+name: Description
+key: description
+content-length: 30
+
+Структура сайта и его описание
+----field----
+field: {02E5432D-40BB-4D19-A7A3-3211EEDB85C4}
+name: Header
+key: header
+content-length: 8
+
+Описание
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 14
+
+Описание сайта
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171121T123031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1faa6bd5-bff4-4ee0-8ac8-811d304d7ebe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171121T123354Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

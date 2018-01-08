@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {909469B7-E2CD-4537-8DA6-E767EA5BAD10}
+database: master
+path: /sitecore/content/BranchBlog/Home/Global Dictionary/A/AboutContent
+parent: {FF18CFBB-C71A-4C26-9A46-C26A8F6C73EB}
+name: AboutContent
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20171128T150049:636474780494630000
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 14
+
+A.AboutContent
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{1AA9FBE9-4D20-4EB5-9A26-30749A7F6A01}
+----version----
+language: en
+version: 1
+revision: a63ec10a-19a2-40d8-942f-57e0f5266036
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 144
+
+Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a63ec10a-19a2-40d8-942f-57e0f5266036
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

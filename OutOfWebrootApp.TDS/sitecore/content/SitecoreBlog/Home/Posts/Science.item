@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {8AF3E4CD-2983-4BDF-9847-EC56BFB78ED5}
+database: master
+path: /sitecore/content/SitecoreBlog/Home/Posts/Science
+parent: {DAAD45EA-1B6B-4B93-BC0F-F3DB58C608C4}
+name: Science
+master: {00000000-0000-0000-0000-000000000000}
+template: {0F64BE07-030B-4091-AE14-E866E9260814}
+templatekey: SitecoreBlogPost
+created: 20171122T161812:636469642921130000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 13
+
+Maria Temming
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171227T090500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{3416BE2F-96FD-4642-8194-5AE3CA6879A0}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 515940ea-d757-4c68-8a2f-a9adbd918f9b
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 46
+
+This material does weird things under pressure
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 74
+
+Microcube is designed so that pressure makes it expand instead of compress
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 520
+
+This counterintuitive material is made up of a grid of hollow 3-D crosses — shaped like six-way pipe fittings — mere micrometers across. When surrounding pressure of air, water or some other substance increases, the crosses’ circular surfaces bow inward. Because of the way these crosses are connected with levers, that warping forces the crosses to rotate and push away from each other, causing the whole structure to expand, says study coauthor Jingyuan Qu, a physicist at Karlsruhe Institute of Technology in Germany.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T161944Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+515940ea-d757-4c68-8a2f-a9adbd918f9b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T090532Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: c640cebd-fe7f-4390-afc8-3bad5e231506
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 54
+
+Планета-пришелец расколола Землю и сдвинула континенты
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 129
+
+Астрофизик Сяолэй Чжан из Университета Джорджа Мейсона (США) представил статью, в которой доказывает, что распад суперконтинента 
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 705
+
+В XIX и первой половине XX века среди геологов бытовало мнение, что Земля напоминает запеченное яблоко, которое постепенно остывает и уменьшается, а на ее поверхности возникают «морщины». На основе «яблочной гипотезы» возникла теория геосинклиналей, согласно которой отдельные участки земной коры опускаются, а затем поднимаются, формируя горные хребты. Однако еще в 1912 году ученый-геофизик Альфред Вегенер оспорил эту схему, предположив, что горообразование происходит из-за континентального дрейфа материков. В пользу своей версии он приводил тот аргумент, что очертания западного побережья Африки и восточного побережья Южной Америки совпадают, словно эти континенты были частью одного суперматерика.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T161812Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c640cebd-fe7f-4390-afc8-3bad5e231506
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T161938Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

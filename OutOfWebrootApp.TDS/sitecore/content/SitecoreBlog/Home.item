@@ -1,0 +1,141 @@
+----item----
+version: 1
+id: {9C35F065-16A2-47C2-95E0-EBA4A0DAD7A3}
+database: master
+path: /sitecore/content/SitecoreBlog/Home
+parent: {DBAE6B06-FCD0-48CE-B84B-C6366207DF63}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {A6CB7A84-0A61-482A-927B-7E12A77E569C}
+templatekey: Home
+created: 20171122T124349:636469514298570000
+
+----version----
+language: en
+version: 1
+revision: 665202b6-cb12-4373-85af-0afcaf4f0ea2
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 4
+
+Home
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 316
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{32923969-F448-4CD7-A50D-3C197A02B4EF}"><p:d /></r><r uid="{50358FF4-C3DD-4987-AF5A-59AFFF8C9D27}" p:after="r[@uid='{CD7EF966-EB6F-4F4D-9C9A-385488EE393F}']" s:id="{86509619-CD7F-4CDA-AAB1-F4262A40F7B8}" s:ph="body" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T124349Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+665202b6-cb12-4373-85af-0afcaf4f0ea2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171227T101631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: ru-RU
+version: 1
+revision: 007d7b7a-6bfc-425e-9adf-528a25f8ddd2
+
+----field----
+field: {3269A277-DF9D-42F9-B267-8F8FA82961D4}
+name: Description
+key: description
+content-length: 49
+
+Данный блог содержит посты относящиеся к сайткору
+----field----
+field: {02E5432D-40BB-4D19-A7A3-3211EEDB85C4}
+name: Header
+key: header
+content-length: 12
+
+Сайткор-блог
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 17
+
+Домашняя страница
+----field----
+field: {34410538-6B61-4A54-912B-78BEBF193C2C}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T155025Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+007d7b7a-6bfc-425e-9adf-528a25f8ddd2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171214T141854Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

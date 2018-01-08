@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {8D9490DB-22A6-4172-A0D9-C6B0073D17E1}
+database: master
+path: /sitecore/content/SitecoreBlog/Local Storage/Datasources/Email/Reposts/MainEmailReport
+parent: {A8A0EB08-EFCC-455D-8AF7-2523A039AE05}
+name: MainEmailReport
+master: {00000000-0000-0000-0000-000000000000}
+template: {82EE1F9C-7EAE-464A-9688-668DA49E73E6}
+templatekey: EmailReport
+created: 20171214T131954:636488543948830000
+
+----field----
+field: {FEC44842-0D0F-46DE-A280-F5FDF399AB44}
+name: Subject
+key: subject
+content-length: 25
+
+SitecoreBlog: Fresh Posts
+----field----
+field: {92DFEDB8-DFF7-498A-9D02-FE963E088FBF}
+name: Body
+key: body
+content-length: 22
+
+<div>
+[content]
+</div>
+----version----
+language: en
+version: 1
+revision: 7965431f-d96a-47e6-802c-e45c7f9d503c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171213T153951Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7965431f-d96a-47e6-802c-e45c7f9d503c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171214T132042Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 892afb46-7d59-4387-81a0-117fae867ad2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171214T140735Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+892afb46-7d59-4387-81a0-117fae867ad2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171214T140735Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

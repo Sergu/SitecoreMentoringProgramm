@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {7F7564E7-110B-493F-92AD-B61A9A255C54}
+database: master
+path: /sitecore/content/BranchBlog/SiteSetting
+parent: {C205052D-39F3-43A4-B428-D8C81DE3B0E7}
+name: SiteSetting
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {944A87F1-772F-4783-AD9C-612C061ED957}
+templatekey: SiteSetting
+created: 20171128T150052:636474780529500000
+
+----field----
+field: {4F205A90-9191-4C05-A0DE-4DFCED728833}
+name: PostsPageCapacity
+key: postspagecapacity
+content-length: 1
+
+3
+----field----
+field: {31D6775C-4EBF-46D1-9E03-B03A1C791347}
+name: SliderDefaultSpeedTemplatePath
+key: sliderdefaultspeedtemplatepath
+content-length: 74
+
+/sitecore/content/BranchBlog/Local Storage/Settings/Slider/Default/Default
+----field----
+field: {6E975D33-7984-479B-BFE4-47C44FEB2630}
+name: PostIndex
+key: postindex
+content-length: 26
+
+branch_blog_post_web_index
+----field----
+field: {1C4A4EA8-3AB7-4F74-8333-5806C9A6A997}
+name: CommentTemplateId
+key: commenttemplateid
+content-length: 38
+
+{F482979A-7905-49B3-84EC-224C31591E4C}
+----field----
+field: {F6405848-1477-485F-878F-7CFCF39F74CC}
+name: PostTagTreeRootItemId
+key: posttagtreerootitemid
+content-length: 38
+
+{C66A285C-78E1-45EF-A2CE-A9F7FEFF255F}
+----field----
+field: {DD124791-5B19-492B-AC5B-863DFDF67FC2}
+name: PostCategoryRootItemId
+key: postcategoryrootitemid
+content-length: 38
+
+{2B32C7FC-F45D-41DD-94BB-C6664B57BBB1}
+----field----
+field: {3510DA2A-F92F-464B-8709-A78E82C4FED0}
+name: SiteSettingTemplateName
+key: sitesettingtemplatename
+content-length: 11
+
+sitesetting
+----field----
+field: {CF6771F7-A536-4475-8C04-07211FD8D8F8}
+name: SliderDataSource
+key: sliderdatasource
+content-length: 38
+
+{CECB0AA7-054E-4232-844F-54B7A4AF788B}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{0C682641-219D-46F3-8806-D80A442B83A7}
+----version----
+language: en
+version: 1
+revision: 4b195fa5-154a-4b13-82f7-30e4c6074ab9
+
+----field----
+field: {5D017885-24A0-414F-8E25-F5B93D0EED4D}
+name: NoResultMessage
+key: noresultmessage
+content-length: 10
+
+No Results
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150052Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4b195fa5-154a-4b13-82f7-30e4c6074ab9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180108T125243Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

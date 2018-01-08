@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {3D11FFE4-63C1-4AF1-AE48-9C14F649E774}
+database: master
+path: /sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Science/Astronomy/BlackHole
+parent: {C15A19A3-6AAB-4FD1-9980-90010BE56ECE}
+name: BlackHole
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+templatekey: Leaf
+created: 20171128T150051:636474780519270000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{40511AD1-388A-4AB7-BE48-5C3A7AE294D6}
+----version----
+language: en
+version: 1
+revision: 55564c22-4718-4aca-8eb2-efc7ce4b0420
+
+----field----
+field: {BBCA1A4C-9C86-4451-9C4A-3F35AA1E708D}
+name: Value
+key: value
+content-length: 9
+
+BlackHole
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55564c22-4718-4aca-8eb2-efc7ce4b0420
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171128T150051Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

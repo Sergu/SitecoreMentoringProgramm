@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {129591B6-9024-44E0-94AD-A17E0D036A8B}
+database: master
+path: /sitecore/layout/Renderings/Custom/Base/Components/Slider
+parent: {AA9187A6-6413-49EE-AD7D-809C4B864BCB}
+name: Slider
+master: {00000000-0000-0000-0000-000000000000}
+template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
+templatekey: Rendering Folder
+created: 20171009T124905:636431501459000000
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----version----
+language: en
+version: 1
+revision: 342a0ae1-2044-4a94-ab29-55ba02e38691
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171009T124905Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+342a0ae1-2044-4a94-ab29-55ba02e38691
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T081022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

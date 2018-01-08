@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {6098E9BA-9C86-4E1C-BD38-1A6518A0C3F5}
+database: master
+path: /sitecore/content/BranchBlog/Home/Posts/Post 1
+parent: {111B8AF6-73B3-428F-B51C-A822FB65BEDB}
+name: Post 1
+master: {77670655-794E-4763-866F-0E5BC47BFD43}
+template: {308B1E83-6748-4641-A8B2-0FD24FAC4301}
+templatekey: Post
+created: 20171128T150049:636474780491600000
+
+----field----
+field: {3CB27929-9727-4981-8FBF-CB08A639FFFB}
+name: Author
+key: author
+content-length: 11
+
+Stephen Lee
+----field----
+field: {F56CE0A0-B66B-4CBF-92CC-CB59BE0C2A57}
+name: Date
+key: date
+content-length: 16
+
+20171218T144500Z
+----field----
+field: {F3A67EB2-56D1-453F-87CA-E8BC868BF157}
+name: Category
+key: category
+content-length: 38
+
+{B1E49FEF-A463-440E-A347-2CF06BBB2510}
+----field----
+field: {651C31FF-18F2-45CB-9BDD-2F98FC7CF38C}
+name: Tags
+key: tags
+content-length: 38
+
+{3D11FFE4-63C1-4AF1-AE48-9C14F649E774}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{166FE534-E3FB-4690-82DC-C1DF29A8E954}
+----version----
+language: en
+version: 1
+revision: 7ea470b3-522b-4c4a-a141-b1ae65220795
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 88
+
+Eerie moment 'ghost' floats through Grade II-listed family home that used to be hospital
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 107
+
+The spooky sighting captured on film shows a ghostly figure floating through the family living room in Kent
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 532
+
+This is the eerie moment a ghostly apparition was caught on camera floating through a Kent family home.
+The 'haunted' Grade II listed building was once a hospital and the family that live there are now convinced they share it with these uninvited guests.
+The sppoky sighting was captured on cameras in the living room - originally set-up to keep an eye on the family's two French Bulldogs.
+While they slept the footage shows a translucent white shadow floating in to the room through the French doors and gliding across the sofa.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171128T150049Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ea470b3-522b-4c4a-a141-b1ae65220795
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171218T142941Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ru-RU
+version: 1
+revision: 8e031593-9760-46d6-b975-f839f72be2cc
+
+----field----
+field: {904C55DC-31D9-475D-A5E0-AF474B8ADD06}
+name: Title
+key: title
+content-length: 81
+
+Самая курьезная семейная ссора: полицейским пришлось разнимать попугая с хозяином
+----field----
+field: {DDEDF89C-2520-4582-878F-5C8879F5C72F}
+name: Subtitle
+key: subtitle
+content-length: 69
+
+На вызов по поводу семейной разборки прибыли немецкие стражи порядка.
+----field----
+field: {9E43A309-E3DB-407B-9C75-26403302ACF5}
+name: Body
+key: body
+content-length: 344
+
+На громкие крики, топот и грохот падающей мебели в квартире этажом выше пожаловались соседи. Но когда полицейский наряд прибыл на место, то полиция была озадачена.
+Дверь полиции открыл мужчина со следами крови на лице, подчеркивает ТАСС. Он повздорил со своим попугаем. Птица, беспорядочно летая по квартире, опрокидывала вещи и побила посуду.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171214T144917Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e031593-9760-46d6-b975-f839f72be2cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171218T144517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

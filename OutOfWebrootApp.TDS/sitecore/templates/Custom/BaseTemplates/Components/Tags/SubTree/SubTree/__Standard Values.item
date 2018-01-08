@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {9713231B-B17E-45D5-B2E6-C93F2743E14A}
+database: master
+path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/SubTree/SubTree/__Standard Values
+parent: {39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}
+templatekey: SubTree
+created: 20171026T142725:636446248452700000
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{39642977-4D9F-414C-8B9C-9ED4F3CC2B1F}|{672EA8AD-0F86-46E9-9771-D38979CEE9F7}
+----version----
+language: en
+version: 1
+revision: 21812f54-3072-49a3-a9a7-926453f6cb09
+
+----field----
+field: {DC086429-BCE8-4AC0-B3AF-5F495D1FA90D}
+name: Value
+key: value
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T142725Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+21812f54-3072-49a3-a9a7-926453f6cb09
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171122T082630Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
