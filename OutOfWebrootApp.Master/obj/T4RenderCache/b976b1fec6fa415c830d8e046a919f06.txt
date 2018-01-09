@@ -1,0 +1,102 @@
+//Revision: bcfbc5dd-1796-4a46-8618-a7ed65d2f082
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Base
+{
+
+
+ 	/// <summary>
+	/// IBaseNavigationItem Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Base/BaseNavigationItem</para>	
+	/// <para>ID: b976b1fe-c6fa-415c-830d-8e046a919f06</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IBaseNavigationItemConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IBaseNavigationItem : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The ShowInNavigation field.
+					/// <para></para>
+					/// <para>Field Type: Checkbox</para>		
+					/// <para>Field ID: 34410538-6b61-4a54-912b-78bebf193c2c</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IBaseNavigationItemConstants.ShowInNavigationFieldName)]
+					bool ShowInNavigation  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IBaseNavigationItemConstants{
+
+			public const string TemplateIdString = "b976b1fe-c6fa-415c-830d-8e046a919f06";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "BaseNavigationItem";
+
+		
+			
+			public static readonly ID ShowInNavigationFieldId = new ID("34410538-6b61-4a54-912b-78bebf193c2c");
+			public const string ShowInNavigationFieldName = "ShowInNavigation";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// BaseNavigationItem
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Base/BaseNavigationItem</para>	
+	/// <para>ID: b976b1fe-c6fa-415c-830d-8e046a919f06</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IBaseNavigationItemConstants.TemplateIdString)] //, Cachable = true
+	public partial class BaseNavigationItem  : GlassBase, IBaseNavigationItem 
+	{
+	   
+		
+				/// <summary>
+				/// The ShowInNavigation field.
+				/// <para></para>
+				/// <para>Field Type: Checkbox</para>		
+				/// <para>Field ID: 34410538-6b61-4a54-912b-78bebf193c2c</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IBaseNavigationItemConstants.ShowInNavigationFieldName)]
+				public virtual bool ShowInNavigation  {get; set;}
+					
+			
+	}
+
+}
+

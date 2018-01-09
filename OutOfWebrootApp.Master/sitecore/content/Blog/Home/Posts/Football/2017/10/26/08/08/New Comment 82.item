@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {AD592017-93CB-4EEF-B1D4-B364C71BA2EB}
+database: master
+path: /sitecore/content/Blog/Home/Posts/Football/2017/10/26/08/08/New Comment 82
+parent: {29B931B6-F70D-4FD5-81F9-BEE3EDEBA4FB}
+name: New Comment 82
+master: {00000000-0000-0000-0000-000000000000}
+template: {F482979A-7905-49B3-84EC-224C31591E4C}
+templatekey: Comment
+created: 20171026T080853:636446021339570000
+
+----version----
+language: en
+version: 1
+revision: c6f7023d-073b-48f3-9ca5-b8ddf31e3863
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T080853Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c6f7023d-073b-48f3-9ca5-b8ddf31e3863
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180109T133218Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -55,3 +55,9 @@ D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\InfrastructureModule.dll
 D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Newtonsoft.Json.dll
 D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\InfrastructureModule.pdb
 D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Newtonsoft.Json.xml
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Glass.Mapper.Sc.dll
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Glass.Mapper.dll
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Castle.Core.dll
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Glass.Mapper.xml
+D:\Sitecore\l2\OutOfWebrotApp\SitecoreBlogApp\bin\Castle.Core.xml

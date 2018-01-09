@@ -1,0 +1,102 @@
+//Revision: 4bdec528-74b2-45f5-b950-9164a68b7dc7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.PostCategory
+{
+
+
+ 	/// <summary>
+	/// ICategory Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/PostCategory/Category</para>	
+	/// <para>ID: 2954ad44-0f70-47d1-99ba-4ddc709e3c5c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICategory : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Value field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 9869e861-a70c-4cee-b28f-8e5c39b8f200</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICategoryConstants.ValueFieldName)]
+					string Value  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICategoryConstants{
+
+			public const string TemplateIdString = "2954ad44-0f70-47d1-99ba-4ddc709e3c5c";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Category";
+
+		
+			
+			public static readonly ID ValueFieldId = new ID("9869e861-a70c-4cee-b28f-8e5c39b8f200");
+			public const string ValueFieldName = "Value";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Category
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/PostCategory/Category</para>	
+	/// <para>ID: 2954ad44-0f70-47d1-99ba-4ddc709e3c5c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryConstants.TemplateIdString)] //, Cachable = true
+	public partial class Category  : GlassBase, ICategory 
+	{
+	   
+		
+				/// <summary>
+				/// The Value field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 9869e861-a70c-4cee-b28f-8e5c39b8f200</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICategoryConstants.ValueFieldName)]
+				public virtual string Value  {get; set;}
+					
+			
+	}
+
+}
+

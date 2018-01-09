@@ -55,3 +55,9 @@ D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Newtonsoft.Json.xml
 D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\obj\Debug\BranchBlogApp.csprojResolveAssemblyReference.cache
 D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\obj\Debug\BranchBlogApp.dll
 D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\obj\Debug\BranchBlogApp.pdb
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Glass.Mapper.Sc.dll
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Glass.Mapper.dll
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Castle.Core.dll
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Glass.Mapper.xml
+D:\Sitecore\l2\OutOfWebrotApp\BranchBlogApp\bin\Castle.Core.xml

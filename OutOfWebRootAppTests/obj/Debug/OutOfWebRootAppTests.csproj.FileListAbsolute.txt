@@ -25,3 +25,9 @@ D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Sitecore.ContentSea
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Newtonsoft.Json.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\InfrastructureModule.pdb
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Newtonsoft.Json.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Glass.Mapper.Sc.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Glass.Mapper.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Castle.Core.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Glass.Mapper.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebRootAppTests\bin\Debug\Castle.Core.xml

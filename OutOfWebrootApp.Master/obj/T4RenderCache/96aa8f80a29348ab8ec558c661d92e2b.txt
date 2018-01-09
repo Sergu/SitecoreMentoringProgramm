@@ -1,0 +1,186 @@
+//Revision: c17bbc4d-4120-448e-9400-f1e3b5f7bf95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Slider.Base
+{
+
+
+ 	/// <summary>
+	/// ISliderBase Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Base/SliderBase</para>	
+	/// <para>ID: 96aa8f80-a293-48ab-8ec5-58c661d92e2b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderBaseConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISliderBase : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The DefaultSpeed field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: 924c63b9-f1cc-4384-addf-fdf998b03b72</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderBaseConstants.DefaultSpeedFieldName)]
+					Guid DefaultSpeed  {get; set;}
+			
+			
+					/// <summary>
+					/// The Height field.
+					/// <para></para>
+					/// <para>Field Type: Integer</para>		
+					/// <para>Field ID: a5cc9ac6-21be-446e-8bea-fdbbeed4e7bc</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderBaseConstants.HeightFieldName)]
+					int Height  {get; set;}
+			
+			
+					/// <summary>
+					/// The Images field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: 5cf000a6-2c21-423f-b039-b6159d71cf08</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderBaseConstants.ImagesFieldName)]
+					IEnumerable<Guid> Images  {get; set;}
+			
+			
+					/// <summary>
+					/// The Width field.
+					/// <para></para>
+					/// <para>Field Type: Integer</para>		
+					/// <para>Field ID: afc8de41-3297-4659-8541-101fbee1fa31</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderBaseConstants.WidthFieldName)]
+					int Width  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISliderBaseConstants{
+
+			public const string TemplateIdString = "96aa8f80-a293-48ab-8ec5-58c661d92e2b";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SliderBase";
+
+		
+			
+			public static readonly ID DefaultSpeedFieldId = new ID("924c63b9-f1cc-4384-addf-fdf998b03b72");
+			public const string DefaultSpeedFieldName = "DefaultSpeed";
+			
+		
+			
+			public static readonly ID HeightFieldId = new ID("a5cc9ac6-21be-446e-8bea-fdbbeed4e7bc");
+			public const string HeightFieldName = "Height";
+			
+		
+			
+			public static readonly ID ImagesFieldId = new ID("5cf000a6-2c21-423f-b039-b6159d71cf08");
+			public const string ImagesFieldName = "Images";
+			
+		
+			
+			public static readonly ID WidthFieldId = new ID("afc8de41-3297-4659-8541-101fbee1fa31");
+			public const string WidthFieldName = "Width";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SliderBase
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Base/SliderBase</para>	
+	/// <para>ID: 96aa8f80-a293-48ab-8ec5-58c661d92e2b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderBaseConstants.TemplateIdString)] //, Cachable = true
+	public partial class SliderBase  : GlassBase, ISliderBase 
+	{
+	   
+		
+				/// <summary>
+				/// The DefaultSpeed field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: 924c63b9-f1cc-4384-addf-fdf998b03b72</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderBaseConstants.DefaultSpeedFieldName)]
+				public virtual Guid DefaultSpeed  {get; set;}
+					
+		
+				/// <summary>
+				/// The Height field.
+				/// <para></para>
+				/// <para>Field Type: Integer</para>		
+				/// <para>Field ID: a5cc9ac6-21be-446e-8bea-fdbbeed4e7bc</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderBaseConstants.HeightFieldName)]
+				public virtual int Height  {get; set;}
+					
+		
+				/// <summary>
+				/// The Images field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: 5cf000a6-2c21-423f-b039-b6159d71cf08</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderBaseConstants.ImagesFieldName)]
+				public virtual IEnumerable<Guid> Images  {get; set;}
+					
+		
+				/// <summary>
+				/// The Width field.
+				/// <para></para>
+				/// <para>Field Type: Integer</para>		
+				/// <para>Field ID: afc8de41-3297-4659-8541-101fbee1fa31</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderBaseConstants.WidthFieldName)]
+				public virtual int Width  {get; set;}
+					
+			
+	}
+
+}
+

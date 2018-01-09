@@ -1,0 +1,102 @@
+//Revision: dfe1d4d0-452a-44ad-bf80-0d30b4cd0449
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Tags.Leaf
+{
+
+
+ 	/// <summary>
+	/// ILeaf Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/Leaf/Leaf</para>	
+	/// <para>ID: 672ea8ad-0f86-46e9-9771-d38979cee9f7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILeafConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ILeaf : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Value field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: bbca1a4c-9c86-4451-9c4a-3f35aa1e708d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ILeafConstants.ValueFieldName)]
+					string Value  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ILeafConstants{
+
+			public const string TemplateIdString = "672ea8ad-0f86-46e9-9771-d38979cee9f7";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Leaf";
+
+		
+			
+			public static readonly ID ValueFieldId = new ID("bbca1a4c-9c86-4451-9c4a-3f35aa1e708d");
+			public const string ValueFieldName = "Value";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Leaf
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/Leaf/Leaf</para>	
+	/// <para>ID: 672ea8ad-0f86-46e9-9771-d38979cee9f7</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILeafConstants.TemplateIdString)] //, Cachable = true
+	public partial class Leaf  : GlassBase, ILeaf 
+	{
+	   
+		
+				/// <summary>
+				/// The Value field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: bbca1a4c-9c86-4451-9c4a-3f35aa1e708d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ILeafConstants.ValueFieldName)]
+				public virtual string Value  {get; set;}
+					
+			
+	}
+
+}
+

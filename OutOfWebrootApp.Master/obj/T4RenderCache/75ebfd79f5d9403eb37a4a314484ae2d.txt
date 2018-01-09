@@ -1,0 +1,214 @@
+//Revision: 109c6c44-42bd-48a6-965a-6e7172660975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Email.DataSources
+{
+
+
+ 	/// <summary>
+	/// IEmailPostTemplate Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/DataSources/EmailPostTemplate</para>	
+	/// <para>ID: 75ebfd79-f5d9-403e-b37a-4a314484ae2d</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailPostTemplateConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IEmailPostTemplate : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Author field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: f5d77ea5-ab32-402d-8543-ef5bcfe0f89c</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailPostTemplateConstants.AuthorFieldName)]
+					string Author  {get; set;}
+			
+			
+					/// <summary>
+					/// The Date field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: c144947f-4752-4569-9d96-236add61de28</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailPostTemplateConstants.DateFieldName)]
+					string Date  {get; set;}
+			
+			
+					/// <summary>
+					/// The Link field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 9d20e261-ed17-4a0f-92b3-8e14b72eef62</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailPostTemplateConstants.LinkFieldName)]
+					string Link  {get; set;}
+			
+			
+					/// <summary>
+					/// The Name field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 76320282-4128-48af-92da-836e9cb8df23</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailPostTemplateConstants.NameFieldName)]
+					string Name  {get; set;}
+			
+			
+					/// <summary>
+					/// The PostTitle field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 521ec726-d98d-4c24-a9bf-69ff3f7e384a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailPostTemplateConstants.PostTitleFieldName)]
+					string PostTitle  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IEmailPostTemplateConstants{
+
+			public const string TemplateIdString = "75ebfd79-f5d9-403e-b37a-4a314484ae2d";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "EmailPostTemplate";
+
+		
+			
+			public static readonly ID AuthorFieldId = new ID("f5d77ea5-ab32-402d-8543-ef5bcfe0f89c");
+			public const string AuthorFieldName = "Author";
+			
+		
+			
+			public static readonly ID DateFieldId = new ID("c144947f-4752-4569-9d96-236add61de28");
+			public const string DateFieldName = "Date";
+			
+		
+			
+			public static readonly ID LinkFieldId = new ID("9d20e261-ed17-4a0f-92b3-8e14b72eef62");
+			public const string LinkFieldName = "Link";
+			
+		
+			
+			public static readonly ID NameFieldId = new ID("76320282-4128-48af-92da-836e9cb8df23");
+			public const string NameFieldName = "Name";
+			
+		
+			
+			public static readonly ID PostTitleFieldId = new ID("521ec726-d98d-4c24-a9bf-69ff3f7e384a");
+			public const string PostTitleFieldName = "PostTitle";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// EmailPostTemplate
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/DataSources/EmailPostTemplate</para>	
+	/// <para>ID: 75ebfd79-f5d9-403e-b37a-4a314484ae2d</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailPostTemplateConstants.TemplateIdString)] //, Cachable = true
+	public partial class EmailPostTemplate  : GlassBase, IEmailPostTemplate 
+	{
+	   
+		
+				/// <summary>
+				/// The Author field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: f5d77ea5-ab32-402d-8543-ef5bcfe0f89c</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailPostTemplateConstants.AuthorFieldName)]
+				public virtual string Author  {get; set;}
+					
+		
+				/// <summary>
+				/// The Date field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: c144947f-4752-4569-9d96-236add61de28</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailPostTemplateConstants.DateFieldName)]
+				public virtual string Date  {get; set;}
+					
+		
+				/// <summary>
+				/// The Link field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 9d20e261-ed17-4a0f-92b3-8e14b72eef62</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailPostTemplateConstants.LinkFieldName)]
+				public virtual string Link  {get; set;}
+					
+		
+				/// <summary>
+				/// The Name field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 76320282-4128-48af-92da-836e9cb8df23</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailPostTemplateConstants.NameFieldName)]
+				public virtual string Name  {get; set;}
+					
+		
+				/// <summary>
+				/// The PostTitle field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 521ec726-d98d-4c24-a9bf-69ff3f7e384a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailPostTemplateConstants.PostTitleFieldName)]
+				public virtual string PostTitle  {get; set;}
+					
+			
+	}
+
+}
+

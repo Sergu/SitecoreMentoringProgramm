@@ -1,0 +1,244 @@
+//Revision: 0cdd373e-a619-4f2a-840f-801fb2946b3c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.SitecoreBlogTemplates.Pages.Post
+{
+
+
+ 	/// <summary>
+	/// ISitecoreBlogPost Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/SitecoreBlogTemplates/Pages/Post/SitecoreBlogPost</para>	
+	/// <para>ID: 0f64be07-030b-4091-ae14-e866e9260814</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISitecoreBlogPostConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISitecoreBlogPost : IGlassBase , global::InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Pages.Post.IPost
+	{
+			
+	}
+
+
+	public static partial class ISitecoreBlogPostConstants{
+
+			public const string TemplateIdString = "0f64be07-030b-4091-ae14-e866e9260814";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SitecoreBlogPost";
+
+		
+			
+			public static readonly ID AuthorFieldId = new ID("3cb27929-9727-4981-8fbf-cb08a639fffb");
+			public const string AuthorFieldName = "Author";
+			
+		
+			
+			public static readonly ID BodyFieldId = new ID("9e43a309-e3db-407b-9c75-26403302acf5");
+			public const string BodyFieldName = "Body";
+			
+		
+			
+			public static readonly ID CategoryFieldId = new ID("f3a67eb2-56d1-453f-87ca-e8bc868bf157");
+			public const string CategoryFieldName = "Category";
+			
+		
+			
+			public static readonly ID DateFieldId = new ID("f56ce0a0-b66b-4cbf-92cc-cb59be0c2a57");
+			public const string DateFieldName = "Date";
+			
+		
+			
+			public static readonly ID SubtitleFieldId = new ID("ddedf89c-2520-4582-878f-5c8879f5c72f");
+			public const string SubtitleFieldName = "Subtitle";
+			
+		
+			
+			public static readonly ID TagsFieldId = new ID("651c31ff-18f2-45cb-9bdd-2f98fc7cf38c");
+			public const string TagsFieldName = "Tags";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("3269a277-df9d-42f9-b267-8f8fa82961d4");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID HeaderFieldId = new ID("02e5432d-40bb-4d19-a7a3-3211eedb85c4");
+			public const string HeaderFieldName = "Header";
+			
+		
+			
+			public static readonly ID KeywordsFieldId = new ID("e2801beb-86cd-4451-a120-c5abe71470de");
+			public const string KeywordsFieldName = "Keywords";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("904c55dc-31d9-475d-a5e0-af474b8add06");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SitecoreBlogPost
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/SitecoreBlogTemplates/Pages/Post/SitecoreBlogPost</para>	
+	/// <para>ID: 0f64be07-030b-4091-ae14-e866e9260814</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISitecoreBlogPostConstants.TemplateIdString)] //, Cachable = true
+	public partial class SitecoreBlogPost  : GlassBase, ISitecoreBlogPost 
+	{
+	   
+		
+				/// <summary>
+				/// The Author field.
+				/// <para>Post author short description</para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 3cb27929-9727-4981-8fbf-cb08a639fffb</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.AuthorFieldName)]
+				public virtual string Author  {get; set;}
+					
+		
+				/// <summary>
+				/// The Body field.
+				/// <para>Post body short description</para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 9e43a309-e3db-407b-9c75-26403302acf5</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.BodyFieldName)]
+				public virtual string Body  {get; set;}
+					
+		
+				/// <summary>
+				/// The Category field.
+				/// <para>Post category short description</para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: f3a67eb2-56d1-453f-87ca-e8bc868bf157</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.CategoryFieldName)]
+				public virtual Guid Category  {get; set;}
+					
+		
+				/// <summary>
+				/// The Date field.
+				/// <para>Post date short description</para>
+				/// <para>Field Type: Datetime</para>		
+				/// <para>Field ID: f56ce0a0-b66b-4cbf-92cc-cb59be0c2a57</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.DateFieldName)]
+				public virtual DateTime Date  {get; set;}
+					
+		
+				/// <summary>
+				/// The Subtitle field.
+				/// <para>Post subtitle short description</para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: ddedf89c-2520-4582-878f-5c8879f5c72f</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.SubtitleFieldName)]
+				public virtual string Subtitle  {get; set;}
+					
+		
+				/// <summary>
+				/// The Tags field.
+				/// <para>Post tags short description</para>
+				/// <para>Field Type: Treelist</para>		
+				/// <para>Field ID: 651c31ff-18f2-45cb-9bdd-2f98fc7cf38c</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.TagsFieldName)]
+				public virtual IEnumerable<Guid> Tags  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 3269a277-df9d-42f9-b267-8f8fa82961d4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Header field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 02e5432d-40bb-4d19-a7a3-3211eedb85c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.HeaderFieldName)]
+				public virtual string Header  {get; set;}
+					
+		
+				/// <summary>
+				/// The Keywords field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: e2801beb-86cd-4451-a120-c5abe71470de</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.KeywordsFieldName)]
+				public virtual string Keywords  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para>Short title description</para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 904c55dc-31d9-475d-a5e0-af474b8add06</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISitecoreBlogPostConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

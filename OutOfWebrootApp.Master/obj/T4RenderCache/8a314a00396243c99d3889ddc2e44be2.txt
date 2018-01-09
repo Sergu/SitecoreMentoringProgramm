@@ -1,0 +1,74 @@
+//Revision: f1a37237-3bf8-41e2-ac59-d895b6ecbba7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.LocalStorage
+{
+
+
+ 	/// <summary>
+	/// ILocal_Storage Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/LocalStorage/Local Storage</para>	
+	/// <para>ID: 8a314a00-3962-43c9-9d38-89ddc2e44be2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILocal_StorageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ILocal_Storage : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ILocal_StorageConstants{
+
+			public const string TemplateIdString = "8a314a00-3962-43c9-9d38-89ddc2e44be2";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Local Storage";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// Local_Storage
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/LocalStorage/Local Storage</para>	
+	/// <para>ID: 8a314a00-3962-43c9-9d38-89ddc2e44be2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ILocal_StorageConstants.TemplateIdString)] //, Cachable = true
+	public partial class Local_Storage  : GlassBase, ILocal_Storage 
+	{
+	   
+			
+	}
+
+}
+

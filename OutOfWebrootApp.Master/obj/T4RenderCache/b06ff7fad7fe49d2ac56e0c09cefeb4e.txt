@@ -1,0 +1,102 @@
+//Revision: 632e28b4-997d-4ff7-99ed-85ff86aebf72
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Slider.Settings
+{
+
+
+ 	/// <summary>
+	/// ISliderSpeedSetting Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Settings/SliderSpeedSetting</para>	
+	/// <para>ID: b06ff7fa-d7fe-49d2-ac56-e0c09cefeb4e</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderSpeedSettingConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISliderSpeedSetting : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Speed field.
+					/// <para></para>
+					/// <para>Field Type: Integer</para>		
+					/// <para>Field ID: 0e75cf41-a9f8-4bfc-b67b-388b656ebb46</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderSpeedSettingConstants.SpeedFieldName)]
+					int Speed  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISliderSpeedSettingConstants{
+
+			public const string TemplateIdString = "b06ff7fa-d7fe-49d2-ac56-e0c09cefeb4e";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SliderSpeedSetting";
+
+		
+			
+			public static readonly ID SpeedFieldId = new ID("0e75cf41-a9f8-4bfc-b67b-388b656ebb46");
+			public const string SpeedFieldName = "Speed";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SliderSpeedSetting
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Settings/SliderSpeedSetting</para>	
+	/// <para>ID: b06ff7fa-d7fe-49d2-ac56-e0c09cefeb4e</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderSpeedSettingConstants.TemplateIdString)] //, Cachable = true
+	public partial class SliderSpeedSetting  : GlassBase, ISliderSpeedSetting 
+	{
+	   
+		
+				/// <summary>
+				/// The Speed field.
+				/// <para></para>
+				/// <para>Field Type: Integer</para>		
+				/// <para>Field ID: 0e75cf41-a9f8-4bfc-b67b-388b656ebb46</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderSpeedSettingConstants.SpeedFieldName)]
+				public virtual int Speed  {get; set;}
+					
+			
+	}
+
+}
+

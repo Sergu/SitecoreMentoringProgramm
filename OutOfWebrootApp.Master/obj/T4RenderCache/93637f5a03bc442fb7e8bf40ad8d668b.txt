@@ -1,0 +1,102 @@
+//Revision: 4e905e82-b25d-463f-8b32-4d81923da39a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.SitecoreBlogTemplates.Components.Footer
+{
+
+
+ 	/// <summary>
+	/// IFooterDataSource Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/SitecoreBlogTemplates/Components/Footer/FooterDataSource</para>	
+	/// <para>ID: 93637f5a-03bc-442f-b7e8-bf40ad8d668b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFooterDataSourceConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IFooterDataSource : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The SocialNetworks field.
+					/// <para></para>
+					/// <para>Field Type: Multilist</para>		
+					/// <para>Field ID: 9376b88c-a12f-409a-a46f-7ad6d4f717cd</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IFooterDataSourceConstants.SocialNetworksFieldName)]
+					IEnumerable<Guid> SocialNetworks  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IFooterDataSourceConstants{
+
+			public const string TemplateIdString = "93637f5a-03bc-442f-b7e8-bf40ad8d668b";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "FooterDataSource";
+
+		
+			
+			public static readonly ID SocialNetworksFieldId = new ID("9376b88c-a12f-409a-a46f-7ad6d4f717cd");
+			public const string SocialNetworksFieldName = "SocialNetworks";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// FooterDataSource
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/SitecoreBlogTemplates/Components/Footer/FooterDataSource</para>	
+	/// <para>ID: 93637f5a-03bc-442f-b7e8-bf40ad8d668b</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IFooterDataSourceConstants.TemplateIdString)] //, Cachable = true
+	public partial class FooterDataSource  : GlassBase, IFooterDataSource 
+	{
+	   
+		
+				/// <summary>
+				/// The SocialNetworks field.
+				/// <para></para>
+				/// <para>Field Type: Multilist</para>		
+				/// <para>Field ID: 9376b88c-a12f-409a-a46f-7ad6d4f717cd</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IFooterDataSourceConstants.SocialNetworksFieldName)]
+				public virtual IEnumerable<Guid> SocialNetworks  {get; set;}
+					
+			
+	}
+
+}
+

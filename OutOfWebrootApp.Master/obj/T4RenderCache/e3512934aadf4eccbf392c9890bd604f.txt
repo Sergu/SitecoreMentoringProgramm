@@ -1,0 +1,74 @@
+//Revision: 2eb27d56-730f-47fc-aeb6-716b701a83f8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Tags
+{
+
+
+ 	/// <summary>
+	/// ITagsTreeRoot Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/TagsTreeRoot</para>	
+	/// <para>ID: e3512934-aadf-4ecc-bf39-2c9890bd604f</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ITagsTreeRootConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ITagsTreeRoot : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ITagsTreeRootConstants{
+
+			public const string TemplateIdString = "e3512934-aadf-4ecc-bf39-2c9890bd604f";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "TagsTreeRoot";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// TagsTreeRoot
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/TagsTreeRoot</para>	
+	/// <para>ID: e3512934-aadf-4ecc-bf39-2c9890bd604f</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ITagsTreeRootConstants.TemplateIdString)] //, Cachable = true
+	public partial class TagsTreeRoot  : GlassBase, ITagsTreeRoot 
+	{
+	   
+			
+	}
+
+}
+

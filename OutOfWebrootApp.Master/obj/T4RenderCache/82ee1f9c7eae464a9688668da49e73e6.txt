@@ -1,0 +1,130 @@
+//Revision: 67ea951c-557b-4650-9d86-5e9f669e3234
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Email.DataSources
+{
+
+
+ 	/// <summary>
+	/// IEmailReport Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/DataSources/EmailReport</para>	
+	/// <para>ID: 82ee1f9c-7eae-464a-9688-668da49e73e6</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailReportConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IEmailReport : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Body field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: 92dfedb8-dff7-498a-9d02-fe963e088fbf</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailReportConstants.BodyFieldName)]
+					string Body  {get; set;}
+			
+			
+					/// <summary>
+					/// The Subject field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: fec44842-0d0f-46de-a280-f5fdf399ab44</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailReportConstants.SubjectFieldName)]
+					string Subject  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IEmailReportConstants{
+
+			public const string TemplateIdString = "82ee1f9c-7eae-464a-9688-668da49e73e6";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "EmailReport";
+
+		
+			
+			public static readonly ID BodyFieldId = new ID("92dfedb8-dff7-498a-9d02-fe963e088fbf");
+			public const string BodyFieldName = "Body";
+			
+		
+			
+			public static readonly ID SubjectFieldId = new ID("fec44842-0d0f-46de-a280-f5fdf399ab44");
+			public const string SubjectFieldName = "Subject";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// EmailReport
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/DataSources/EmailReport</para>	
+	/// <para>ID: 82ee1f9c-7eae-464a-9688-668da49e73e6</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailReportConstants.TemplateIdString)] //, Cachable = true
+	public partial class EmailReport  : GlassBase, IEmailReport 
+	{
+	   
+		
+				/// <summary>
+				/// The Body field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: 92dfedb8-dff7-498a-9d02-fe963e088fbf</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailReportConstants.BodyFieldName)]
+				public virtual string Body  {get; set;}
+					
+		
+				/// <summary>
+				/// The Subject field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: fec44842-0d0f-46de-a280-f5fdf399ab44</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailReportConstants.SubjectFieldName)]
+				public virtual string Subject  {get; set;}
+					
+			
+	}
+
+}
+

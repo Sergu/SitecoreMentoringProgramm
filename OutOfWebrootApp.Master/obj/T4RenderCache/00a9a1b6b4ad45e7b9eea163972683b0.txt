@@ -1,0 +1,270 @@
+//Revision: 51b2aa4c-761d-4533-8374-150155e7f129
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Email.Settings
+{
+
+
+ 	/// <summary>
+	/// IEmailSettings Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/Settings/EmailSettings</para>	
+	/// <para>ID: 00a9a1b6-b4ad-45e7-b9ee-a163972683b0</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailSettingsConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IEmailSettings : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The EmailFrom field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: ccee564f-232e-47bb-99af-25f5842bfae1</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.EmailFromFieldName)]
+					string EmailFrom  {get; set;}
+			
+			
+					/// <summary>
+					/// The EmailToSendReports field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 54b9ae75-366c-452c-b0cb-e8259ef3bd10</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.EmailToSendReportsFieldName)]
+					string EmailToSendReports  {get; set;}
+			
+			
+					/// <summary>
+					/// The FromPassword field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 086cd1e1-a651-48f3-9b58-5044503e5344</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.FromPasswordFieldName)]
+					string FromPassword  {get; set;}
+			
+			
+					/// <summary>
+					/// The HourTimeInterval field.
+					/// <para></para>
+					/// <para>Field Type: Integer</para>		
+					/// <para>Field ID: 243d7d85-55b8-45e3-80e7-255da1e61976</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.HourTimeIntervalFieldName)]
+					int HourTimeInterval  {get; set;}
+			
+			
+					/// <summary>
+					/// The NewPostEmailTemplate field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: 3eae046b-3970-4f66-b520-3dfb8f919e03</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.NewPostEmailTemplateFieldName)]
+					Guid NewPostEmailTemplate  {get; set;}
+			
+			
+					/// <summary>
+					/// The NewPostEmailTo field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: be1ac7cd-bf56-4193-add6-e2b96e146dd6</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.NewPostEmailToFieldName)]
+					string NewPostEmailTo  {get; set;}
+			
+			
+					/// <summary>
+					/// The ReportEmailTemplate field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: 49c89bd5-a951-40ee-9247-bc64e1663883</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IEmailSettingsConstants.ReportEmailTemplateFieldName)]
+					Guid ReportEmailTemplate  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IEmailSettingsConstants{
+
+			public const string TemplateIdString = "00a9a1b6-b4ad-45e7-b9ee-a163972683b0";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "EmailSettings";
+
+		
+			
+			public static readonly ID EmailFromFieldId = new ID("ccee564f-232e-47bb-99af-25f5842bfae1");
+			public const string EmailFromFieldName = "EmailFrom";
+			
+		
+			
+			public static readonly ID EmailToSendReportsFieldId = new ID("54b9ae75-366c-452c-b0cb-e8259ef3bd10");
+			public const string EmailToSendReportsFieldName = "EmailToSendReports";
+			
+		
+			
+			public static readonly ID FromPasswordFieldId = new ID("086cd1e1-a651-48f3-9b58-5044503e5344");
+			public const string FromPasswordFieldName = "FromPassword";
+			
+		
+			
+			public static readonly ID HourTimeIntervalFieldId = new ID("243d7d85-55b8-45e3-80e7-255da1e61976");
+			public const string HourTimeIntervalFieldName = "HourTimeInterval";
+			
+		
+			
+			public static readonly ID NewPostEmailTemplateFieldId = new ID("3eae046b-3970-4f66-b520-3dfb8f919e03");
+			public const string NewPostEmailTemplateFieldName = "NewPostEmailTemplate";
+			
+		
+			
+			public static readonly ID NewPostEmailToFieldId = new ID("be1ac7cd-bf56-4193-add6-e2b96e146dd6");
+			public const string NewPostEmailToFieldName = "NewPostEmailTo";
+			
+		
+			
+			public static readonly ID ReportEmailTemplateFieldId = new ID("49c89bd5-a951-40ee-9247-bc64e1663883");
+			public const string ReportEmailTemplateFieldName = "ReportEmailTemplate";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// EmailSettings
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Email/Settings/EmailSettings</para>	
+	/// <para>ID: 00a9a1b6-b4ad-45e7-b9ee-a163972683b0</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IEmailSettingsConstants.TemplateIdString)] //, Cachable = true
+	public partial class EmailSettings  : GlassBase, IEmailSettings 
+	{
+	   
+		
+				/// <summary>
+				/// The EmailFrom field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: ccee564f-232e-47bb-99af-25f5842bfae1</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.EmailFromFieldName)]
+				public virtual string EmailFrom  {get; set;}
+					
+		
+				/// <summary>
+				/// The EmailToSendReports field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 54b9ae75-366c-452c-b0cb-e8259ef3bd10</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.EmailToSendReportsFieldName)]
+				public virtual string EmailToSendReports  {get; set;}
+					
+		
+				/// <summary>
+				/// The FromPassword field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 086cd1e1-a651-48f3-9b58-5044503e5344</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.FromPasswordFieldName)]
+				public virtual string FromPassword  {get; set;}
+					
+		
+				/// <summary>
+				/// The HourTimeInterval field.
+				/// <para></para>
+				/// <para>Field Type: Integer</para>		
+				/// <para>Field ID: 243d7d85-55b8-45e3-80e7-255da1e61976</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.HourTimeIntervalFieldName)]
+				public virtual int HourTimeInterval  {get; set;}
+					
+		
+				/// <summary>
+				/// The NewPostEmailTemplate field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: 3eae046b-3970-4f66-b520-3dfb8f919e03</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.NewPostEmailTemplateFieldName)]
+				public virtual Guid NewPostEmailTemplate  {get; set;}
+					
+		
+				/// <summary>
+				/// The NewPostEmailTo field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: be1ac7cd-bf56-4193-add6-e2b96e146dd6</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.NewPostEmailToFieldName)]
+				public virtual string NewPostEmailTo  {get; set;}
+					
+		
+				/// <summary>
+				/// The ReportEmailTemplate field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: 49c89bd5-a951-40ee-9247-bc64e1663883</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IEmailSettingsConstants.ReportEmailTemplateFieldName)]
+				public virtual Guid ReportEmailTemplate  {get; set;}
+					
+			
+	}
+
+}
+

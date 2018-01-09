@@ -7,4 +7,5 @@
   &lt;Assembly Path="D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\lib\Microsoft.Extensions.DependencyInjection.Abstractions.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" /&gt;&#xD;
   &lt;Assembly Path="D:\Sitecore\l2\OutOfWebrotApp\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll" /&gt;&#xD;
+  &lt;Assembly Path="D:\Sitecore\l2\OutOfWebrotApp\packages\Glass.Mapper.Sc.Core.4.5.0.4\lib\net45\Glass.Mapper.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

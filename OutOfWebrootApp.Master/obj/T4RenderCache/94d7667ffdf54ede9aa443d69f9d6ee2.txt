@@ -1,0 +1,74 @@
+//Revision: 1050e61d-28c1-48ac-8369-595225fcd391
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Site
+{
+
+
+ 	/// <summary>
+	/// ISiteTemplate Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Site/SiteTemplate</para>	
+	/// <para>ID: 94d7667f-fdf5-4ede-9aa4-43d69f9d6ee2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteTemplateConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISiteTemplate : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ISiteTemplateConstants{
+
+			public const string TemplateIdString = "94d7667f-fdf5-4ede-9aa4-43d69f9d6ee2";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SiteTemplate";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// SiteTemplate
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Site/SiteTemplate</para>	
+	/// <para>ID: 94d7667f-fdf5-4ede-9aa4-43d69f9d6ee2</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteTemplateConstants.TemplateIdString)] //, Cachable = true
+	public partial class SiteTemplate  : GlassBase, ISiteTemplate 
+	{
+	   
+			
+	}
+
+}
+

@@ -1,0 +1,102 @@
+//Revision: bef14c88-f7f3-4a44-9a9c-6fa530131d2f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Slider.Rendering_parametres
+{
+
+
+ 	/// <summary>
+	/// ISliderParameterTemplate Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Rendering parametres/SliderParameterTemplate</para>	
+	/// <para>ID: 0b0444f0-8513-4d0a-9395-f681172bf752</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderParameterTemplateConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISliderParameterTemplate : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Speed field.
+					/// <para></para>
+					/// <para>Field Type: Droplist</para>		
+					/// <para>Field ID: b48bab78-b6aa-4f02-9baf-80319410d4aa</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISliderParameterTemplateConstants.SpeedFieldName)]
+					string Speed  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISliderParameterTemplateConstants{
+
+			public const string TemplateIdString = "0b0444f0-8513-4d0a-9395-f681172bf752";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SliderParameterTemplate";
+
+		
+			
+			public static readonly ID SpeedFieldId = new ID("b48bab78-b6aa-4f02-9baf-80319410d4aa");
+			public const string SpeedFieldName = "Speed";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SliderParameterTemplate
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Slider/Rendering parametres/SliderParameterTemplate</para>	
+	/// <para>ID: 0b0444f0-8513-4d0a-9395-f681172bf752</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISliderParameterTemplateConstants.TemplateIdString)] //, Cachable = true
+	public partial class SliderParameterTemplate  : GlassBase, ISliderParameterTemplate 
+	{
+	   
+		
+				/// <summary>
+				/// The Speed field.
+				/// <para></para>
+				/// <para>Field Type: Droplist</para>		
+				/// <para>Field ID: b48bab78-b6aa-4f02-9baf-80319410d4aa</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISliderParameterTemplateConstants.SpeedFieldName)]
+				public virtual string Speed  {get; set;}
+					
+			
+	}
+
+}
+

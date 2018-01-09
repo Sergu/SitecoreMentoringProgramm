@@ -1,0 +1,226 @@
+//Revision: 196c330d-9d2d-400b-a582-02663fb1112d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Comment.Base
+{
+
+
+ 	/// <summary>
+	/// IComment Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Comment/Base/Comment</para>	
+	/// <para>ID: f482979a-7905-49b3-84ec-224c31591e4c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICommentConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IComment : IGlassBase , global::InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Base.IBasePage
+	{
+			
+					/// <summary>
+					/// The Author field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 69299901-9c40-4224-83df-101da609d596</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICommentConstants.AuthorFieldName)]
+					string Author  {get; set;}
+			
+			
+					/// <summary>
+					/// The Date field.
+					/// <para></para>
+					/// <para>Field Type: Datetime</para>		
+					/// <para>Field ID: 1d5c559b-e3b6-4f6c-8591-adcf179c14f2</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICommentConstants.DateFieldName)]
+					DateTime Date  {get; set;}
+			
+			
+					/// <summary>
+					/// The Text field.
+					/// <para></para>
+					/// <para>Field Type: Rich Text</para>		
+					/// <para>Field ID: f31bed0b-bb51-4729-b170-a8e3b2ff3a94</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ICommentConstants.TextFieldName)]
+					string Text  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ICommentConstants{
+
+			public const string TemplateIdString = "f482979a-7905-49b3-84ec-224c31591e4c";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Comment";
+
+		
+			
+			public static readonly ID AuthorFieldId = new ID("69299901-9c40-4224-83df-101da609d596");
+			public const string AuthorFieldName = "Author";
+			
+		
+			
+			public static readonly ID DateFieldId = new ID("1d5c559b-e3b6-4f6c-8591-adcf179c14f2");
+			public const string DateFieldName = "Date";
+			
+		
+			
+			public static readonly ID TextFieldId = new ID("f31bed0b-bb51-4729-b170-a8e3b2ff3a94");
+			public const string TextFieldName = "Text";
+			
+		
+			
+			public static readonly ID DescriptionFieldId = new ID("3269a277-df9d-42f9-b267-8f8fa82961d4");
+			public const string DescriptionFieldName = "Description";
+			
+		
+			
+			public static readonly ID HeaderFieldId = new ID("02e5432d-40bb-4d19-a7a3-3211eedb85c4");
+			public const string HeaderFieldName = "Header";
+			
+		
+			
+			public static readonly ID KeywordsFieldId = new ID("e2801beb-86cd-4451-a120-c5abe71470de");
+			public const string KeywordsFieldName = "Keywords";
+			
+		
+			
+			public static readonly ID TitleFieldId = new ID("904c55dc-31d9-475d-a5e0-af474b8add06");
+			public const string TitleFieldName = "Title";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Comment
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Comment/Base/Comment</para>	
+	/// <para>ID: f482979a-7905-49b3-84ec-224c31591e4c</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICommentConstants.TemplateIdString)] //, Cachable = true
+	public partial class Comment  : GlassBase, IComment 
+	{
+	   
+		
+				/// <summary>
+				/// The Author field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 69299901-9c40-4224-83df-101da609d596</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.AuthorFieldName)]
+				public virtual string Author  {get; set;}
+					
+		
+				/// <summary>
+				/// The Date field.
+				/// <para></para>
+				/// <para>Field Type: Datetime</para>		
+				/// <para>Field ID: 1d5c559b-e3b6-4f6c-8591-adcf179c14f2</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.DateFieldName)]
+				public virtual DateTime Date  {get; set;}
+					
+		
+				/// <summary>
+				/// The Text field.
+				/// <para></para>
+				/// <para>Field Type: Rich Text</para>		
+				/// <para>Field ID: f31bed0b-bb51-4729-b170-a8e3b2ff3a94</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.TextFieldName)]
+				public virtual string Text  {get; set;}
+					
+		
+				/// <summary>
+				/// The Description field.
+				/// <para></para>
+				/// <para>Field Type: Multi-Line Text</para>		
+				/// <para>Field ID: 3269a277-df9d-42f9-b267-8f8fa82961d4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.DescriptionFieldName)]
+				public virtual string Description  {get; set;}
+					
+		
+				/// <summary>
+				/// The Header field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 02e5432d-40bb-4d19-a7a3-3211eedb85c4</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.HeaderFieldName)]
+				public virtual string Header  {get; set;}
+					
+		
+				/// <summary>
+				/// The Keywords field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: e2801beb-86cd-4451-a120-c5abe71470de</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.KeywordsFieldName)]
+				public virtual string Keywords  {get; set;}
+					
+		
+				/// <summary>
+				/// The Title field.
+				/// <para>Short title description</para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 904c55dc-31d9-475d-a5e0-af474b8add06</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ICommentConstants.TitleFieldName)]
+				public virtual string Title  {get; set;}
+					
+			
+	}
+
+}
+

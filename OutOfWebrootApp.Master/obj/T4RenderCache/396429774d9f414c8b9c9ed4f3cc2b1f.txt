@@ -1,0 +1,102 @@
+//Revision: 4ff6e667-0714-4028-84b6-d6d59284baaa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Tags.SubTree
+{
+
+
+ 	/// <summary>
+	/// ISubTree Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/SubTree/SubTree</para>	
+	/// <para>ID: 39642977-4d9f-414c-8b9c-9ed4f3cc2b1f</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISubTreeConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISubTree : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Value field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: dc086429-bce8-4ac0-b3af-5f495d1fa90d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISubTreeConstants.ValueFieldName)]
+					string Value  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISubTreeConstants{
+
+			public const string TemplateIdString = "39642977-4d9f-414c-8b9c-9ed4f3cc2b1f";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SubTree";
+
+		
+			
+			public static readonly ID ValueFieldId = new ID("dc086429-bce8-4ac0-b3af-5f495d1fa90d");
+			public const string ValueFieldName = "Value";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SubTree
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/Tags/SubTree/SubTree</para>	
+	/// <para>ID: 39642977-4d9f-414c-8b9c-9ed4f3cc2b1f</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISubTreeConstants.TemplateIdString)] //, Cachable = true
+	public partial class SubTree  : GlassBase, ISubTree 
+	{
+	   
+		
+				/// <summary>
+				/// The Value field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: dc086429-bce8-4ac0-b3af-5f495d1fa90d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISubTreeConstants.ValueFieldName)]
+				public virtual string Value  {get; set;}
+					
+			
+	}
+
+}
+

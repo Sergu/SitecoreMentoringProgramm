@@ -1,0 +1,74 @@
+//Revision: 134a5b0c-7e9d-4ce9-ae9f-5eef87e6e48e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.PostCategory
+{
+
+
+ 	/// <summary>
+	/// ICategoryRoot Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/PostCategory/CategoryRoot</para>	
+	/// <para>ID: cd385fc4-1fb4-4101-97d5-ca4a649da646</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryRootConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ICategoryRoot : IGlassBase 
+	{
+			
+	}
+
+
+	public static partial class ICategoryRootConstants{
+
+			public const string TemplateIdString = "cd385fc4-1fb4-4101-97d5-ca4a649da646";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "CategoryRoot";
+
+			
+
+	}
+
+	
+	/// <summary>
+	/// CategoryRoot
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Components/PostCategory/CategoryRoot</para>	
+	/// <para>ID: cd385fc4-1fb4-4101-97d5-ca4a649da646</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ICategoryRootConstants.TemplateIdString)] //, Cachable = true
+	public partial class CategoryRoot  : GlassBase, ICategoryRoot 
+	{
+	   
+			
+	}
+
+}
+

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {F68BCD12-5F76-4DCB-BCBB-73F3153EEC59}
+database: master
+path: /sitecore/layout/Placeholder Settings/Custom/footer
+parent: {E8D1D0A8-BFA3-4BC9-83A1-06BE6D672DAC}
+name: footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20171016T020842:636437165228130000
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 6
+
+footer
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 116
+
+{9D09BCB3-BF9A-4305-8361-44D899D8022A}|{C4399F90-027C-4B56-A284-E178CC83C493}|{55AF7DF1-C717-4C44-B1D3-62C7906BD07A}
+----version----
+language: en
+version: 1
+revision: be88bbea-9548-4127-8b74-085b9dc67662
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171016T020842Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+be88bbea-9548-4127-8b74-085b9dc67662
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171215T103150Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

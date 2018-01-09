@@ -1,0 +1,326 @@
+//Revision: e9b9ba26-89dd-40cb-aafe-1d761d551be0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Settings
+{
+
+
+ 	/// <summary>
+	/// ISiteSetting Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Settings/SiteSetting</para>	
+	/// <para>ID: 944a87f1-772f-4783-ad9c-612c061ed957</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteSettingConstants.TemplateIdString )] //, Cachable = true
+	public partial interface ISiteSetting : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The CommentTemplateId field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: 1c4a4ea8-3ab7-4f74-8333-5806c9a6a997</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.CommentTemplateIdFieldName)]
+					Guid CommentTemplateId  {get; set;}
+			
+			
+					/// <summary>
+					/// The NoResultMessage field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 5d017885-24a0-414f-8e25-f5b93d0eed4d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.NoResultMessageFieldName)]
+					string NoResultMessage  {get; set;}
+			
+			
+					/// <summary>
+					/// The PostCategoryRootItemId field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: dd124791-5b19-492b-ac5b-863dfdf67fc2</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.PostCategoryRootItemIdFieldName)]
+					Guid PostCategoryRootItemId  {get; set;}
+			
+			
+					/// <summary>
+					/// The PostIndex field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 6e975d33-7984-479b-bfe4-47c44feb2630</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.PostIndexFieldName)]
+					string PostIndex  {get; set;}
+			
+			
+					/// <summary>
+					/// The PostsPageCapacity field.
+					/// <para></para>
+					/// <para>Field Type: Integer</para>		
+					/// <para>Field ID: 4f205a90-9191-4c05-a0de-4dfced728833</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.PostsPageCapacityFieldName)]
+					int PostsPageCapacity  {get; set;}
+			
+			
+					/// <summary>
+					/// The PostTagTreeRootItemId field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: f6405848-1477-485f-878f-7cfcf39f74cc</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.PostTagTreeRootItemIdFieldName)]
+					Guid PostTagTreeRootItemId  {get; set;}
+			
+			
+					/// <summary>
+					/// The SiteSettingTemplateName field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 3510da2a-f92f-464b-8709-a78e82c4fed0</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.SiteSettingTemplateNameFieldName)]
+					string SiteSettingTemplateName  {get; set;}
+			
+			
+					/// <summary>
+					/// The SliderDataSource field.
+					/// <para></para>
+					/// <para>Field Type: Droplink</para>		
+					/// <para>Field ID: cf6771f7-a536-4475-8c04-07211fd8d8f8</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.SliderDataSourceFieldName)]
+					Guid SliderDataSource  {get; set;}
+			
+			
+					/// <summary>
+					/// The SliderDefaultSpeedTemplatePath field.
+					/// <para></para>
+					/// <para>Field Type: Single-Line Text</para>		
+					/// <para>Field ID: 31d6775c-4ebf-46d1-9e03-b03a1c791347</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(ISiteSettingConstants.SliderDefaultSpeedTemplatePathFieldName)]
+					string SliderDefaultSpeedTemplatePath  {get; set;}
+			
+			
+	}
+
+
+	public static partial class ISiteSettingConstants{
+
+			public const string TemplateIdString = "944a87f1-772f-4783-ad9c-612c061ed957";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "SiteSetting";
+
+		
+			
+			public static readonly ID CommentTemplateIdFieldId = new ID("1c4a4ea8-3ab7-4f74-8333-5806c9a6a997");
+			public const string CommentTemplateIdFieldName = "CommentTemplateId";
+			
+		
+			
+			public static readonly ID NoResultMessageFieldId = new ID("5d017885-24a0-414f-8e25-f5b93d0eed4d");
+			public const string NoResultMessageFieldName = "NoResultMessage";
+			
+		
+			
+			public static readonly ID PostCategoryRootItemIdFieldId = new ID("dd124791-5b19-492b-ac5b-863dfdf67fc2");
+			public const string PostCategoryRootItemIdFieldName = "PostCategoryRootItemId";
+			
+		
+			
+			public static readonly ID PostIndexFieldId = new ID("6e975d33-7984-479b-bfe4-47c44feb2630");
+			public const string PostIndexFieldName = "PostIndex";
+			
+		
+			
+			public static readonly ID PostsPageCapacityFieldId = new ID("4f205a90-9191-4c05-a0de-4dfced728833");
+			public const string PostsPageCapacityFieldName = "PostsPageCapacity";
+			
+		
+			
+			public static readonly ID PostTagTreeRootItemIdFieldId = new ID("f6405848-1477-485f-878f-7cfcf39f74cc");
+			public const string PostTagTreeRootItemIdFieldName = "PostTagTreeRootItemId";
+			
+		
+			
+			public static readonly ID SiteSettingTemplateNameFieldId = new ID("3510da2a-f92f-464b-8709-a78e82c4fed0");
+			public const string SiteSettingTemplateNameFieldName = "SiteSettingTemplateName";
+			
+		
+			
+			public static readonly ID SliderDataSourceFieldId = new ID("cf6771f7-a536-4475-8c04-07211fd8d8f8");
+			public const string SliderDataSourceFieldName = "SliderDataSource";
+			
+		
+			
+			public static readonly ID SliderDefaultSpeedTemplatePathFieldId = new ID("31d6775c-4ebf-46d1-9e03-b03a1c791347");
+			public const string SliderDefaultSpeedTemplatePathFieldName = "SliderDefaultSpeedTemplatePath";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// SiteSetting
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/Custom/BaseTemplates/Settings/SiteSetting</para>	
+	/// <para>ID: 944a87f1-772f-4783-ad9c-612c061ed957</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=ISiteSettingConstants.TemplateIdString)] //, Cachable = true
+	public partial class SiteSetting  : GlassBase, ISiteSetting 
+	{
+	   
+		
+				/// <summary>
+				/// The CommentTemplateId field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: 1c4a4ea8-3ab7-4f74-8333-5806c9a6a997</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.CommentTemplateIdFieldName)]
+				public virtual Guid CommentTemplateId  {get; set;}
+					
+		
+				/// <summary>
+				/// The NoResultMessage field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 5d017885-24a0-414f-8e25-f5b93d0eed4d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.NoResultMessageFieldName)]
+				public virtual string NoResultMessage  {get; set;}
+					
+		
+				/// <summary>
+				/// The PostCategoryRootItemId field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: dd124791-5b19-492b-ac5b-863dfdf67fc2</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.PostCategoryRootItemIdFieldName)]
+				public virtual Guid PostCategoryRootItemId  {get; set;}
+					
+		
+				/// <summary>
+				/// The PostIndex field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 6e975d33-7984-479b-bfe4-47c44feb2630</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.PostIndexFieldName)]
+				public virtual string PostIndex  {get; set;}
+					
+		
+				/// <summary>
+				/// The PostsPageCapacity field.
+				/// <para></para>
+				/// <para>Field Type: Integer</para>		
+				/// <para>Field ID: 4f205a90-9191-4c05-a0de-4dfced728833</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.PostsPageCapacityFieldName)]
+				public virtual int PostsPageCapacity  {get; set;}
+					
+		
+				/// <summary>
+				/// The PostTagTreeRootItemId field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: f6405848-1477-485f-878f-7cfcf39f74cc</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.PostTagTreeRootItemIdFieldName)]
+				public virtual Guid PostTagTreeRootItemId  {get; set;}
+					
+		
+				/// <summary>
+				/// The SiteSettingTemplateName field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 3510da2a-f92f-464b-8709-a78e82c4fed0</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.SiteSettingTemplateNameFieldName)]
+				public virtual string SiteSettingTemplateName  {get; set;}
+					
+		
+				/// <summary>
+				/// The SliderDataSource field.
+				/// <para></para>
+				/// <para>Field Type: Droplink</para>		
+				/// <para>Field ID: cf6771f7-a536-4475-8c04-07211fd8d8f8</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.SliderDataSourceFieldName)]
+				public virtual Guid SliderDataSource  {get; set;}
+					
+		
+				/// <summary>
+				/// The SliderDefaultSpeedTemplatePath field.
+				/// <para></para>
+				/// <para>Field Type: Single-Line Text</para>		
+				/// <para>Field ID: 31d6775c-4ebf-46d1-9e03-b03a1c791347</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(ISiteSettingConstants.SliderDefaultSpeedTemplatePathFieldName)]
+				public virtual string SliderDefaultSpeedTemplatePath  {get; set;}
+					
+			
+	}
+
+}
+
