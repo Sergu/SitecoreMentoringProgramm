@@ -30,7 +30,7 @@
             }
         </ol>
             
-        @using (Html.EditFrame(
+    @*using (Html.EditFrame(
                 dataSource: Model.ContextItem.ID.ToString(),
                 buttons: "Custom Buttons",
                 tooltip: "ToolBar tooltip",
@@ -48,6 +48,17 @@
                             <img src="@picture.contentUrl" style="height: 500px; margin: 0 auto;" alt="@picture.alt">
                         </div>
                     }
+                </div>
+            }
+        *@
+        
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            @{ pictureCounter = 0; }
+            @foreach (var picture in Model.Pictures)
+            {
+                <div class="item @(pictureCounter++ == 0 ? "active" : "")">
+                    <img src="@picture.contentUrl" style="height: 500px; margin: 0 auto;" alt="@picture.alt">
                 </div>
             }
 

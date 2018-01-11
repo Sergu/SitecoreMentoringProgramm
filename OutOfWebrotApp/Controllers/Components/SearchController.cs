@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Pages.Search;
 using InfrastructureModule.Services.Interfaces.Search;
@@ -6,7 +7,7 @@ using Sitecore.Links;
 
 namespace OutOfWebrotApp.Controllers.Components
 {
-    public class SearchController : Controller
+    public class SearchController : GlassController
     {
 	    private readonly ISearchService _searchService;
 

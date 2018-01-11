@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Pages.Post;
 using Sitecore.Data.Fields;
@@ -11,10 +12,10 @@ using Sitecore.Mvc.Presentation;
 
 namespace OutOfWebrotApp.Controllers.Components
 {
-	public class TopPostsController : Controller
+	public class TopPostsController : GlassController
 	{
 		// GET: TopPosts
-		public ActionResult Index()
+		public override ActionResult Index()
 		{
 			var postCollection = new List<PostItemModel>();
 			var contextItem = SitecoreHelper.GetPostsItem();

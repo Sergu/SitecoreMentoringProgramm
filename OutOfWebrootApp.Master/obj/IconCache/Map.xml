@@ -785,4 +785,18 @@
   <Item ItemPath="/sitecore/layout/Renderings/Custom/Base/Pages/Home/Home" ItemIcon="/temp/iconcache/software/16x16/element.png" />
   <Item ItemPath="/sitecore/layout/Renderings/Custom/Base/Pages/Post" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
   <Item ItemPath="/sitecore/layout/Renderings/Custom/Base/Pages/Post/Post" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/System" ItemIcon="/temp/IconCache/Applications/16x16/folder_gear.png" />
+  <Item ItemPath="/sitecore/templates/System/Media" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Properties" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Image/Alt" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Image/Width" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Image/Height" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/System/Media/Unversioned/Image/Properties/Dimensions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/About/About" ItemIcon="/temp/IconCache/applications/16x16/scroll.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Search/Search" ItemIcon="/temp/IconCache/Applications/32x32/view.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Posts/Posts" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
 </ItemIconCache>

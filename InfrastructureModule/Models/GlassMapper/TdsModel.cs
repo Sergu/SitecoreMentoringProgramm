@@ -3525,6 +3525,160 @@ namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Pages
 	}
 
 }
+namespace InfrastructureModule.TDS.sitecore.templates.System.Media.Unversioned
+{
+
+
+ 	/// <summary>
+	/// IImage Interface
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/System/Media/Unversioned/Image</para>	
+	/// <para>ID: f1828a2c-7e5d-4bbd-98ca-320474871548</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IImageConstants.TemplateIdString )] //, Cachable = true
+	public partial interface IImage : IGlassBase 
+	{
+			
+					/// <summary>
+					/// The Alt field.
+					/// <para></para>
+					/// <para>Field Type: text</para>		
+					/// <para>Field ID: 65885c44-8fcd-4a7f-94f1-ee63703fe193</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IImageConstants.AltFieldName)]
+					string Alt  {get; set;}
+			
+			
+					/// <summary>
+					/// The Height field.
+					/// <para></para>
+					/// <para>Field Type: text</para>		
+					/// <para>Field ID: de2ca9e4-c117-4c8a-a139-1ff4b199d15a</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IImageConstants.HeightFieldName)]
+					string Height  {get; set;}
+			
+			
+					/// <summary>
+					/// The Width field.
+					/// <para></para>
+					/// <para>Field Type: text</para>		
+					/// <para>Field ID: 22eac599-f13b-4607-a89d-c091763a467d</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IImageConstants.WidthFieldName)]
+					string Width  {get; set;}
+			
+			
+					/// <summary>
+					/// The Dimensions field.
+					/// <para></para>
+					/// <para>Field Type: text</para>		
+					/// <para>Field ID: cb09946f-3218-4823-87d2-d5007c199a96</para>
+					/// <para>Custom Data: </para>
+					/// </summary>
+					[SitecoreField(IImageConstants.DimensionsFieldName)]
+					string Dimensions  {get; set;}
+			
+			
+	}
+
+
+	public static partial class IImageConstants{
+
+			public const string TemplateIdString = "f1828a2c-7e5d-4bbd-98ca-320474871548";
+			public static readonly ID TemplateId = new ID(TemplateIdString);
+			public const string TemplateName = "Image";
+
+		
+			
+			public static readonly ID AltFieldId = new ID("65885c44-8fcd-4a7f-94f1-ee63703fe193");
+			public const string AltFieldName = "Alt";
+			
+		
+			
+			public static readonly ID HeightFieldId = new ID("de2ca9e4-c117-4c8a-a139-1ff4b199d15a");
+			public const string HeightFieldName = "Height";
+			
+		
+			
+			public static readonly ID WidthFieldId = new ID("22eac599-f13b-4607-a89d-c091763a467d");
+			public const string WidthFieldName = "Width";
+			
+		
+			
+			public static readonly ID DimensionsFieldId = new ID("cb09946f-3218-4823-87d2-d5007c199a96");
+			public const string DimensionsFieldName = "Dimensions";
+			
+			
+
+	}
+
+	
+	/// <summary>
+	/// Image
+	/// <para></para>
+	/// <para>Path: /sitecore/templates/System/Media/Unversioned/Image</para>	
+	/// <para>ID: f1828a2c-7e5d-4bbd-98ca-320474871548</para>	
+	/// </summary>
+	[SitecoreType(TemplateId=IImageConstants.TemplateIdString)] //, Cachable = true
+	public partial class Image  : GlassBase, IImage 
+	{
+	   
+		
+				/// <summary>
+				/// The Alt field.
+				/// <para></para>
+				/// <para>Field Type: text</para>		
+				/// <para>Field ID: 65885c44-8fcd-4a7f-94f1-ee63703fe193</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IImageConstants.AltFieldName)]
+				public virtual string Alt  {get; set;}
+					
+		
+				/// <summary>
+				/// The Height field.
+				/// <para></para>
+				/// <para>Field Type: text</para>		
+				/// <para>Field ID: de2ca9e4-c117-4c8a-a139-1ff4b199d15a</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IImageConstants.HeightFieldName)]
+				public virtual string Height  {get; set;}
+					
+		
+				/// <summary>
+				/// The Width field.
+				/// <para></para>
+				/// <para>Field Type: text</para>		
+				/// <para>Field ID: 22eac599-f13b-4607-a89d-c091763a467d</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IImageConstants.WidthFieldName)]
+				public virtual string Width  {get; set;}
+					
+		
+				/// <summary>
+				/// The Dimensions field.
+				/// <para></para>
+				/// <para>Field Type: text</para>		
+				/// <para>Field ID: cb09946f-3218-4823-87d2-d5007c199a96</para>
+				/// <para>Custom Data: </para>
+				/// </summary>
+				[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Team Development for Sitecore - GlassItem.tt", "1.0")]
+				[SitecoreField(IImageConstants.DimensionsFieldName)]
+				public virtual string Dimensions  {get; set;}
+					
+			
+	}
+
+}
 namespace InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Comment.Base
 {
 

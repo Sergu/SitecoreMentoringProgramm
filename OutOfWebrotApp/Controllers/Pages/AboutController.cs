@@ -1,17 +1,20 @@
 ﻿using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Models.Pages.About;
+using InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Pages.About;
 using Sitecore.Mvc.Presentation;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
-    public class AboutController : Controller
+    public class AboutController : GlassController
     {
         // GET: About
-        public ActionResult Index()
+        public override ActionResult Index()
         {
-			var context = RenderingContext.Current.Rendering.Item;
+	        var sitecoreService = this.SitecoreContext;
+			var contextAboutItem = GetContextItem<IAbout>();
 
-	        if (context == null)
+	        if (contextAboutItem == null)
 	        {
 		        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
 		        {
@@ -23,7 +26,7 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 			var aboutModel = new AboutPageModel()
 	        {
-		        Body = context.Fields["Body"].Value,
+		        Body = contextAboutItem.Body,
 			};
 			
 

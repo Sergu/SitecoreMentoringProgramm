@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Glass.Mapper.Sc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Pages.Post;
 using InfrastructureModule.Models.Pages.Search;
@@ -19,28 +20,20 @@ namespace InfrastructureModule.Services.Implementations.Search
 	{
 		private readonly int _postsCapacity;
 		private readonly ISearchEngineService _searchEngineService;
+		private readonly ISitecoreService _sitecoreService;
 
 		public SearchService(ISearchEngineService searchEngineService)
 		{
-			int postsCapacity;
-			var defaultPostsPerPageCapacity = SitecoreHardcode.defaultPostsPerPageCapacity;
-			var contextItem = Sitecore.Context.Item;
-			if (contextItem == null)
-			{
-				postsCapacity = defaultPostsPerPageCapacity;
-			}
-			else
-			{
-				var item = SitecoreHelper.GetSiteSettingItem();
-				var capacityConfigValue = item.Fields["PostsPageCapacity"].Value;
-				if (capacityConfigValue.IsNullOrEmpty() || !int.TryParse(capacityConfigValue, out postsCapacity))
-				{
-					postsCapacity = defaultPostsPerPageCapacity;
-					//throw new ArgumentException("Incorrect PostsPageCapacity parameter");
-				}
-			}
+			searchEngineService = new SearchEngineService();
+			var sitecoreService = new SitecoreService(Sitecore.Context.Database);
+			
+			if(searchEngineService == null || sitecoreService == null)
+				throw new NullReferenceException("sitecoreService or searchEngineService is null");
+
+			int postsCapacity = SitecoreHelper.GetSiteSettingItem(sitecoreService).PostsPageCapacity;
 
 			_searchEngineService = searchEngineService;
+			_sitecoreService = sitecoreService;
 			_postsCapacity = postsCapacity;
 		}
 
@@ -74,14 +67,14 @@ namespace InfrastructureModule.Services.Implementations.Search
 		public SearchModel SearchPosts(string indexName, string title, int page, IList<ID> tags, IList<ID> categories)
 		{
 			var searchResult = _searchEngineService.SearchPosts(indexName, title, page, _postsCapacity, tags, categories);
-			var siteSettingItem = SitecoreHelper.GetSiteSettingItem();
+			var siteSettingItem = SitecoreHelper.GetSiteSettingItem(_sitecoreService);
 
 			if (searchResult.SearchResut.Count() == 0)
 			{
 				return new SearchModel()
 				{
 					IsSuccessful = false,
-					NoResultMessage = siteSettingItem.Fields["NoResultMessage"].Value
+					NoResultMessage = siteSettingItem.NoResultMessage
 				};
 			}
 
@@ -109,6 +102,7 @@ namespace InfrastructureModule.Services.Implementations.Search
 			var searchModel = new SearchModel();
 			searchModel.Title = title;
 			var contextItem = SitecoreHelper.GetPostsItem();
+			var sitecoreService = new SitecoreService("master");
 			var searchPostsQuerry = $"{contextItem.Paths.FullPath}/*[contains(@title,'{title}') and @@templatekey='post']";
 
 			var searchResultItems = Sitecore.Context.Database.SelectItems(searchPostsQuerry);
@@ -119,6 +113,7 @@ namespace InfrastructureModule.Services.Implementations.Search
 
 				foreach (var item in searchResultItems)
 				{
+					sitecoreService.Map(item);
 					var dateField = item.Fields["Date"].HasValue ? new DateField(item.Fields["Date"]).DateTime : DateTime.Now;
 
 					var post = new PostItemModel()

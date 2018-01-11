@@ -13,11 +13,11 @@ namespace BlogApp.Pipelines
 	{
 		public override void Process(HttpRequestArgs args)
 		{
-			if (Context.Items["Is404Page"] != null && Context.Items["Is404Page"].ToString() == "true")
-			{
-				HttpContext.Current.Response.StatusCode = 404;
-				HttpContext.Current.Response.TrySkipIisCustomErrors = true;
-			}
+			//if (Context.Items["Is404Page"] != null && Context.Items["Is404Page"].ToString() == "true")
+			//{
+			//	HttpContext.Current.Response.StatusCode = 404;
+			//	HttpContext.Current.Response.TrySkipIisCustomErrors = true;
+			//}
 		}
 	}
 }

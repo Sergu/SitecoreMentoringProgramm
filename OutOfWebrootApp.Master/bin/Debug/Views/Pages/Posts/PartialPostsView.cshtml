@@ -1,0 +1,53 @@
+﻿@using Sitecore.Shell
+@using Sitecore.StringExtensions
+@model InfrastructureModule.Models.Pages.Search.SearchModel
+       
+
+<h4>@Sitecore.Globalization.Translate.Text("F.Find"): @Model.TotalPostAmount</h4>
+
+@foreach (var post in Model.SearchResult)
+{
+    <div class="col-md-4">
+        <h2>@post.Title</h2>
+        <p>@post.Subtitle</p>
+        <p>
+            <a class="btn btn-default" href="@post.Url" role="button">@Sitecore.Globalization.Translate.Text("L.Link")</a>
+        </p>
+        <p>@Sitecore.Globalization.Translate.Text("C.Category"): @( post.Category.IsNullOrEmpty() ? "none" : post.Category)</p>
+        <p>@Sitecore.Globalization.Translate.Text("T.Tags"):
+            @foreach (var tag in post.Tags)
+            {
+                @Html.Raw(string.Concat(tag,", "))
+            }
+        </p>
+    </div>
+}
+
+@if (Model.IsSuccessful)
+{
+    <div class="col-md-6">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                @for (int i = 1; i <= Model.TotalPageAmount; i++)
+                {
+                    var activeClass = i == Model.Page ? "active" : "";
+                    <li class=@activeClass><a class="searchResultPage">@i</a></li>
+                }
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+}
+else
+{
+    <h2>@Model.NoResultMessage</h2>
+}

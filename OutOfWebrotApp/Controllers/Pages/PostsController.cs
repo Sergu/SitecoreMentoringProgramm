@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Components.TagsTree;
 using InfrastructureModule.Models.Pages.Search;
@@ -14,7 +15,7 @@ using Sitecore.Data;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
-    public class PostsController : Controller
+    public class PostsController : GlassController
     {
 	    private readonly ISearchService _searchService;
 
@@ -23,8 +24,9 @@ namespace OutOfWebrotApp.Controllers.Pages
 		    _searchService = searchService;
 	    }
         // GET: Posts
-        public ActionResult Index()
+        public override ActionResult Index()
         {
+	        var sitecoreService = this.SitecoreContext;
 	        string subString = null;
 	        var url = Request.Url;
 	        string param = HttpUtility.ParseQueryString(url.Query).Get("s");
@@ -33,14 +35,14 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        subString = param;
 	        }
 
-			var item = SitecoreHelper.GetSiteSettingItem();
-			var indexName = item.Fields["PostIndex"].Value;
+			var sitesettingsItem = SitecoreHelper.GetSiteSettingItem(sitecoreService);
+	        var indexName = sitesettingsItem.PostIndex;
 
 			var searchResult = _searchService.SearchPosts(indexName, subString, 1, new List<ID>(), new List<ID>());
 
-			var postStateTracker = new PostsStateTracker();
+			//var postStateTracker = new PostsStateTracker();
 
-			postStateTracker.FreshPostsDispatchingByEmail(null, null, null);
+			//postStateTracker.FreshPostsDispatchingByEmail(null, null, null);
 
 	        if (searchResult == null)
 	        {
@@ -64,7 +66,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 	    [HttpGet]
 	    public ActionResult TagsTree()
 	    {
-		    var postTagTreeRootItem = SitecoreHelper.GetPostTagtreeRootItem();
+		    var sitecoreService = this.SitecoreContext;
+		    var postTagTreeRootItem = SitecoreHelper.GetPostTagtreeRootItem(sitecoreService);
 		    var tagsTreeJson = System.Web.Helpers.Json.Encode(TagsTreeHelper.GetTagsTree(postTagTreeRootItem));
 
 		    var tagsTreeModel = new TagsTreeModel()
@@ -79,8 +82,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 		[HttpGet]
 	    public ActionResult PostsCategories()
 		{
-
-			var postCategoryRootItem = SitecoreHelper.GetPostCategoryrootItemId();
+			var sitecoreService = this.SitecoreContext;
+			var postCategoryRootItem = SitecoreHelper.GetPostCategoryrootItemId(sitecoreService);
 		    var categoryTreeJson = System.Web.Helpers.Json.Encode(TagsTreeHelper.GetTagsTree(postCategoryRootItem));
 		    var categoryTreeModel = new CategoryTreeModel()
 		    {
@@ -92,12 +95,13 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 	    public JsonResult GetPostsPartialView(string title, List<string> tags, List<string> categories, int page)
 	    {
+		    var sitecoreService = this.SitecoreContext;
 			var postTags = tags == null ? new List<ID>() : tags.Select(t => new ID(t)).ToList();
 			var postcategories = categories == null ? new List<ID>() : categories.Select(c => new ID(c)).ToList();
 			var currentPage = page;
 			var substring = title;
-			var item = SitecoreHelper.GetSiteSettingItem();
-			var indexName = item.Fields["PostIndex"].Value;
+			var siteSettingsItem = SitecoreHelper.GetSiteSettingItem(sitecoreService);
+		    var indexName = siteSettingsItem.PostIndex;
 
 			var searchResult = _searchService.SearchPosts(indexName, substring, currentPage, postTags, postcategories);
 

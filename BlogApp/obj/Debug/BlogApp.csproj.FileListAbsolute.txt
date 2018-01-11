@@ -61,3 +61,5 @@ D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.xml
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.dll
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.xml

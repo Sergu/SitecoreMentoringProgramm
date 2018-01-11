@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Fields;
@@ -11,10 +12,13 @@ using Sitecore.Mvc.Presentation;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Pages.Post;
 using InfrastructureModule.Services.Interfaces.Publishing;
+using InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Components.Comment.Base;
+using InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Pages.Post;
+using Comment = InfrastructureModule.Models.Pages.Post.Comment;
 
 namespace OutOfWebrotApp.Controllers.Pages
 {
-    public class PostController : Controller
+    public class PostController : GlassController
     {
 	    private readonly IPublishingService _publishService;
 
@@ -23,11 +27,13 @@ namespace OutOfWebrotApp.Controllers.Pages
 		    _publishService = publishService;
 	    }
         // GET: Post
-        public ActionResult Index()
+        public override ActionResult Index()
         {
-	        var contextItem = RenderingContext.Current.Rendering.Item;
+	        var sitecoreService = this.SitecoreContext;
+	        Item contextItem = GetContextItem<Item>();
+	        IPost contextPostItem = GetContextItem<IPost>();
 
-	        if (contextItem == null)
+	        if (contextPostItem == null)
 	        {
 		        if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
 		        {
@@ -37,19 +43,19 @@ namespace OutOfWebrotApp.Controllers.Pages
 		        return View("~/Views/Pages/Post/Post.cshtml", new PostItemModel());
 	        }
 
-	        MultilistField postTagsField = contextItem.Fields["Tags"];
-	        LookupField category = contextItem.Fields["Category"];
+	        var postTagsField = contextPostItem.Tags.ToList();
+	        var category = contextPostItem.Category;
 
 			var post = new PostItemModel()
 	        {
-		        Body = contextItem.Fields["Body"].Value,
-		        Subtitle = contextItem.Fields["Subtitle"].Value,
-		        Title = contextItem.Fields["Title"].Value,
+		        Body = contextPostItem.Body,
+		        Subtitle = contextPostItem.Subtitle,
+		        Title = contextPostItem.Title,
 		        Url = LinkManager.GetItemUrl(contextItem),
-		        Author = contextItem.Fields["Author"].Value,
-		        Date = (new DateField(contextItem.Fields["Date"])).DateTime,
-				Tags = postTagsField.Count != 0 ? postTagsField.GetItems().Select(i => i.Fields["Value"].Value) : new List<string>(),
-				Category = category.TargetItem != null ? category.TargetItem.Fields["Value"].Value : null,
+		        Author = contextPostItem.Author,
+		        Date = contextPostItem.Date,
+				Tags = postTagsField.Count != 0 ? postTagsField.Select(id => id.ToString()).ToList() : new List<string>(),
+				Category = category != Guid.Empty ? category.ToString() : null,
 	        };
 
 	        var layoutGuid = RenderingContext.CurrentOrNull.Rendering.LayoutId;
@@ -66,7 +72,8 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 	    public ActionResult Comments()
 	    {
-			var contextItem = RenderingContext.Current.Rendering.Item;
+		    var sitecoreService = this.SitecoreContext;
+			var contextItem = GetContextItem<Item>();
 
 		    if (contextItem == null)
 		    {
@@ -80,17 +87,17 @@ namespace OutOfWebrotApp.Controllers.Pages
 
 			var commentSearchQuerry = $"fast:{contextItem.Paths.FullPath}//*[@@templatekey='comment']";
 
-		    var commentItems = Sitecore.Context.Database.SelectItems(commentSearchQuerry);
+		    var commentSearchResult = Sitecore.Context.Database.SelectItems(commentSearchQuerry).ToList();
+		    var commentItems = commentSearchResult.Select(r => sitecoreService.GetItem<IComment>(r.ID.Guid)).ToList();
 		    var comments = new List<Comment>();
 
 		    foreach (var commentItem in commentItems)
 		    {
-			    DateField date = commentItem.Fields["Date"];
 			    var comment = new Comment()
 			    {
-				    Author = commentItem.Fields["Author"].Value,
-				    Date = date.DateTime,
-				    Text = commentItem.Fields["Text"].Value
+				    Author = commentItem.Author,
+				    Date = commentItem.Date,
+				    Text = commentItem.Text
 			    };
 			    comments.Add(comment);
 		    }
@@ -110,26 +117,37 @@ namespace OutOfWebrotApp.Controllers.Pages
 		[ValidateInput(false)]
 	    public ActionResult GetCommentPostForm(Comment comment)
 	    {
-		    Database masterDatabase = Sitecore.Data.Database.GetDatabase("master");
-		    var contextItem = RenderingContext.Current.ContextItem;
-		    var masterContextItem = masterDatabase.GetItem(contextItem.ID);
-		    var templatePath = SitecoreHelper.GetSiteSettingItem().Fields["CommentTemplateId"].Value;
-			var templateItem = masterDatabase.GetTemplate(templatePath);
+		    var sitecoreService = this.SitecoreContext;
+		    var contextItem = GetContextItem<Item>();
 
-		    using (new Sitecore.SecurityModel.SecurityDisabler())
+			//Database masterDatabase = Sitecore.Data.Database.GetDatabase("master");
+			//var masterContextItem = masterDatabase.GetItem(contextItem.ID);
+			//var templatePath = SitecoreHelper.GetSiteSettingItem(sitecoreService).CommentTemplateId;
+			//var templateItem = masterDatabase.GetTemplate(new ID(templatePath));
+
+		    var freshComment = new Comment()
 		    {
-				var commentItem = masterContextItem.Add("Comment", new TemplateID(templateItem.ID));
-			    if (commentItem != null)
-			    {
-				    commentItem.Editing.BeginEdit();
-				    commentItem["Text"] = comment.Text;
-				    commentItem["Author"] = "John Black";
-				    commentItem["Date"] = DateUtil.ToIsoDate(DateTime.Now);
-				    commentItem.Editing.EndEdit();
+			    Author = comment.Author,
+			    Date = DateTime.Now,
+			    Text = comment.Text
+		    };
 
-					_publishService.PublishItemToWebDatabase(commentItem, false);
-			    }
-			}
+		    sitecoreService.Create(contextItem, freshComment);
+
+			//using (new Sitecore.SecurityModel.SecurityDisabler())
+		 //   {
+			//	var commentItem = masterContextItem.Add("Comment", new TemplateID(templateItem.ID));
+			//    if (commentItem != null)
+			//    {
+			//	    commentItem.Editing.BeginEdit();
+			//	    commentItem["Text"] = comment.Text;
+			//	    commentItem["Author"] = "John Black";
+			//	    commentItem["Date"] = DateUtil.ToIsoDate(DateTime.Now);
+			//	    commentItem.Editing.EndEdit();
+
+			//		_publishService.PublishItemToWebDatabase(commentItem, false);
+			//    }
+			//}
 
 		    return Redirect(LinkManager.GetItemUrl(contextItem));
 	    }

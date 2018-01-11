@@ -1,7 +1,15 @@
-﻿@using Sitecore.Mvc
+﻿@using Glass.Mapper.Sc
+@using InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Pages.Home
+@using Sitecore.Mvc
 
     
+@{
+    var contextService = new SitecoreContext();
+    var currentItem = contextService.GetCurrentItem<IHome>();
+}
+
+
 <div class="jumbotron">
-    <h3>@Html.Sitecore().CurrentItem.Fields["Title"].Value</h3>
-    <p>@Html.Sitecore().CurrentItem.Fields["Description"].Value</p>
+    <h3>@currentItem.Banner</h3>
+    <p>@currentItem.Text</p>
 </div>

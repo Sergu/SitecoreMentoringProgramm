@@ -36,6 +36,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Events/OnPostAdded.config">
       <publishTime>01/09/2018 16:04:50</publishTime>
     </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.CodeFirst.config.exclude">
+      <publishTime>01/09/2018 17:03:24</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.config">
+      <publishTime>01/09/2018 17:03:24</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
+      <publishTime>01/09/2018 17:03:24</publishTime>
+    </File>
     <File Include="App_Config/Include/Index/Blog/BlogPostSearchConfiguration.config">
       <publishTime>11/22/2017 12:34:12</publishTime>
     </File>
@@ -62,6 +71,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="App_Config/Include/SiteDefinition/SitesDefinition.config">
       <publishTime>11/27/2017 15:34:54</publishTime>
+    </File>
+    <File Include="App_Config/Include/z.Glass.Mapper.Sc.ViewRender.config.exclude">
+      <publishTime>01/09/2018 17:03:24</publishTime>
     </File>
     <File Include="App_Config/Include/zzz/DependencyConfig.config">
       <publishTime>10/20/2017 15:44:23</publishTime>
@@ -207,11 +219,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Glass.Mapper.Sc.dll">
       <publishTime>12/19/2017 14:33:58</publishTime>
     </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
+      <publishTime>12/19/2017 14:34:00</publishTime>
+    </File>
     <File Include="bin/InfrastructureModule.dll">
-      <publishTime>01/09/2018 16:05:35</publishTime>
+      <publishTime>01/10/2018 18:46:54</publishTime>
     </File>
     <File Include="bin/InfrastructureModule.pdb">
-      <publishTime>01/09/2018 16:05:35</publishTime>
+      <publishTime>01/10/2018 18:46:54</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>
@@ -238,7 +253,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/15/2015 02:06:24</publishTime>
     </File>
     <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <publishTime>11/27/2017 15:34:55</publishTime>
+      <publishTime>11/27/2017 15:34:54</publishTime>
     </File>
     <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
       <publishTime>07/29/2016 16:18:18</publishTime>
@@ -250,10 +265,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/27/2017 15:34:56</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.dll">
-      <publishTime>01/09/2018 16:06:19</publishTime>
+      <publishTime>01/10/2018 18:56:58</publishTime>
     </File>
     <File Include="bin/OutOfWebrotApp.pdb">
-      <publishTime>01/09/2018 16:06:19</publishTime>
+      <publishTime>01/10/2018 18:56:58</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -670,7 +685,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/28/2017 16:05:44</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>11/27/2017 15:34:55</publishTime>
+      <publishTime>01/09/2018 17:03:24</publishTime>
     </File>
     <File Include="Pipelines/PageNotFoundPipeline.cs">
       <publishTime>12/07/2017 15:04:29</publishTime>
@@ -754,7 +769,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/08/2018 16:05:03</publishTime>
     </File>
     <File Include="Views/Components/Slider/Slider.cshtml">
-      <publishTime>01/08/2018 16:05:03</publishTime>
+      <publishTime>01/10/2018 18:39:29</publishTime>
     </File>
     <File Include="Views/Components/SubstringPostSearch/SubstringPostSearch.cshtml">
       <publishTime>11/27/2017 15:34:54</publishTime>
@@ -790,7 +805,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/08/2018 16:05:03</publishTime>
     </File>
     <File Include="Views/Pages/Home/Home.cshtml">
-      <publishTime>11/27/2017 15:34:54</publishTime>
+      <publishTime>01/09/2018 17:12:17</publishTime>
     </File>
     <File Include="Views/Pages/Post/Post.cshtml">
       <publishTime>01/08/2018 16:05:03</publishTime>
@@ -847,7 +862,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2017 03:36:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/09/2018 16:06:20</publishTime>
+      <publishTime>01/10/2018 18:57:12</publishTime>
     </File>
   </ItemGroup>
 </Project>

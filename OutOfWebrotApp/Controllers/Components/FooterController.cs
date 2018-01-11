@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Components.Footer;
 using InfrastructureModule.Services.Interfaces.Navigation;
@@ -9,7 +10,7 @@ using Sitecore.Resources.Media;
 
 namespace OutOfWebrotApp.Controllers.Components
 {
-    public class FooterController : Controller
+    public class FooterController : GlassController
     {
 	    private readonly INavigationService _navigationService;
 
@@ -18,7 +19,7 @@ namespace OutOfWebrotApp.Controllers.Components
 		    _navigationService = navigationService;
 	    }
         // GET: Footer
-        public ActionResult Index()
+        public override ActionResult Index()
         {
 	        var pageItem = SitecoreHelper.GetHomeItem();
 

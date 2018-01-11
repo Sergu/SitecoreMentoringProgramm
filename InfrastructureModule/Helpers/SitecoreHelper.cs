@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Glass.Mapper.Sc;
+using InfrastructureModule.TDS.sitecore.templates.Custom.BaseTemplates.Settings;
+using InfrastructureModule.TDS.sitecore.templates.Custom.BlogApp.Pages.NotFound;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.StringExtensions;
@@ -30,34 +33,30 @@ namespace InfrastructureModule.Helpers
 			return postsItem;
 		}
 
-		public static Item GetPostTagtreeRootItem()
+		public static Item GetPostTagtreeRootItem(ISitecoreService contextService)
 		{
-			var i = SitecoreHelper.GetSiteSettingItem();
-			var postTagTreeRootItemId = i.Fields["PostTagTreeRootItemId"].Value;
-
-			if (postTagTreeRootItemId.IsNullOrEmpty())
+			var siteSettingsItem = GetSiteSettingItem(contextService);
+			if (siteSettingsItem.PostTagTreeRootItemId == Guid.Empty)
 			{
-				throw new NullReferenceException();
+				throw new ArgumentException("postTagTreeRootItem is empty");
 			}
-
-			var id = new ID(postTagTreeRootItemId);
-			return Sitecore.Context.Database.GetItem(id);
+			var postTagTreeRootItemId = siteSettingsItem.PostTagTreeRootItemId;
+			return Sitecore.Context.Database.GetItem(new ID(postTagTreeRootItemId));
 		}
 
-		public static Item GetPostCategoryrootItemId()
+		public static Item GetPostCategoryrootItemId(ISitecoreService sitecoreService)
 		{
-			var postCategoryrootItemId = SitecoreHelper.GetSiteSettingItem().Fields["PostCategoryRootItemId"].Value;
-
-			if (postCategoryrootItemId.IsNullOrEmpty())
+			var siteSettingsItem = GetSiteSettingItem(sitecoreService);
+			if (siteSettingsItem.PostCategoryRootItemId == Guid.Empty)
 			{
-				throw new NullReferenceException();
+				throw new ArgumentException("postCategoryrootItemId is empty");
 			}
 
-			var id = new ID(postCategoryrootItemId);
-			return Sitecore.Context.Database.GetItem(id);
+			var postCategoryrootItemId = siteSettingsItem.PostCategoryRootItemId;
+			return Sitecore.Context.Database.GetItem(new ID(postCategoryrootItemId));
 		}
 
-		public static Item GetSiteSettingItem()
+		public static ISiteSetting GetSiteSettingItem(ISitecoreService sitecoreService)
 		{
 			var homeItemPath = Sitecore.Context.Site.ContentStartPath;
 			var siteSettingTemplateName = SitecoreHardcode.SiteSettingTemplateName;
@@ -66,7 +65,8 @@ namespace InfrastructureModule.Helpers
 				throw new NullReferenceException();
 			}
 
-			return Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{siteSettingTemplateName}']");
+			var siteSettingsItem = Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{siteSettingTemplateName}']");
+			return sitecoreService.GetItem<ISiteSetting>(siteSettingsItem.Paths.Path);
 		}
 
 		public static Item GetNotFoundPageItem()
@@ -80,6 +80,15 @@ namespace InfrastructureModule.Helpers
 			}
 
 			return Sitecore.Context.Database.SelectSingleItem($"fast:{homeItemPath}/*[@@templatekey='{notFoundPageTemplateName}']");
+		}
+
+		public static INotFound GetNotFoundPageTdsItem(ISitecoreService sitecoreService)
+		{
+			var notFoundPageItem = GetNotFoundPageItem();
+			if(notFoundPageItem == null)
+				throw new NullReferenceException("notFoundPageItem is null");
+
+			return sitecoreService.GetItem<INotFound>(notFoundPageItem.ID.Guid);
 		}
 
 		public static Item GetEmailSettingsItem()

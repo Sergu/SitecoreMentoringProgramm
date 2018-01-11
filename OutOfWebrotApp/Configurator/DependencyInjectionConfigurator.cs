@@ -1,4 +1,5 @@
 ﻿
+using Glass.Mapper.Sc;
 using InfrastructureModule.Services.Implementations.Email;
 using InfrastructureModule.Services.Implementations.Language;
 using InfrastructureModule.Services.Implementations.Navigation;
@@ -11,6 +12,7 @@ using InfrastructureModule.Services.Interfaces.Publishing;
 using InfrastructureModule.Services.Interfaces.Search;
 using Microsoft.Extensions.DependencyInjection;
 using OutOfWebrotApp.Extensions;
+using Sitecore.Data;
 using Sitecore.DependencyInjection;
 
 namespace OutOfWebrotApp.Configurator
@@ -19,12 +21,15 @@ namespace OutOfWebrotApp.Configurator
 	{
 		public void Configure(IServiceCollection serviceCollection)
 		{
-			serviceCollection.AddSingleton<INavigationService, NavigationService>();
-			serviceCollection.AddSingleton<ISearchService, SearchService>();
-			serviceCollection.AddSingleton<IPublishingService, PublishingService>();
-			serviceCollection.AddSingleton<ISearchEngineService, SearchEngineService>();
-			serviceCollection.AddSingleton<ILanguageService, LanguageService>();
-			serviceCollection.AddSingleton<IEmailService, EmailService>();
+			var serviceProvider = serviceCollection.BuildServiceProvider();
+
+			serviceCollection.AddScoped<INavigationService, NavigationService>();
+			serviceCollection.AddScoped<ISearchService, SearchService>();
+			serviceCollection.AddScoped<IPublishingService, PublishingService>();
+			serviceCollection.AddTransient<ISearchEngineService, SearchEngineService>();
+			serviceCollection.AddScoped<ISearchService>(provider => new SearchService(serviceProvider.GetService<ISearchEngineService>()));
+			serviceCollection.AddScoped<ILanguageService, LanguageService>();
+			serviceCollection.AddScoped<IEmailService, EmailService>();
 
 			serviceCollection.AddMvcControllersInCurrentAssembly();
 		}

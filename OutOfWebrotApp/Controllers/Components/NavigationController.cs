@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
+using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Services.Interfaces.Language;
 using InfrastructureModule.Services.Interfaces.Navigation;
 
 namespace OutOfWebrotApp.Controllers.Components
 {
-    public class NavigationController : Controller
+    public class NavigationController : GlassController
     {
 	    private readonly INavigationService _navigationService;
 	    private readonly ILanguageService _languageService;
@@ -18,7 +19,7 @@ namespace OutOfWebrotApp.Controllers.Components
 			_languageService = languageService;
 		}
 
-        public ActionResult Index()
+        public override ActionResult Index()
         {
 	        var pageItem = SitecoreHelper.GetHomeItem();
 

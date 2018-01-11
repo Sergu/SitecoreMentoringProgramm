@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Mail;
+using Glass.Mapper.Sc;
 using InfrastructureModule.Helpers;
 using InfrastructureModule.Models.Emailing;
 using InfrastructureModule.Models.Pages.Post;
@@ -34,6 +35,7 @@ namespace OutOfWebrotApp.Scheduling
 			using (new DatabaseSwitcher(Sitecore.Configuration.Factory.GetDatabase("master")))
 			{
 				var db = Sitecore.Context.Database;
+				var sitecoreService = new SitecoreService(db);
 				var _emailService = new EmailService();
 				var _searchService = new SearchService(new SearchEngineService());
 
@@ -50,11 +52,11 @@ namespace OutOfWebrotApp.Scheduling
 					{
 						Context.Site = newContextSite;
 					}
-					var currentSiteSettingItem = SitecoreHelper.GetSiteSettingItem();
+					var currentSiteSettingItem = SitecoreHelper.GetSiteSettingItem(sitecoreService);
 					var currentSiteEmailSetting = SitecoreHelper.GetEmailSettingsItem();
 					var hourTimeInterval = int.Parse(currentSiteEmailSetting.Fields["HourTimeInterval"].Value);
 					var fromDate = DateTime.Now.AddHours(-hourTimeInterval);
-					var indexName = currentSiteSettingItem.Fields["PostIndex"].Value;
+					var indexName = currentSiteSettingItem.PostIndex;
 
 					var result = _searchService.GetFreshPostsSinceDate(indexName, fromDate);
 
