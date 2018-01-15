@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Sitecore.Data.Items;
 
 namespace InfrastructureModule.Models.Components.Slider
@@ -7,6 +8,6 @@ namespace InfrastructureModule.Models.Components.Slider
 	{
 		public int Speed { get; set; }
 		public IList<Picture> Pictures { get; set; }
-		public Item ContextItem { get; set; }
+		public Guid ContextItemId { get; set; }
 	}
 }

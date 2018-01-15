@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Web.Mvc;
 using Glass.Mapper.Sc.Web.Mvc;
 using InfrastructureModule.Helpers;
@@ -24,6 +25,8 @@ namespace OutOfWebrotApp.Controllers.Components
 	        var pageItem = SitecoreHelper.GetHomeItem();
 
 			var navigationModel = _navigationService.GetNavigationModel(pageItem);
+
+			Thread.Sleep(1000);
 
 			return View("~/Views/Components/Navigation/Navigation.cshtml", navigationModel);
         }

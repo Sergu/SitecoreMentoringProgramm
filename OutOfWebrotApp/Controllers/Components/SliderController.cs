@@ -62,7 +62,8 @@ namespace OutOfWebrotApp.Controllers.Components
 	        var sliderModel = new Slider()
 	        {
 		        Pictures = pictures,
-				Speed	= sliderSpeed
+				Speed	= sliderSpeed,
+				ContextItemId = sliderDataSourceItem.Id
 	        };
 
 	        return View("~/Views/Components/Slider/Slider.cshtml", sliderModel);

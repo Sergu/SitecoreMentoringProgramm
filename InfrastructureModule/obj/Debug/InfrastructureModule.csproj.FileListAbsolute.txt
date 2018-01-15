@@ -17,3 +17,4 @@ D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Glass.Mapper.Sc.dll
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Castle.Core.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Glass.Mapper.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.csprojResolveAssemblyReference.cache

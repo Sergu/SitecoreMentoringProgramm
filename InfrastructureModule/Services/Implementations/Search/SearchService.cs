@@ -102,7 +102,6 @@ namespace InfrastructureModule.Services.Implementations.Search
 			var searchModel = new SearchModel();
 			searchModel.Title = title;
 			var contextItem = SitecoreHelper.GetPostsItem();
-			var sitecoreService = new SitecoreService("master");
 			var searchPostsQuerry = $"{contextItem.Paths.FullPath}/*[contains(@title,'{title}') and @@templatekey='post']";
 
 			var searchResultItems = Sitecore.Context.Database.SelectItems(searchPostsQuerry);
@@ -113,7 +112,6 @@ namespace InfrastructureModule.Services.Implementations.Search
 
 				foreach (var item in searchResultItems)
 				{
-					sitecoreService.Map(item);
 					var dateField = item.Fields["Date"].HasValue ? new DateField(item.Fields["Date"]).DateTime : DateTime.Now;
 
 					var post = new PostItemModel()
