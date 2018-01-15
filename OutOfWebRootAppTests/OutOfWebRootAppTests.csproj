@@ -86,7 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="App_Config\ConnectionStrings.config" />
     <None Include="App_Config\Include\zzzz\FakeDbConfig.config" />
     <None Include="App_Config\Include\zzz\DependencyConfig.config" />
     <None Include="packages.config" />

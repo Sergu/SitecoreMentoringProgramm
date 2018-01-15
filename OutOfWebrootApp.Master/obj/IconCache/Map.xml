@@ -144,7 +144,6 @@
   <Item ItemPath="/sitecore/layout/Renderings/Custom/Base" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
   <Item ItemPath="/sitecore/layout/Renderings/Custom/Blog" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
   <Item ItemPath="/sitecore/system/Tasks/Commands" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
-  <Item ItemPath="/sitecore/content/Blog/Home/About" ItemIcon="/temp/iconcache/applications/16x16/scroll.png" />
   <Item ItemPath="/sitecore/content/Blog/Home/NotFound" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
   <Item ItemPath="/sitecore/content/Blog/Home/Posts" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
   <Item ItemPath="/sitecore/content/Blog/Home/Global Dictionary" ItemIcon="/temp/IconCache/Business/32x32/briefcase2.png" />
@@ -799,4 +798,75 @@
   <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/About/About" ItemIcon="/temp/IconCache/applications/16x16/scroll.png" />
   <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Search/Search" ItemIcon="/temp/IconCache/Applications/32x32/view.png" />
   <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Posts/Posts" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/system/Workflows" ItemIcon="/sitecore/shell/themes/standard/Network/32x32/outbox.png" />
+  <Item ItemPath="/sitecore/system/Workflows/Sample Workflow" ItemIcon="/temp/iconcache/network/16x16/outbox.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Custom/Base/Pages/Posts/TopPosts" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/Custom/Base/Pages/Search/Search" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Global Dictionary/S/SearchBySubstring" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Global Dictionary/T" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Global Dictionary/T/Tags" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Posts/Post 1/Comment 1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Posts/Post 2/Comment 1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Home/Posts/Rugby" ItemIcon="/temp/iconcache/applications/32x32/contract.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Email/PostTemplates/EmailPostTemplate" ItemIcon="/temp/iconcache/applications/32x32/document_notebook.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Email/Reposts" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Email/Reposts/MainEmailReport" ItemIcon="/temp/iconcache/applications/32x32/text_align_center.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Slider" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Slider/SliderDatasource" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/Postcategories/Sport" ItemIcon="/temp/iconcache/applications/32x32/ticket_green.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags" ItemIcon="/temp/iconcache/wordprocessing/32x32/increase_indent_h.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Animals/Pets/Dogs" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_grey.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Animals/Wild" ItemIcon="/temp/iconcache/applications/32x32/bullet_triangle_green.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Animals/Wild/Squirrel" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_grey.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Equipment" ItemIcon="/temp/iconcache/applications/32x32/bullet_triangle_green.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/Local Storage/Datasources/PostTags/Equipment/T-shirt" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_grey.png" />
+  <Item ItemPath="/sitecore/content/BranchBlog/SiteSetting" ItemIcon="/temp/iconcache/applications/32x32/gears.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Datasources/Email" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Datasources/Email/PostTemplates/EmailPostTemplate" ItemIcon="/temp/iconcache/applications/32x32/document_notebook.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Datasources/Email/Reposts" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Datasources/Email/Reposts/MainEmailReport" ItemIcon="/temp/iconcache/applications/32x32/text_align_center.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Settings" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Settings/Email" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Global Storage/Settings/Email/EmailSettings" ItemIcon="/temp/iconcache/applications/32x32/gears.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/Posts/Science" ItemIcon="/temp/iconcache/business/32x32/note.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary" ItemIcon="/temp/IconCache/Business/32x32/briefcase2.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/A/AboutContent" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/C/Comments" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/F/Footer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/L/Link" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/N/New" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/O/Old" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/S/SearchBySubstring" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/T" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SitecoreBlog/Home/SitecoreBlogDictionary/T/Tags" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Components/Slider/Settings/SliderSpeedSetting" ItemIcon="/temp/IconCache/applications/32x32/gears.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Components/Tags/Leaf/Leaf" ItemIcon="/temp/IconCache/Applications/32x32/bullet_ball_grey.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Components/Tags/SubTree/SubTree" ItemIcon="/temp/IconCache/Applications/32x32/bullet_triangle_green.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Home/Home" ItemIcon="/temp/IconCache/applications/16x16/photo_portrait.png" />
+  <Item ItemPath="/sitecore/templates/Custom/BaseTemplates/Pages/Post/Post" ItemIcon="/temp/IconCache/Applications/32x32/contract.png" />
+  <Item ItemPath="/sitecore/templates/Custom/SitecoreBlogTemplates/Pages/About/About" ItemIcon="/temp/IconCache/Business/32x32/handshake.png" />
+  <Item ItemPath="/sitecore/templates/Custom/SitecoreBlogTemplates/Pages/Home/Home" ItemIcon="/temp/IconCache/Core3/32x32/home_purple.png" />
+  <Item ItemPath="/sitecore/templates/Custom/SitecoreBlogTemplates/Pages/Post/SitecoreBlogPost" ItemIcon="/temp/IconCache/business/32x32/note.png" />
+  <Item ItemPath="/sitecore/templates/Custom/SitecoreBlogTemplates/Pages/Posts/Posts" ItemIcon="/temp/IconCache/Business/32x32/index_add.png" />
+  <Item ItemPath="/sitecore/media library/Images/Social" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/Social/Connector" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Blog/Home/Search" ItemIcon="/temp/iconcache/applications/32x32/view.png" />
+  <Item ItemPath="/sitecore/content/Blog/Home/About" ItemIcon="/temp/iconcache/applications/16x16/scroll.png" />
+  <Item ItemPath="/sitecore/media library/Experience Explorer" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Experience Explorer/Presets" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Experience Explorer/Presets/Cecile 128x128" ItemIcon="/temp/IconCache/~/media/4B48D87BE46342DDB0F2F45C382F6204.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/media library/Images" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/Content" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Carousel" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Carousel/Pipe-test" ItemIcon="/temp/IconCache/-/media/B03711F980D84F3896BB49C8050C9AB5.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Carousel/squirrel" ItemIcon="/temp/IconCache/-/media/304E6B0D51234406AA5AE344BF41FBFA.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Carousel/tripp" ItemIcon="/temp/IconCache/-/media/BCCC1300EF1D4D728224EA2A3E5FC39A.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Social networks" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Social networks/facebook" ItemIcon="/temp/IconCache/-/media/FAF38EF272834040BA5A2671A30A0B63.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Social networks/instagram" ItemIcon="/temp/IconCache/-/media/6D3DBE39D58A4B7B9B8D951AE08B3620.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/media library/Images/Content/Social networks/twitter" ItemIcon="/temp/IconCache/-/media/2DAA0C36CFB242C9A2C5D0751389D502.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/system/Languages" ItemIcon="/temp/IconCache/Office/16x16/flag_generic.png" />
+  <Item ItemPath="/sitecore/system/Languages/en" ItemIcon="/temp/IconCache/Office/32x32/flag_generic.png" />
+  <Item ItemPath="/sitecore/system/Languages/ru-RU" ItemIcon="/temp/iconcache/office/16x16/flag_generic.png" />
 </ItemIconCache>

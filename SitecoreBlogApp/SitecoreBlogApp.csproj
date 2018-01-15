@@ -179,7 +179,6 @@
     <Folder Include="Views\Pages\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="Views\Shared\SitecoreBlogLayout.cshtml" />
     <Content Include="App_Config\Include\Index\SitecoreBlogPostSearchConfiguration.config" />
     <Content Include="App_Config\Include\Index\SitecoreBlogPostSearchIndex.config" />
@@ -195,6 +194,7 @@
     <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="Properties\PublishProfiles\SitecoreBlogAppDev.pubxml" />
     <Content Include="Views\Components\Footer\SocialNetworks.cshtml" />
+    <None Include="Properties\PublishProfiles\TdsDeployDemoEnv.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

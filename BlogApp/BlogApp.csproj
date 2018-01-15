@@ -182,7 +182,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Include\Index\BlogPostSearchConfiguration.config" />
     <Content Include="App_Config\Include\Index\BlogPostSearchIndex.config" />
     <Content Include="App_Config\Include\SiteDefinition\BlogDefinition.config" />
@@ -196,6 +195,7 @@
     <Content Include="Views\Shared\HomeLayout.cshtml" />
     <Content Include="Views\Shared\PrintLayout.cshtml" />
     <Content Include="Views\Pages\Errors\PageNotFound.cshtml" />
+    <None Include="Properties\PublishProfiles\TdsDeployDemoEnv.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -14,6 +14,10 @@ D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\roslyn\VBCSCompiler.exe.config
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\BlogApp.dll.config
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\BlogApp.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\BlogApp.pdb
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.dll
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.dll
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.dll
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\InfrastructureModule.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.AI.Agent.Intercept.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.AI.DependencyCollector.dll
@@ -39,6 +43,10 @@ D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\System.Web.Webpages.Razor.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Newtonsoft.Json.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\InfrastructureModule.pdb
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.xml
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.xml
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.AI.DependencyCollector.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Microsoft.AI.Web.xml
@@ -55,11 +63,3 @@ D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Newtonsoft.Json.xml
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\obj\Debug\BlogApp.csprojResolveAssemblyReference.cache
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\obj\Debug\BlogApp.dll
 D:\Sitecore\l2\OutOfWebrotApp\BlogApp\obj\Debug\BlogApp.pdb
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.dll
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.dll
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.dll
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.xml
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.xml
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Castle.Core.xml
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.dll
-D:\Sitecore\l2\OutOfWebrotApp\BlogApp\bin\Glass.Mapper.Sc.Mvc.xml

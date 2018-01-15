@@ -1,0 +1,295 @@
+----item----
+version: 1
+id: {9E37EEE1-D7E8-4FF5-8B83-32FD5F88AD5A}
+database: core
+path: /sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Rendering/Rendering Information
+parent: {5F0C90D2-81F8-4340-BCBA-18465DC05F94}
+name: Rendering Information
+master: {00000000-0000-0000-0000-000000000000}
+template: {ABC069D5-3627-4A20-841E-D199B0EB4957}
+templatekey: Small Check Button
+created: 20160729T132117:636053952770000000
+
+----field----
+field: {FA8FFAB1-6269-480D-B746-F6BED5A178A2}
+name: Click
+key: click
+content-length: 25
+
+webedit:toggleinformation
+----field----
+field: {CC65212F-C5F2-437A-965E-7F0690A82F21}
+name: ID
+key: id
+content-length: 36
+
+RenderingInformationSmallCheckButton
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 399
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{BDE651C9-7988-4950-8E01-EA80106563A2}" par="Id=RenderingInformationSmallCheckButton&amp;Click=trigger%3abutton%3acheck&amp;Command=ToggleInformation&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fToggleInformation.js" uid="{1EE3FD75-102E-4016-B84E-FE72B48027B9}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: 5770be63-ccbf-437f-8e2d-1ff5fc7b1301
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 11
+
+Information
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 49
+
+Vis information om hver rendering  (kræver spor).
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Renderingsinformation
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5770be63-ccbf-437f-8e2d-1ff5fc7b1301
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: b565ed72-de7e-46a4-82ee-4a42604cab06
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 11
+
+Information
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 57
+
+Zeigt Information über jedes Rendering (erfordert Trace).
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Informationen rendern
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b565ed72-de7e-46a4-82ee-4a42604cab06
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133509Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 50e71b48-e5d1-4a22-ad62-ceca40476ea5
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 11
+
+Information
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 55
+
+Show information about each rendering (requires Trace).
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070309T160857
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+50e71b48-e5d1-4a22-ad62-ceca40476ea5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140917T115246:635465515665087110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: d3940128-1ee6-477d-a896-aaf002845448
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 8
+
+レンダリング情報
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 25
+
+各レンダリング情報を表示します （トレースが必要）
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+レンダリング情報
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3940128-1ee6-477d-a896-aaf002845448
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133636Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

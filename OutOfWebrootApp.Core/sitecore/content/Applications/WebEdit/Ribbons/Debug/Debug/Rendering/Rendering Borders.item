@@ -1,0 +1,295 @@
+----item----
+version: 1
+id: {6BBFDABC-FA89-4AF2-92E6-032BCFBF0511}
+database: core
+path: /sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Rendering/Rendering Borders
+parent: {5F0C90D2-81F8-4340-BCBA-18465DC05F94}
+name: Rendering Borders
+master: {00000000-0000-0000-0000-000000000000}
+template: {ABC069D5-3627-4A20-841E-D199B0EB4957}
+templatekey: Small Check Button
+created: 20160729T132117:636053952770000000
+
+----field----
+field: {FA8FFAB1-6269-480D-B746-F6BED5A178A2}
+name: Click
+key: click
+content-length: 21
+
+webedit:toggleborders
+----field----
+field: {CC65212F-C5F2-437A-965E-7F0690A82F21}
+name: ID
+key: id
+content-length: 32
+
+RenderingBordersSmallCheckButton
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 387
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+    <r id="{BDE651C9-7988-4950-8E01-EA80106563A2}" par="Id=RenderingBordersSmallCheckButton&amp;Click=trigger%3abutton%3acheck&amp;Command=ToggleBorders&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fSitecore%2fExperienceEditor%2fCommands%2fToggleBorders.js" uid="{ED72D498-3D3C-4EB5-8CE3-1A12AF30B72A}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: c41d9dd0-ae77-44db-b870-76cb6771b9fd
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 6
+
+Kanter
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 37
+
+Tegn en kant rundt om hver rendering.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Renderer kanter
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c41d9dd0-ae77-44db-b870-76cb6771b9fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133331Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: c1827908-5c7d-471f-9751-9a4a3b85cb20
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 11
+
+Umrandungen
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 38
+
+Umrandung um jedes Rendering zeichnen.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Ränder rendern
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1827908-5c7d-471f-9751-9a4a3b85cb20
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133459Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 66292686-d920-410d-9351-5287c45abdfc
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 7
+
+Borders
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 36
+
+Draw a border around each rendering.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070309T160837
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+66292686-d920-410d-9351-5287c45abdfc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140917T115227:635465515472667870Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 1b6c15c5-2cd3-4164-8ffa-e3aca932e02b
+
+----field----
+field: {C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}
+name: Header
+key: header
+content-length: 8
+
+レンダリング境界
+----field----
+field: {455D570D-77B9-4AA6-B84E-D7DCAB7079C0}
+name: Tooltip
+key: tooltip
+content-length: 16
+
+各レンダリングの境界を描画します
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+レンダリング境界
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1b6c15c5-2cd3-4164-8ffa-e3aca932e02b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160729T133626Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

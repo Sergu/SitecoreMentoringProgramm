@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/content/Home" ItemIcon="/temp/IconCache/Network/16x16/home.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Applications" ItemIcon="/temp/IconCache/Software/16x16/application.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit" ItemIcon="/sitecore/shell/themes/standard/Network/16x16/Environment.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Toolbar" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menu" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Common Field Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Placeholder Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus" ItemIcon="/temp/IconCache/Control/16x16/menu_b.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Optimization Rendering Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Portal" ItemIcon="/temp/iconcache/applications/16x16/flash.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Strips" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/WebEdit Texts" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Common Field Buttons/Edit related item" ItemIcon="/temp/IconCache/Office/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Common Field Buttons/Personalize" ItemIcon="/temp/IconCache/Office/16x16/users_family.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Common Field Buttons/Edit variations" ItemIcon="/temp/IconCache/Office/16x16/windows.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Insert" ItemIcon="/temp/IconCache/Office/16x16/insert_from_template.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Delete" ItemIcon="/temp/IconCache/Office/16x16/delete.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Sort" ItemIcon="/temp/IconCache/Office/16x16/sort_up_down2.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Move Up" ItemIcon="/temp/IconCache/Office/16x16/navigate_up.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Move Down" ItemIcon="/temp/IconCache/Office/16x16/navigate_down.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Placeholder Buttons/Add" ItemIcon="/temp/IconCache/Office/16x16/add.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Placeholder Buttons/Settings" ItemIcon="/temp/IconCache/Office/16x16/window_gear.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Change Position" ItemIcon="/temp/IconCache/Office/16x16/document_size.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Morph" ItemIcon="/temp/IconCache/Office/16x16/arrow_circle2.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Options" ItemIcon="/temp/IconCache/Office/16x16/clipboard_check_edit.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Properties" ItemIcon="/temp/IconCache/Office/16x16/piece.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Edit variations" ItemIcon="/temp/IconCache/Office/16x16/windows.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Edit related item" ItemIcon="/temp/IconCache/Office/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Personalize" ItemIcon="/temp/IconCache/Office/16x16/users_family.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Set datasource" ItemIcon="/temp/IconCache/Office/16x16/data.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Default Rendering Buttons/Delete" ItemIcon="/temp/IconCache/Office/16x16/delete.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Custom Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Default" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/ClientAction Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/Placeholder Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Languages" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Other Views" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Remove versions" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Optimization Rendering Buttons/Edit variations" ItemIcon="/temp/IconCache/SoftwareV2/32x32/breakpoints.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Custom Buttons/Edit Slider Images" ItemIcon="/temp/iconcache/people/16x16/cube_blue_preferences.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Default/Edit related item" ItemIcon="/temp/IconCache/Office/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/ClientAction Buttons/Edit" ItemIcon="/temp/IconCache/Office/16x16/Pencil.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Default/Edit" ItemIcon="/temp/iconcache/people/16x16/cube_blue_preferences.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Other Views/Preview" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Other Views/Explore" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Remove versions/Remove" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Layout Modes" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Page Editor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Advanced" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Experience" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Versions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/Chunk" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/LargeButton" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/QuickbarButton" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/SmallButton" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/SmallCheckbox" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Save" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Insert" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Delete" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Close" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings/Button Types/Common" ItemIcon="/temp/IconCache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings/Button Types/DatasourcesMenu" ItemIcon="/temp/IconCache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings/Button Types/Separator" ItemIcon="/temp/IconCache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Layout Modes/Shared Layout" ItemIcon="/temp/IconCache/Office/16x16/window_earth.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Default/Insert" ItemIcon="/temp/IconCache/Office/16x16/insert_from_template.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Modes/Page Editor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Profile" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Trace" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Open" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/Buttons/Save" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Marketing functions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Advanced" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/Publish" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Buttons/Search" ItemIcon="/temp/IconCache/Applications/32x32/view.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Viewing" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Buttons/Save" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Buttons/Insert Component" ItemIcon="/temp/iconcache/applications/32x32/bullet_ball_glass_green.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/New" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Publish" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Proofing" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Log Off" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Social" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Date" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Device" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Fields" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Attributes" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Status" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Page Reports" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Lists" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Create" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Capabilities" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Profile/Activate" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Profile/Save" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Trace/Activate" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Trace/Save" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Rendering/Rendering Borders" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Marketing functions/Assign Marketing Attribute" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Advanced/Add Page Filter" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Advanced/Capture Click Action" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Viewing/Page Editor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/Insert" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/Delete" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/Design" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/Lock" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/My Items" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Insert" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Delete" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Move Page" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Display Name" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Lock" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Rename" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/My Items" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Publish/Publish" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Proofing/Markup" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Log Off/Close" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout/Presets" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout/Edit all versions" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout/Details" ItemIcon="/temp/IconCache/Applications/16x16/window_view.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Device/Change Device" ItemIcon="/temp/IconCache/People/16x16/pda.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Version" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Remove" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Add" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Attributes/Goals" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Page Reports/Test Result" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Page Reports/Optimization View" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Lists/Active Tests" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Lists/Historical Tests" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Capabilities/Editable" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Show/Show controls" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Show/Show Control bar" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/ClientAction Buttons/Delete" ItemIcon="/temp/IconCache/ApplicationsV2/16x16/delete.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings" ItemIcon="/temp/IconCache/Applications/16x16/documents_gear.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/sitecore_admin" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/sitecore_CENewsBlog1" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/sitecore_admin/Favorites" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/sitecore_CENewsBlog1/Favorites" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Bottom" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs" ItemIcon="/temp/IconCache/Applications/24x24/media_play_green.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Bottom/Logout" ItemIcon="/temp/IconCache/Network/24x24/keys.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Content Editor" ItemIcon="/sitecore/shell/themes/standard/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Marketing Control Panel" ItemIcon="/temp/IconCache/Apps/48x48/Object.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Media Library" ItemIcon="/temp/IconCache/Apps/48x48/Pictures.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Divider 1" ItemIcon="/temp/iconcache/control/16x16/bar_hor_b.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Security Editor" ItemIcon="/temp/IconCache/Apps/48x48/Shield.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Template Manager" ItemIcon="/temp/IconCache/Apps/48x48/Newspaper.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Sitecore App Center" ItemIcon="/temp/IconCache/Apps/48x48/Steps.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Divider 2" ItemIcon="/temp/iconcache/control/16x16/bar_hor_b.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site" ItemIcon="/temp/IconCache/Apps/48x48/Earth.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Page Editor" ItemIcon="/temp/IconCache/Apps/16x16/paint.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Preview" ItemIcon="/temp/IconCache/Apps/48x48/Preview.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Debug" ItemIcon="/temp/IconCache/Apps/48x48/Codes.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Divider 1" ItemIcon="/temp/iconcache/control/16x16/bar_hor_b.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Recycle bin" ItemIcon="/temp/IconCache/Apps/48x48/Refresh.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Search" ItemIcon="/temp/IconCache/Apps/48x48/Search.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Workbox" ItemIcon="/temp/IconCache/Apps/48x48/Job.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Divider 2" ItemIcon="/temp/iconcache/control/16x16/bar_hor_b.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Control panel" ItemIcon="/sitecore/shell/themes/standard/Applications/32x32/preferences.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Divider 3" ItemIcon="/temp/iconcache/control/16x16/bar_hor_b.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools" ItemIcon="/temp/IconCache/Apps/48x48/Lock-2.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Development Tools" ItemIcon="/temp/IconCache/Apps/48x48/Magic-cube.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Reporting Tools" ItemIcon="/temp/IconCache/Apps/48x48/Scripts.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Archive" ItemIcon="/temp/IconCache/apps/32x32/importation.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Content Editor" ItemIcon="/sitecore/shell/themes/standard/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Control Panel" ItemIcon="/sitecore/shell/themes/standard/Applications/32x32/preferences.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Image Editor" ItemIcon="/temp/IconCache/Apps/32x32/Photos.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Keyboard Map" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Log Viewer" ItemIcon="/sitecore/shell/themes/standard/Software/32x32/text_code_colored.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Media Library" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Recycle Bin" ItemIcon="/temp/IconCache/Applications/16x16/garbage_empty.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Run" ItemIcon="/temp/IconCache/apps/32x32/run.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Search" ItemIcon="/temp/IconCache/Applications/16x16/find.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Sitecore on the Net" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/System" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Template Manager" ItemIcon="/temp/IconCache/Software/16x16/components.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Access Viewer" ItemIcon="/temp/IconCache/Network/16x16/Lock_view.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Domain Manager" ItemIcon="/sitecore/shell/themes/standard/People/32x32/users3.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Role Manager" ItemIcon="/temp/IconCache/Network/16x16/id_cards.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Security Editor" ItemIcon="/temp/IconCache/People/32x32/user1_lock.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Development Tools/Package Designer" ItemIcon="/temp/IconCache/apps/32x32/packager.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Development Tools/Install Package" ItemIcon="/temp/IconCache/Apps/32x32/Install_Wizard.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Development Tools/Keyboard map" ItemIcon="/temp/IconCache/apps/32x32/keyboardmap.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Reporting Tools/Log Viewer" ItemIcon="/temp/IconCache/apps/32x32/logviewer.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Reporting Tools/Scan for Broken Links" ItemIcon="/temp/IconCache/apps/32x32/link_broken.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/Access Viewer" ItemIcon="/temp/IconCache/Network/16x16/Lock_view.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/Domain Manager" ItemIcon="/sitecore/shell/themes/standard/People/32x32/users3.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/Role Manager" ItemIcon="/temp/IconCache/Network/16x16/id_cards.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/Security Editor" ItemIcon="/sitecore/shell/themes/standard/People/32x32/user1.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/System/About" ItemIcon="/temp/IconCache/apps/32x32/Informations.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/Placeholder Buttons/Delete" ItemIcon="/temp/IconCache/ApplicationsV2/16x16/delete.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Fxm Frame Buttons/Selector Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Optimization Rendering Buttons/View Details" ItemIcon="/temp/IconCache/SoftwareV2/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Layout Modes/Final Layout" ItemIcon="/temp/IconCache/Office/16x16/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Modes" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Chunks/Modes/Other" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/RibbonComponents/Strip" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Standalone Buttons/Logoff" ItemIcon="/~/icon/Applications/32x32/bullet_ball_glass_green.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Buttons/Ribbon" ItemIcon="/~/icon/Applications/32x32/bullet_ball_glass_green.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Log Off" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Log Off/Logoff" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Open/ASP NET Trace" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Profile/Download" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Rendering" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Rendering/Rendering Information" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Debug/Debug/Trace/Download" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/Buttons/Ribbon" ItemIcon="/~/icon/Applications/32x32/bullet_ball_glass_green.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Advanced/Add Placeholder" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/FXM Marketing functions/Manage FXM functions" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/FXM/FXM/Log Off" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/Buttons/Ribbon" ItemIcon="/~/icon/Applications/32x32/bullet_ball_glass_green.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Preview/View" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Edit/Workbox" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Log Off" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Log Off/Logoff" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Viewing/Debug" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/Simple/Home/Viewing/Preview" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Buttons/Ribbon" ItemIcon="/~/icon/Applications/32x32/bullet_ball_glass_green.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Buttons/Search" ItemIcon="/temp/IconCache/Applications/32x32/view.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Content" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Content/Associated Content" ItemIcon="/temp/IconCache/Office/16x16/data_copy.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Layout/Reset" ItemIcon="/temp/IconCache/Applications/16x16/window_ok.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Url" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Advanced/Url/Aliases" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Date/Date" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Device/Screenshots" ItemIcon="/temp/IconCache/applicationsv2/32x32/find.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Simulator" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Experience/Simulator/Select Simulator" ItemIcon="/temp/IconCache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Attributes/Attributes" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Create/Page test" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Lists/Suggested Tests" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Page Reports/Personalization" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/PageProfileSettings" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/PageProfileSettings/Profile Cards" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Optimization/Status/Status" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Edit/Workbox" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Log Off/Logoff" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/New/Rendering" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Proofing/Validation" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Publish/Change Restrictions" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Social/Messages" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/View Options For Limited Roles" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Fields/Reset" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Language" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Language/Change Language" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Versions/Versions/Compare" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Capabilities/Designing" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Capabilities/Field validation" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Show" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Show/Associated content" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/View/Show/Show Navigation bar" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings/Button Types" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Settings/Button Types/Sticky" ItemIcon="/temp/IconCache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Languages/More Languages" ItemIcon="/temp/IconCache/Software/16x16/component_yellow.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Other Views/Debug" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/Remove versions/Remove Versions" ItemIcon="/~/icon/Applications/32x32/Document.png.aspx" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/SelectVersion" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Applications/WebEdit/Menus/SelectVersion/Add Version" ItemIcon="/temp/IconCache/Business/32x32/index_add.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/User manager" ItemIcon="/sitecore/shell/themes/standard/People/32x32/users3.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/User Manager" ItemIcon="/sitecore/shell/themes/standard/People/32x32/users3.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Sitecore on the Net/Sitecore home page" ItemIcon="/temp/IconCache/apps/32x32/sc.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/System/Licenses" ItemIcon="/temp/IconCache/apps/32x32/Certificate.png" />
+  <Item ItemPath="/sitecore/content/Documents and settings/All users/Start menu/Programs/Workbox" ItemIcon="/sitecore/shell/themes/standard/Network/32x32/outbox.png" />
+</ItemIconCache>

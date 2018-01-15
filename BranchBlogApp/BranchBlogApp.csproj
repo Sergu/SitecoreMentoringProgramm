@@ -159,9 +159,6 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\ConnectionStrings.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -171,6 +168,7 @@
     <Content Include="App_Config\Include\Index\BranchBlogPostSearchConfiguration.config" />
     <Content Include="App_Config\Include\Index\BranchBlogPostSearchIndex.config" />
     <None Include="Properties\PublishProfiles\BranchBlog.pubxml" />
+    <None Include="Properties\PublishProfiles\TdsDeployDemoEnv.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

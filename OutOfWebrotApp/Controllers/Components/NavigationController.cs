@@ -26,7 +26,9 @@ namespace OutOfWebrotApp.Controllers.Components
 
 			var navigationModel = _navigationService.GetNavigationModel(pageItem);
 
-			Thread.Sleep(1000);
+			//Thread.Sleep(10000);
+
+			//throw new NullReferenceException("special for log analyzer");
 
 			return View("~/Views/Components/Navigation/Navigation.cshtml", navigationModel);
         }

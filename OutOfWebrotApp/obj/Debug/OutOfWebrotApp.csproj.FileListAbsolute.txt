@@ -14,6 +14,10 @@ D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\roslyn\VBCSCompiler.exe.config
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\OutOfWebrotApp.dll.config
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\OutOfWebrotApp.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\OutOfWebrotApp.pdb
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Castle.Core.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.dll
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.Mvc.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\InfrastructureModule.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Microsoft.AI.Agent.Intercept.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Microsoft.AI.DependencyCollector.dll
@@ -41,6 +45,10 @@ D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\System.Web.Webpages.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\System.Web.Webpages.Razor.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\System.Net.Http.Formatting.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\InfrastructureModule.pdb
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Castle.Core.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.xml
+D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.Mvc.xml
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Microsoft.AI.DependencyCollector.xml
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Microsoft.AI.Web.xml
@@ -60,11 +68,3 @@ D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\System.Net.Http.Formatting.xml
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\obj\Debug\OutOfWebrotApp.csprojResolveAssemblyReference.cache
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\obj\Debug\OutOfWebrotApp.dll
 D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\obj\Debug\OutOfWebrotApp.pdb
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.dll
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.dll
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Castle.Core.dll
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.xml
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.xml
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Castle.Core.xml
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.Mvc.dll
-D:\Sitecore\l2\OutOfWebrotApp\OutOfWebrotApp\bin\Glass.Mapper.Sc.Mvc.xml
