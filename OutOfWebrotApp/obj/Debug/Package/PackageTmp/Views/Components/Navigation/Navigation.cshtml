@@ -1,0 +1,8 @@
+﻿@model InfrastructureModule.Models.Components.Navigation.NavigationModel
+
+
+
+@foreach (var navigationItem in Model.NavigationItems)
+{
+    <li class=""><a href="@navigationItem.Url">@navigationItem.Title</a></li>
+}

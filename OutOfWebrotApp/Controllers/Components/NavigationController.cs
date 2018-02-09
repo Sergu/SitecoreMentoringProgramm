@@ -35,7 +35,7 @@ namespace OutOfWebrotApp.Controllers.Components
 
 	    public ActionResult Language()
 	    {
-		    var languages = _languageService.GetAllLanguages();
+		    var languages = _languageService.GetAllLanguages(); 
 		    var url = this.Request.Url.AbsoluteUri;
 			var uri = new Uri(url);
 		    var itemUrl = uri.GetLeftPart(UriPartial.Path);

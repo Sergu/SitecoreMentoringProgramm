@@ -1,0 +1,21 @@
+﻿@model InfrastructureModule.Models.Components.TagsTree.TagsTreeModel
+
+@*<h3>Tags</h3>*@
+<h3>@Sitecore.Globalization.Translate.Text("T.Tags")</h3>
+
+<hr/>
+
+<div id="tagsTreeBox" class="col-md-12"></div>
+
+<br/>
+<script>
+    $(function () {
+
+        var params = {
+            core: @Html.Raw(Model.JsonTagsTree),
+            plugins: ["checkbox"]
+        };
+
+        var tree = $('#tagsTreeBox').jstree(params);
+    })
+</script>

@@ -15,6 +15,5 @@ D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Castle.Core.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Glass.Mapper.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Glass.Mapper.Sc.xml
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\bin\Debug\Newtonsoft.Json.xml
-D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.csprojResolveAssemblyReference.cache
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.dll
 D:\Sitecore\l2\OutOfWebrotApp\InfrastructureModule\obj\Debug\InfrastructureModule.pdb
